@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+	<title>EDEPO: PDF Viewer Multi</title>
+	<!-- <link rel="stylesheet" href="vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css"> -->
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+	<aside id="sidebarLeft" class="offcanvas-left animatedSlide show">
+		<div class="scrollable-area">
+			<div class="search-field">
+				<input type="search" class="placeholder input-search" placeholder="Search">
+			</div><!-- search-field -->
+
+            <div class="panel-group accordion-menu offcanvas-menu" id="offcanvas-menu" role="tablist" aria-multiselectable="true">
+                <div class="panel">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#offcanvas-menu" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="collapsed">
+                                <span class="icon"></span>
+                                Case List
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="list-group">
+                            <ul class="subitems-list">
+                                <li>
+                                    <a herf="case-details.html">YOGI V. MR. RANGER</a>
+                                </li>
+
+                                <li>
+                                    <a herf="case-details.html" class="active">GOOD V. EVIL</a>
+                                </li>
+
+                                <li>
+                                    <a herf="case-details.html">Lieutenant Columbo</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- panel -->
+
+                <div class="panel">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#offcanvas-menu" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <span class="icon"></span>
+                                Events
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="list-group">
+                            <ul class="subitems-list">
+                                <li>
+                                    <a herf="case-details.html">Scarlett Johansson</a>
+                                </li>
+
+                                <li>
+                                    <a herf="case-details.html">Eva Green</a>
+                                </li>
+
+                                <li>
+                                    <a herf="case-details.html">Halle Berry</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- panel -->
+
+                <div class="panel">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#offcanvas-menu" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <span class="icon"></span>
+                                Jobs
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="list-group">
+                            <ul class="subitems-list">
+                                <li>
+                                    <a herf="case-details.html">Wayne Rooney</a>
+                                </li>
+
+                                <li>
+                                    <a herf="case-details.html">Cristiano Ronaldo</a>
+                                </li>
+
+                                <li>
+                                    <a herf="case-details.html">Ronaldinho</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- panel -->
+
+                <div class="panel">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#offcanvas-menu" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <span class="icon"></span>
+                                Invoicing
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                        <div class="list-group">
+                            <ul class="subitems-list">
+                                <li>
+                                    <a herf="case-details.html">Kings Bounty</a>
+                                </li>
+
+                                <li>
+                                    <a herf="case-details.html">Half-Life 2</a>
+                                </li>
+
+                                <li>
+                                    <a herf="case-details.html">Gothica 2</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- panel -->
+            </div><!-- offcanvas-menu-holder -->
+
+			<div class="bottom-links-holder">
+				<ul class="list">
+					<li>
+						<a href="#">Help</a>
+					</li>
+
+					<li>
+						<a href="#">Blog</a>
+					</li>
+
+					<li>
+						<a href="#">About</a>
+					</li>
+				</ul>
+
+				<div class="app-version">
+					edepo version 2.3
+				</div>
+			</div><!-- bottom-links-holder -->
+		</div><!-- scrollable-area -->
+	</aside>
+
+	<div id="page" class="page">
+		<header>
+			<a id="leftBurger" class="slideRight offcanvas-toggle" href="#">
+				<i class="fontello-menu-toggle icon"></i>
+			</a>
+
+			<ul class="user-data-list">
+				<li class="user-item">
+					<div class="user-holder">
+						<div class="dropdown">
+							<a class="dropdown-toggle username" data-toggle="dropdown">
+								<span class="userpic">
+									<img src="assets/images/temp/userpic-01.jpg" alt="">
+									<span class="alert-badge">3</span>
+								</span>
+								John Smith
+								<span class="icon-arrow"></span>
+							</a>
+							<ul class="dropdown-menu" role="menu">
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">Activity stream <span class="alert-badge">3</span></a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Sharing history</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Administration</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Manage ratings</a></li>
+								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Log out</a></li>
+							</ul>
+						</div>
+					</div><!-- user-holder -->	
+				</li><!-- user-item -->
+
+				<li class="inbox-item">
+					<div class="inbox-holder">
+						<a href="#" class="inbox-link">
+							<span class="icon-holder">
+								<i class="fontello-email icon"></i>
+								<span class="alert-badge">3</span>
+							</span><!-- icon-holder -->
+							Inbox
+						</a>
+					</div><!-- inbox-holder -->
+				</li><!-- inbox-item -->
+			</ul><!-- user-data-list -->
+
+			<ul class="user-actions-list">
+				<li>
+					<a href="#" class="btn-circle green add">
+						<i class="fontello-plus icon"></i>
+					</a>
+				</li>
+
+				<li>
+					<a href="#" class="btn-circle green add">
+						<i class="fontello-search icon"></i>
+					</a>
+				</li>
+			</ul><!-- user-actions-list -->
+		</header>
+
+		<section class="breadcrumb-bar">
+			<div class="breadcrumbs">
+                <a href="index.html">Activity Stream</a> > <a href="case-details.html">Yogi v. Mr. Ranger</a> > Boo Boo
+			</div><!-- breadcrumbs -->
+
+			<div class="search-field">
+				<input type="search" class="placeholder input-search" placeholder="Search Activity Stream">
+			</div><!-- search-field -->
+		</section><!-- breadcrumb-bar -->
+
+		<div class="case-deponent-info-bar">
+			<div class="container">
+				<div class="created-modified-holder">
+					<small>Created: 8/14/14, Last modified: 10/13/14</small>
+				</div><!-- created-modified-holder -->
+
+				<div class="case-or-deponent-name-holder">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="case-or-deponent-name-holder">
+								<small class="box-title">Deponent Name:</small>
+								<h2 class="name">Boo Boo</h2>
+							</div><!-- case-or-deponent-name-holder -->	
+						</div>
+					</div><!-- row -->
+				</div><!-- case-or-deponent-name-holder -->
+			</div><!-- container -->
+		</div><!-- case-deponent-info-bar -->
+
+		<div class="scrollable-area main-content-holder pdf-viewer-view">
+			<div class="container overflow-holder">
+				<div class="overflow-holder-inner">
+					<div class="row h100">
+						<div class="col-sm-4 h100">
+							<!-- <div class="inner h100"> -->
+								<div class="scrollable-holder">
+									<div class="panel-group accordion-menu deposition-files-menu" id="deposition-files-menu" role="tablist" aria-multiselectable="true">
+										<div class="panel">
+											<div class="panel-heading" role="tab" id="dfm-heading-01">
+												<h4 class="panel-title">
+													<a data-toggle="collapse" data-parent="#deposition-files-menu" href="#dfm-collapse-01" aria-expanded="true" aria-controls="collapseOne" class="collapsed">
+														<span class="icon"></span>
+														Transcripts
+													</a>
+												</h4>
+											</div>
+											<div id="dfm-collapse-01" class="panel-collapse collapse" role="tabpanel" aria-labelledby="dfm-collapse-01">
+												<div class="list-group">
+													<ul class="subitems-list">
+														<li>
+															<a href="#">Transcript</a>
+														</li>
+
+														<li>
+															<a href="#">Sync Files</a>
+														</li>
+
+													</ul>
+												</div>
+											</div>
+										</div><!-- panel -->
+
+										<div class="panel">
+											<div class="panel-heading" role="tab" id="dfm-heading-02">
+												<h4 class="panel-title">
+													<a class="collapsed" data-toggle="collapse" data-parent="#deposition-files-menu" href="#dfm-collapse-02" aria-expanded="false" aria-controls="collapseTwo">
+														<span class="icon"></span>
+														Videos
+													</a>
+												</h4>
+											</div>
+											<div id="dfm-collapse-02" class="panel-collapse collapse" role="tabpanel" aria-labelledby="dfm-collapse-02">
+												<div class="list-group">
+													<ul class="subitems-list">
+														<li>
+															<a href="#">Scarlett Johansson</a>
+														</li>
+
+														<li>
+															<a href="#">Eva Green</a>
+														</li>
+
+														<li>
+															<a href="#">Halle Berry</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div><!-- panel -->
+
+										<div class="panel">
+											<div class="panel-heading" role="tab" id="dfm-heading-03">
+												<h4 class="panel-title">
+													<a class="collapsed" data-toggle="collapse" data-parent="#deposition-files-menu" href="#dfm-collapse-03" aria-expanded="false" aria-controls="collapseThree">
+														<span class="icon"></span>
+														Exhibits
+													</a>
+												</h4>
+											</div>
+											<div id="dfm-collapse-03" class="panel-collapse collapse" role="tabpanel" aria-labelledby="dfm-collapse-03">
+												<div class="list-group">
+													<ul class="subitems-list">
+														<li>
+															<a href="#">Wayne Rooney</a>
+														</li>
+
+														<li>
+															<a href="#">Cristiano Ronaldo</a>
+														</li>
+
+														<li>
+															<a href="#">Ronaldinho</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div><!-- panel -->
+
+										<div class="panel">
+											<div class="panel-heading" role="tab" id="dfm-heading-04">
+												<h4 class="panel-title">
+													<a class="collapsed" data-toggle="collapse" data-parent="#deposition-files-menu" href="#dfm-collapse-04" aria-expanded="false" aria-controls="collapseFour">
+														<span class="icon"></span>
+														Other Files
+													</a>
+												</h4>
+											</div>
+											<div id="dfm-collapse-04" class="panel-collapse collapse" role="tabpanel" aria-labelledby="dfm-collapse-04">
+												<div class="list-group">
+													<ul class="subitems-list">
+														<li>
+															<a href="#">Kings Bounty</a>
+														</li>
+
+														<li>
+															<a href="#">Half-Life 2</a>
+														</li>
+
+														<li>
+															<a href="#">Gothica 2</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div><!-- panel -->
+									</div><!-- offcanvas-menu-holder -->
+								</div><!-- scrollable-holder -->
+							<!-- </div> -->
+						</div>
+
+						<div class="col-sm-8 h100 multi-view-holder">
+							<div class="scrollable-holder">
+								<div class="inner h100">
+									<div class="documents-previews-list-holder">
+										<div class="viewer-actions-holder">
+											<div class="part-left">
+												<a href="pdf-viewer-single.html">
+													<i class="fontello-single-page icon"></i>
+													Single Page
+												</a>
+											</div><!-- part-left -->
+
+											<div class="part-right">
+												<div class="actions-box">
+													<a class="comment" href="#">
+														<i class="fontello-comment icon"></i>
+														<span class="alert-badge alert-badge-red">11</span>
+													</a>
+
+													<a class="share" href="#">
+														<i class="fontello-share icon"></i>
+													</a>
+
+													<a class="delete" href="#">
+														<i class="fontello-trash icon"></i>
+													</a>
+
+													<a class="flag" href="#">
+														<i class="fontello-flag icon"></i>
+														<span class="alert-badge alert-badge-red">3</span>
+													</a>
+												</div>
+											</div><!-- part-right -->
+										</div><!-- viewer-actions-holder -->
+										<ul class="documents-previews-list">
+											<li>
+												<a href="#">
+													<img src="assets/images/temp/document-preview-01.jpg" alt="">
+												</a>
+												<div class="index-number">
+													<span>1</span>
+												</div>
+											</li>
+											<li>
+												<a href="#">
+													<img src="assets/images/temp/document-preview-02.jpg" alt="">
+												</a>
+												<div class="index-number">
+													<span>2</span>
+												</div>
+											</li>
+											<li>
+												<a href="#">
+													<img src="assets/images/temp/document-preview-01.jpg" alt="">
+												</a>
+												<div class="index-number">
+													<span>3</span>
+												</div>
+											</li>
+											<li>
+												<a href="#">
+													<img src="assets/images/temp/document-preview-02.jpg" alt="">
+												</a>
+												<div class="index-number">
+													<span>4</span>
+												</div>
+											</li>
+											<li>
+												<a href="#">
+													<img src="assets/images/temp/document-preview-01.jpg" alt="">
+												</a>
+												<div class="index-number">
+													<span>5</span>
+												</div>
+											</li>
+											<li>
+												<a href="#">
+													<img src="assets/images/temp/document-preview-02.jpg" alt="">
+												</a>
+												<div class="index-number">
+													<span>6</span>
+												</div>
+											</li>
+											<li>
+												<a href="#">
+													<img src="assets/images/temp/document-preview-01.jpg" alt="">
+												</a>
+												<div class="index-number">
+													<span>7</span>
+												</div>
+											</li>
+										</ul>
+									</div><!-- scrollable-holder -->
+								</div><!-- inner -->
+							</div><!-- scrollable-holder -->
+						</div><!-- multi-view-holder -->
+					</div><!-- row -->
+				</div><!-- overflow-holder-inner -->
+			</div><!-- overflow-holder -->
+		</div><!-- main-content-holder -->
+	</div><!-- page -->
+
+	<!-- MODALS -->
+	<!-- Document Full Screen View modal -->
+	<div class="modal fade modal-full-height" id="modal-document-full-screen-view" tabindex="-1" role="dialog" aria-labelledby="modal-document-full-screen-view" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="part-left h100">
+					<div class="documents-previews-list-holder">
+						<ul class="documents-previews-list">
+							<li>
+								<a href="#">
+									<img src="assets/images/temp/document-preview-01.jpg" alt="">
+								</a>
+								<div class="index-number">
+									<span>1</span>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+									<img src="assets/images/temp/document-preview-02.jpg" alt="">
+								</a>
+								<div class="index-number">
+									<span>2</span>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+									<img src="assets/images/temp/document-preview-01.jpg" alt="">
+								</a>
+								<div class="index-number">
+									<span>3</span>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+									<img src="assets/images/temp/document-preview-02.jpg" alt="">
+								</a>
+								<div class="index-number">
+									<span>4</span>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+									<img src="assets/images/temp/document-preview-01.jpg" alt="">
+								</a>
+								<div class="index-number">
+									<span>5</span>
+								</div>
+							</li>
+						</ul>
+					</div><!-- scrollable-holder -->
+				</div><!-- part-left -->
+
+				<div class="part-right h100">
+					<div class="for-document-holder">
+						<div class="document-actions-holder">
+							<a data-target="#modal-document-full-screen-view" data-toggle="modal" class="document-action-view-mode" href="#">
+								<i class="fontello-normal-view"></i>
+							</a>
+						</div><!-- document-actions-holder -->
+
+						<div class="scrollable-holder">
+							<div class="inner h100">
+								<div class="document-holder">
+									<div class="document-body">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae perferendis assumenda exercitationem voluptates illum accusamus ut consequuntur dicta. Reiciendis tempore dolore cumque eius praesentium mollitia atque sed a quasi, voluptatem!</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste accusamus optio dignissimos inventore odio, laudantium porro, ipsa hic minus dolores nesciunt eum doloremque. Commodi sit autem, provident, est blanditiis a.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat qui dolore nulla sed magni sit temporibus placeat quisquam, ipsam error unde quasi sapiente quae laudantium modi, veniam vitae architecto reiciendis.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, hic id architecto aut illo explicabo reiciendis earum ea asperiores ex et ratione voluptates atque repellat ducimus ab laboriosam fuga in.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, error minus ut molestias omnis labore corporis quasi! Necessitatibus eaque voluptatem asperiores laborum quibusdam voluptate officiis, sapiente perferendis. Rerum, saepe, facilis.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam voluptates doloribus ipsum eaque commodi aliquam beatae sapiente vitae. Fuga molestias tempora facilis, consectetur error assumenda porro obcaecati quae veniam repudiandae.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis eligendi, ex possimus sunt amet. Saepe incidunt reiciendis, magnam dolores, impedit mollitia consequatur libero odit cupiditate voluptatum architecto vero sit dolorum.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum officia, quia rem aut sed, nihil voluptate ullam, voluptas fugit libero temporibus ea eligendi tempore eius neque debitis nemo ipsam deleniti.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis neque quibusdam, saepe quae reprehenderit quas voluptates non dolor laborum eveniet commodi dolore, earum eligendi natus, sapiente velit recusandae laudantium veniam?</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, corporis, dicta. Nostrum magnam itaque expedita veritatis placeat, maxime voluptatibus labore molestias molestiae. Error ipsum sit quo placeat aliquid, incidunt veritatis!</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum officia, quia rem aut sed, nihil voluptate ullam, voluptas fugit libero temporibus ea eligendi tempore eius neque debitis nemo ipsam deleniti.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis neque quibusdam, saepe quae reprehenderit quas voluptates non dolor laborum eveniet commodi dolore, earum eligendi natus, sapiente velit recusandae laudantium veniam?</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, corporis, dicta. Nostrum magnam itaque expedita veritatis placeat, maxime voluptatibus labore molestias molestiae. Error ipsum sit quo placeat aliquid, incidunt veritatis!</p>
+									</div><!-- document-body -->
+								</div><!-- document-holder -->
+							</div>
+						</div><!-- scrollable-holder -->
+					</div>
+				</div><!-- part-right -->
+			</div><!-- modal-content -->
+		</div><!-- modal-dialog -->
+	</div><!-- modal-full-height -->
+
+	<script src="vendors/modernizr/modernizr.js"></script>
+	<script src="vendors/jquery/dist/jquery.min.js"></script>
+	<script src="vendors/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
+	<script src="vendors/jquery-placeholder/jquery.placeholder.js"></script>
+	<script src="vendors/tbasse-jquery-truncate/jquery.truncate.min.js"></script>
+	<script src="vendors/off.canvas-master/js/overthrow.js"></script>
+	<script src="vendors/off.canvas-master/js/hammer.js"></script>
+	<script src="vendors/off.canvas-master/js/jquery.hammer.js"></script>
+	<script src="vendors/off.canvas-master/js/jquery.offcanvas.min.js"></script>
+	<script src="assets/js/scripts.js"></script>
+</body>
+</html>

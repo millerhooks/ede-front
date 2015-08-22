@@ -1,0 +1,39 @@
+/* BUTTONS */
+.btn,
+.btn:focus,
+.btn:active {
+	@include transition(150ms);
+	font-size: 18px;
+	line-height: 24px;
+	padding: 10px 10px;
+	border-radius: 0;
+	border: none;
+	color: $color-white;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 10px 12px rgba(0, 0, 0, 0.2);
+	text-transform: capitalize;
+	font-family: $font-bold;
+	height: 44px;
+	background: $color-sushi;
+	@include respond-to(tablets-portrait) {
+		font-size: 15px;
+	}
+	&:hover {
+		color: $color-white;
+		background: darken($color-sushi, 5%);
+	}
+	&.btn-green {
+		@include gradient-vertical-three-colors($color-sushi, #71a726, 50%, darken(#71a726, 3%));
+		background-position: 0 0;
+		background-size: 100% 88px;
+		&:hover {
+			background-position: 0 -44px;
+		}
+	}
+	&.btn-black {
+		background: rgba(0, 0, 0, 0.5);
+		&:hover {
+			background: rgba(0, 0, 0, 0.7);
+		}
+	}
+}

@@ -1,0 +1,85 @@
+/* TYPOGRAPHY */
+body {
+	font-family: $body-font-family;
+	font-size: $body-font-size;
+	line-height: $body-line-height;
+	-webkit-font-smoothing: antialiased;
+	color: $body-text-color;
+	@include respond-to(tablets-portrait) {
+		font-size: $body-font-size-mobile;
+		line-height: $body-line-height-mobile;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: normal;
+	line-height: 100%;
+}
+
+h2 {
+	font-family: $font-bold;
+	font-size: 72px;
+	@include respond-to(tablets-portrait) {
+		font-size: 50px;
+	}
+	@include respond-to(mobile) {
+		font-size: 32px;
+	}
+}
+
+h3 {
+	font-family: $font-regular;
+	font-size: 36px;
+	@include respond-to(tablets-portrait) {
+		font-size: 32px;
+	}
+	@include respond-to(mobile) {
+		font-size: 24px;
+	}
+}
+
+h4 {
+	font-size: 24px;
+	font-family: $font-bold;
+}
+
+h5 {
+	font-family: $font-bold;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+h6 {
+	font-family: $font-bold;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+a {
+	@include transition(150ms);
+}
+
+strong {
+	font-family: $font-bold;
+	font-weight: normal;
+}
+
+small {
+	font-family: $font-light;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,268 @@
+/* Some Bootstrap's stuff overriden */
+*:focus {
+	outline: none !important;
+}
+
+*:last-child {
+	margin-bottom: 0;
+}
+
+ul {
+	@extend .list-unstyled;
+}
+
+.container {
+	max-width: 970px;
+}
+
+/* Body */
+body {
+	background: $body-bg;
+	@include respond-to(mobile) {
+		padding-top: 50px;
+	}
+}
+
+/* General page structure elements styles */
+.section {
+	padding: 50px 0;
+	@include respond-to(tablets-portrait) {
+		padding: 30px 0;
+	}
+	.section-title {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+}
+
+.title-holder {
+	max-width: 725px;
+	margin: 0 auto 25px auto;
+	text-align: center;
+}
+
+.image-holder {
+	width: 100%;
+	max-width: 470px;
+	margin: 50px auto 0 auto;
+	@include respond-to(tablets-portrait) {
+		max-width: 270px;
+		margin: 30px auto 0 auto;
+	}
+}
+
+.hr-limited {
+	width: 100%;
+	max-width: 300px;
+	margin: 0 auto 25px auto;
+	height: 1px;
+	background: $color-silver;
+	@include respond-to(mobile) {
+		width: 200px;
+	}
+}
+
+.list-marked {
+	margin-bottom: 20px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+	> li {
+		position: relative;
+		padding-left: 25px;
+		margin-bottom: 15px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		&:before {
+			font-family: 'fontello';
+			content: '\e801';
+			color: $color-sushi;
+			text-shadow: 1px 1px 3px rgba($color-black, 0.3);
+			position: absolute;
+			left: 0;
+		}
+	}
+}
+
+/* HELPER CLASSES */
+.mb-xs {
+	@include respond-to(mobile) {
+		margin-bottom: 20px;
+	}
+}
+
+
+/* PARALLAX */
+.parallax {
+	height: auto;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	color: $color-white;
+	&.parallax-choice {
+		background-image: url('../images/bg-parallax/bg-parallax-01.jpg');
+		.part-right {
+			text-align: right;
+			@include respond-to(mobile) {
+				text-align: center;
+			}
+		}
+	}
+	&.parallax-attorneys {
+		background-image: url('../images/bg-parallax/bg-parallax-02.jpg');
+	}
+	&.parallax-your-data {
+		background-image: url('../images/bg-parallax/bg-parallax-03.jpg');
+	}
+	&.parallax-public-good {
+		background-image: url('../images/bg-parallax/bg-parallax-04.jpg');
+	}
+	&.parallax-witness-sweat {
+		background-image: url('../images/bg-parallax/bg-parallax-05.jpg');
+		padding-bottom: 0;
+		> .inner {
+			padding-bottom: 0;
+		}
+	}
+	&:before {
+		position: absolute;
+		z-index: 1;
+		content: '';
+		width: 100%;
+		height: 100%;
+		@include opacity(0.5);
+	}
+	&.filter-blue {
+		&:before {
+			background: $color-cerulean;
+		}
+	}
+	&.filter-pink {
+		&:before {
+			background: $color-wisteria;
+		}
+	}
+	&.filter-green {
+		&:before {
+			background: $color-sushi;
+		}
+	}
+	&.filter-red {
+		&:before {
+			background: $color-well-read;
+		}
+	}
+	> .inner {
+		position: relative;
+		z-index: 2;
+		@extend .section;
+	}
+	.title {
+		text-transform: uppercase;
+		margin-bottom: 5px;
+	}
+}
+
+/* LOGOS HOLDER */
+.logos-holder {
+	.items-row {
+		font-size: 0;
+		margin: 0 -15px;
+		text-align: center;
+	}
+	.item {
+		float: none;
+		display: inline-block;
+		vertical-align: middle;
+		width: 16.666666%;
+		padding: 0 15px;
+		@include respond-to(mobile) {
+			padding: 0 5px;
+		}
+		img {
+			width: 100%;
+		}
+	}
+}
+
+/* PORTRAITS HOLDER */
+.portraits-holder {
+	.items-row {
+		font-size: 0;
+		text-align: center;
+		color: $color-scarpa-flow;
+	}
+	.item {
+		font-size: $body-font-size;
+		width: 25%;
+		padding: 0 15px;
+		max-width: 180px;
+		display: inline-block;
+		@include respond-to(mobile) {
+			width: 100%;
+			margin-bottom: 20px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	.title {
+		margin-bottom: 5px;
+		color: $color-black;
+	}
+	.experience {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	img {
+		width: 100%;
+		display: block;
+		max-width: 150px;
+		margin: 0 auto 20px auto;
+	}
+}
+
+/* TOTAL SAVINGS HOLDER */
+.total-savings-holder {
+	margin-bottom: 20px;
+	.item-row {
+		margin-bottom: 20px;
+		text-align: center;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		.item-label {
+			width: 50%;
+			text-align: left;
+		}
+	}
+	.depositions-number {
+		font-size: 36px;
+		line-height: 40px;
+		padding: 13px 75px;
+		background: $color-tree-poppy;
+		color: $color-white;
+		display: inline-block;
+		font-family: $font-bold;
+		@include respond-to(mobile) {
+			padding: 10px 35px;
+			font-size: 28px;
+			line-height: 32px;
+		}
+	}
+	.total-savings {
+		font-size: 36px;
+		line-height: 40px;
+		color: $color-tree-poppy;
+		display: inline-block;
+		font-family: $font-bold;
+		@include respond-to(mobile) {
+			font-size: 28px;
+			line-height: 32px;
+		}
+	}
+}
+
+

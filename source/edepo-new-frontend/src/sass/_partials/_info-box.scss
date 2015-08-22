@@ -1,0 +1,64 @@
+/* INFO BOX */
+.info-box {
+    position: relative;
+
+    height: $info-box-height;
+    padding-left: 40px;
+
+    background: url('../images/temp/bg-info-box.jpg') center center no-repeat;
+    background-size: cover;
+    & + .scrollableArea {
+        top: ($header-height + $info-bar-height + $info-box-height);
+    }
+    .inner-mask {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        background: rgba($site-color-tiber, .7);
+    }
+    .inner-content {
+        display: table;
+
+        width: 100%;
+        height: 100%;
+    }
+    .titles-part {
+        @extend .vam;
+    }
+    .search-part {
+        @extend .vab;
+    }
+    .titles-holder {
+        color: $site-color-white;
+    }
+    .supra-title {
+        margin-bottom: 0;
+    }
+    .title {
+        font-size: 36px;
+
+        margin-bottom: 0;
+
+        color: $site-color-white;
+
+        @include text-overflow();
+    }
+    .part-left,.part-right,.titles-part,.search-part {
+        @extend .block-table-cell;
+    }
+    .part-left {
+        padding-right: 15px;
+        padding-left: 40px;
+
+        @extend .vam;
+    }
+    .part-right {
+        width: 355px;
+        padding-right: 10px;
+        padding-left: 20px;
+    }
+}

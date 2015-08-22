@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta name="format-detection" content="telephone=no">
+	<title>EDEPO :: Calendar</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700' rel='stylesheet' type='text/css'>
+	
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="assets/images/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="assets/images/favicons/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="assets/images/favicons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="assets/images/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="assets/images/favicons/manifest.json">
+	<link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="assets/images/favicons/mstile-144x144.png">
+	<meta name="msapplication-config" content="assets/images/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+	<aside id="sidebarLeft" class="sidebarLeft offcanvas-aside">
+		<div class="scrollableArea">
+			<div class="search-bar-holder">
+				<div class="search-bar">
+					<span class="search-btn-holder">
+						<button class="search-button" type="button">
+							<i class="edepo-icon-search"></i>
+						</button>
+					</span>
+					<span class="search-input-holder">
+						<input type="text" class="search-input" placeholder="Search">
+					</span>
+				</div><!-- search-bar -->
+			</div><!-- search-bar-holder -->
+
+			<div class="panel-group offcanvas-menu" id="offcanvas-menu-holder">
+				<div class="panel">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a class="collapsed" data-toggle="collapse" data-parent="#offcanvas-menu-holder" href="#menu-group-01">
+								<i class="edepo-icon-search"></i>
+								Case List
+							</a>
+							<span class="ellipsis">
+								<span class="inner"></span>
+							</span>
+						</h4>
+					</div>
+					<div id="menu-group-01" class="panel-collapse collapse">
+						<ul class="list-group">
+							<li class="list-group-item">
+								<a href="#">Menu Item 1</a>
+							</li>
+							<li class="list-group-item">
+								<a href="#">Menu Item 2</a>
+							</li>
+							<li class="list-group-item">
+								<a href="#">Menu Item 3</a>
+							</li>
+						</ul>
+					</div>
+				</div><!-- panel -->
+
+				<div class="panel">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a class="collapsed" data-toggle="collapse" data-parent="#offcanvas-menu-holder" href="#menu-group-02">
+								<i class="edepo-icon-search"></i>
+								Events
+							</a>
+							<span class="ellipsis">
+								<span class="inner"></span>
+							</span>
+						</h4>
+					</div>
+					<div id="menu-group-02" class="panel-collapse collapse">
+						<ul class="list-group">
+							<li class="list-group-item">
+								<a href="#">Menu Item 1</a>
+							</li>
+							<li class="list-group-item">
+								<a href="#">Menu Item 2</a>
+							</li>
+							<li class="list-group-item">
+								<a href="#">Menu Item 3</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div><!-- scrollableArea -->
+	</aside>
+
+	<section id="page" class="page">
+		<header class="topBar">
+			<div class="slide-button-holder">
+				<a id="leftBurger" class="slideRight offcanvas-slide-button" href="#">
+					<i class="edepo-icon-search"></i>
+				</a>
+			</div><!-- slide-button-holder -->
+
+			<div class="header-body">
+				<ul class="items-list">
+					<li>
+						<a href="#" class="composed-link">
+							<i class="edepo-icon-search icon"></i>
+							Calendar
+							<span class="circled-notification">6</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="composed-link">
+							<i class="edepo-icon-search icon"></i>
+							Calendar
+							<span class="circled-notification">6</span>
+						</a>
+					</li>
+				</ul>
+			</div><!-- header-content -->
+
+			<div class="header-right">
+				<a href="#">
+					<span class="circled-notification large">
+						<i class="edepo-icon-search"></i>
+					</span>
+				</a>
+				<a href="#">
+					<span class="circled-notification large">
+						<i class="edepo-icon-search"></i>
+					</span>
+				</a>
+			</div><!-- media-right -->
+		</header>
+
+		<div class="info-bar">
+			<div class="inner">
+				<div class="search-bar solid-gray shifted-right">
+					<span class="search-btn-holder">
+						<button class="search-button" type="button">
+							<i class="edepo-icon-search"></i>
+						</button>
+					</span>
+					<span class="search-input-holder">
+						<input type="text" class="search-input" placeholder="Search">
+					</span>
+				</div><!-- search-bar -->
+			</div><!-- inner -->
+		</div><!-- info-bar -->
+
+		<div class="scrollableArea">
+			<main class="main-content">
+				<div class="block-table full-height">
+					<div class="content-body">
+						<div class="inner">
+							<div class="page-title-holder">
+								<div class="part-left">
+									<h2 class="page-title">Calendar</h2>
+									<p class="subtitle">4 Events This Month</p>
+								</div><!-- left-part -->
+
+								<div class="part-right"></div><!-- right-part -->
+							</div><!-- page-title-holder -->
+
+							<div class="calendar-holder">
+								<div class="part part-left">
+									<div class="part-top">
+										<div class="mask">
+											<div class="inner">
+												<div class="title-holder">
+													<div class="control media-left">
+														<a href="#" class="control-link prev">
+															<i class="edepo-icon-search"></i>
+														</a>
+													</div>
+													<div class="media-body">
+														<h2 class="title">Tuesday</h2>
+													</div>
+													<div class="control media-right">
+														<a href="#" class="control-link next">
+															<i class="edepo-icon-search"></i>
+														</a>
+													</div>
+												</div><!-- title-holder -->
+												<div class="date-holder">3</div>
+											</div><!-- inner -->
+										</div><!-- mask -->
+									</div><!-- part-top -->
+
+									<div class="part-bottom">
+										<div class="mask">
+											<div class="inner">
+												<div class="scrollable-outer">
+													<div class="scrollable-content">
+														<div class="schedule-item">
+															<div class="item-time">9:00am</div>
+
+															<div class="item-actions">
+																<a href="#">
+																	<span class="circled-notification small">
+																		<i class="edepo-icon-search"></i>
+																	</span>
+																</a>
+																<a href="#">
+																	<span class="circled-notification small">
+																		<i class="edepo-icon-search"></i>
+																	</span>
+																</a>
+															</div><!-- item-actions -->
+
+															<div class="item-content">
+																<h3 class="item-title">
+																	<a href="#">Boo Boo's deposition qwertty ghhh</a>
+																</h3>
+																<p class="subtitle">From 9:00am - 10:30am</p>
+																<div class="item-text">
+																	<span>Winstead</span>
+																	<span>401 Congress Avenue</span>
+																	<span>Suite 2100</span>
+																	<span>Austin, Texas 78701</span>
+																</div>
+															</div>
+														</div><!-- schedule-item -->
+
+														<div class="schedule-item">
+															<div class="item-time">9:00am</div>
+
+															<div class="item-actions">
+																<a href="#">
+																	<span class="circled-notification small">
+																		<i class="edepo-icon-search"></i>
+																	</span>
+																</a>
+																<a href="#">
+																	<span class="circled-notification small">
+																		<i class="edepo-icon-search"></i>
+																	</span>
+																</a>
+															</div><!-- item-actions -->
+
+															<div class="item-content">
+																<h3 class="item-title">
+																	<a href="#">Boo Boo's deposition qwertty ghhh</a>
+																</h3>
+																<p class="subtitle">From 9:00am - 10:30am</p>
+																<div class="item-text">
+																	<span>Winstead</span>
+																	<span>401 Congress Avenue</span>
+																	<span>Suite 2100</span>
+																	<span>Austin, Texas 78701</span>
+																</div>
+															</div>
+														</div><!-- schedule-item -->
+
+														<div class="schedule-item">
+															<div class="item-time">9:00am</div>
+
+															<div class="item-actions">
+																<a href="#">
+																	<span class="circled-notification small">
+																		<i class="edepo-icon-search"></i>
+																	</span>
+																</a>
+																<a href="#">
+																	<span class="circled-notification small">
+																		<i class="edepo-icon-search"></i>
+																	</span>
+																</a>
+															</div><!-- item-actions -->
+
+															<div class="item-content">
+																<h3 class="item-title">
+																	<a href="#">Boo Boo's deposition qwertty ghhh</a>
+																</h3>
+																<p class="subtitle">From 9:00am - 10:30am</p>
+																<div class="item-text">
+																	<span>Winstead</span>
+																	<span>401 Congress Avenue</span>
+																	<span>Suite 2100</span>
+																	<span>Austin, Texas 78701</span>
+																</div>
+															</div>
+														</div><!-- schedule-item -->
+													</div><!-- scrollable-content -->
+												</div><!-- scrollable-outer -->
+											</div><!-- inner -->
+										</div><!-- mask -->
+									</div><!-- part-bottom -->
+								</div><!-- part-left -->
+
+								<div class="part part-right">
+									<div class="inner">
+										<div class="title-holder">
+											<div class="control media-left">
+												<a href="#" class="control-link prev">
+													<i class="edepo-icon-search"></i>
+												</a>
+											</div>
+											<div class="media-body">
+												<h2 class="title">March 2015</h2>
+											</div>
+											<div class="control media-right">
+												<a href="#" class="control-link next">
+													<i class="edepo-icon-search"></i>
+												</a>
+											</div>
+										</div><!-- title-holder -->
+
+										<table class="calendar">
+											<thead>
+												<tr>
+													<th>
+														<span>s</span>
+													</th>
+													<th>
+														<span>m</span>
+													</th>
+													<th>
+														<span>t</span>
+													</th>
+													<th>
+														<span>w</span>
+													</th>
+													<th>
+														<span>t</span>
+													</th>
+													<th>
+														<span>f</span>
+													</th>
+													<th>
+														<span>s</span>
+													</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>
+														<a href="#" class="past-days">1</a>
+													</td>
+													<td>
+														<a href="#" class="past-days">2</a>
+													</td>
+													<td>
+														<a class="today" href="#">3</a>
+													</td>
+													<td>
+														<a href="#">4</a>
+													</td>
+													<td>
+														<a href="#">5</a>
+													</td>
+													<td>
+														<a href="#">6</a>
+													</td>
+													<td>
+														<a href="#">7</a>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<a href="#">8</a>
+													</td>
+													<td>
+														<a href="#">9</a>
+													</td>
+													<td>
+														<a href="#">10</a>
+													</td>
+													<td>
+														<a href="#">11</a>
+													</td>
+													<td>
+														<a href="#">12</a>
+													</td>
+													<td>
+														<a href="#">13</a>
+													</td>
+													<td>
+														<a href="#">14</a>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<a href="#">15</a>
+													</td>
+													<td>
+														<a href="#">16</a>
+													</td>
+													<td>
+														<a href="#">17</a>
+													</td>
+													<td>
+														<a href="#" class="scheduled">18</a>
+													</td>
+													<td>
+														<a href="#">19</a>
+													</td>
+													<td>
+														<a href="#">20</a>
+													</td>
+													<td>
+														<a href="#">21</a>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<a href="#">22</a>
+													</td>
+													<td>
+														<a href="#" class="scheduled">23</a>
+													</td>
+													<td>
+														<a href="#">24</a>
+													</td>
+													<td>
+														<a href="#">25</a>
+													</td>
+													<td>
+														<a href="#">26</a>
+													</td>
+													<td>
+														<a href="#">27</a>
+													</td>
+													<td>
+														<a href="#">28</a>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<a href="#">29</a>
+													</td>
+													<td>
+														<a href="#">30</a>
+													</td>
+													<td>
+														<a href="#">31</a>
+													</td>
+													<td>
+														<a href="#" class="next-month">1</a>
+													</td>
+													<td>
+														<a href="#" class="next-month">2</a>
+													</td>
+													<td>
+														<a href="#" class="next-month">3</a>
+													</td>
+													<td>
+														<a href="#" class="next-month">4</a>
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<a href="#" class="next-month">5</a>
+													</td>
+													<td>
+														<a href="#" class="next-month">6</a>
+													</td>
+													<td>
+														<a href="#" class="next-month">7</a>
+													</td>
+													<td>
+														<a href="#" class="next-month">8</a>
+													</td>
+													<td>
+														<a href="#" class="next-month">9</a>
+													</td>
+													<td>
+														<a href="#" class="next-month">10</a>
+													</td>
+													<td>
+														<a href="#" class="next-month">11</a>
+													</td>
+												</tr>
+											</tbody>
+										</table><!-- calendar -->
+									</div><!-- inner -->
+								</div><!-- part-right -->
+							</div><!-- calendar-holder -->
+						</div><!-- inner -->
+					</div><!-- content-body -->
+
+					<div class="sidebar-right">
+						<div class="inner">
+							<div class="sidebar-item">
+								<h3 class="item-title">Search</h3>
+
+								<div class="form-group">
+									<div class="radio">
+										<label>
+											<input type="radio" name="temp">
+											<span class="icon"></span>
+											Today
+										</label>
+									</div>
+								</div><!-- form-group -->
+
+								<div class="form-group">
+									<div class="radio">
+										<label>
+											<input type="radio" name="temp">
+											<span class="icon"></span>
+											This week
+										</label>
+									</div>
+								</div><!-- form-group -->
+
+								<div class="form-group">
+									<div class="radio">
+										<label>
+											<input type="radio" name="temp">
+											<span class="icon"></span>
+											This month
+										</label>
+									</div>
+								</div><!-- form-group -->
+
+								<div class="form-group">
+									<div class="form-inline">
+										<div class="radio">
+											<label>
+												<input type="radio" name="temp">
+												<span class="icon"></span>
+											</label>
+										</div>
+
+										<input type="text" class="form-control width-65">
+
+										to
+
+										<input type="text" class="form-control width-65">
+									</div>
+								</div><!-- form-group -->
+							</div><!-- sidebar-item -->
+
+							<div class="sidebar-item">
+								<h3 class="item-title">Keywords</h3>
+
+								<input type="text" class="form-control" placeholder="Deposition, deponent, etc.">
+							</div><!-- sidebar-item -->
+
+							<button class="btn btn-success">Search Calendar</button>
+						</div><!-- inner -->
+					</div><!-- sidebar-right -->
+				</div>
+			</main><!-- main-content -->
+		</div><!-- scrollableArea -->
+	</section><!-- page -->
+
+	<script src="vendors/jquery/dist/jquery.min.js"></script>
+	<script src="vendors/off.canvas-master/js/overthrow.js"></script>
+	<script src="vendors/off.canvas-master/js/hammer.js"></script>
+	<script src="vendors/off.canvas-master/js/jquery.hammer.js"></script>
+	<script src="vendors/off.canvas-master/js/jquery.offcanvas.min.js"></script>
+	<script src="vendors/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
+	<script src="assets/js/scripts.js"></script>
+</body>
+</html>

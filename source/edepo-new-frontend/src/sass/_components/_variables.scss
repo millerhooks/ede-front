@@ -1,0 +1,33 @@
+/* VARIABLES */
+
+//Fonts
+$font-family: 'Maven Pro', sans-serif;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+//Body
+$body-font-family: $font-family;
+$body-font-size: 12px;
+$body-line-height: 16px;
+$body-font-weight: $font-weight-regular;
+$body-font-color: rgba($site-color-black, .8);
+
+/* Offcanvas */
+$offcanvas-width: 190px;
+$offcanvas-bg: $site-color-ship-gray;
+$offcanvas-menu-search-border: $site-color-ship-gray-light;
+
+/* Header */
+$header-height: 75px;
+$header-bg: $site-color-white;
+$header-border: $site-color-ship-gray-light;
+$offcanvas-slide-button-bg: $site-color-sushi;
+
+/* Info Bar */
+$info-bar-height: 42px;
+$info-bar-bg: $site-color-baltic-sea;
+$info-bar-search-bar-bg: $site-color-jumbo;
+
+/* Info Box */
+$info-box-height: 105px;

@@ -1,0 +1,51 @@
+[
+    '{{repeat(10, 10)}}',
+    {
+        attorneys: '{{firstName()}} {{surname()}}, {{firstName()}} {{surname()}}',
+        court: '{{city()}} City Court',
+        created: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("llll")}}',
+        defendant: '{{firstName()}} {{surname()}}',
+        deleted: 'false',
+        deleted_timestamp: '',
+        id: '{{integer(1, 10)}}',
+        modified: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("llll")}}',
+        name: '{{firstName()}} {{surname()}} v. {{firstName()}} {{surname()}}',
+        plaintiff: '{{firstName()}} {{surname()}}',
+        resource_uri: function (tags) {
+            return '/api/v1/case/' + this.id;
+        },
+        depositions:
+        [
+            '{{repeat(1, 10)}}',
+            {
+                id: '{{integer(1, 10)}}',
+                created: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("llll")}}',
+                deponent: '{{firstName()}} {{surname()}}',
+                deposition_date: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("llll")}}',
+                encoded_video: '/static/video.mp4',
+                exhibits:
+                [
+                    '{{repeat(1, 10)}}',
+                    {
+                        description: '',
+                        file: '/static/exhibits.pdf',
+                        id: '{{integer(1, 10)}}',
+                        name: '{{firstName()}} {{surname()}}',
+                        resource_uri: function (tags) {
+                            return '/api/v1/exhibit/' + this.id;
+                        },
+                        transcript: '/api/v1/transcript/' + '{{integer(1, 10)}}'
+                    }
+                ],
+                modified: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("llll")}}',
+                resource_uri: function (tags) {
+                    return '/api/v1/transcript/' + this.id;
+                },
+                transcript: '/static/transcript.txt',
+                transcript_xml: '/static/transcript.xml'
+
+            }
+
+        ]
+    }
+]

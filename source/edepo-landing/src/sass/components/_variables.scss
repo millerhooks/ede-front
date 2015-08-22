@@ -1,0 +1,60 @@
+/* Variables */
+//Fonts variables
+$font-light: 'maven-pro-light';
+$font-regular: 'maven-pro-regular';
+$font-medium: 'maven-pro-medium';
+$font-bold: 'maven-pro-bold';
+
+
+/* Colors */
+//Basic
+$color-white: #ffffff;
+$color-black: #000000;
+
+//Gray
+$color-silver: #cccccc;
+$color-gray: #7f7f7f;
+$color-outer-space: #263034;
+$color-mirage: #1b2529;
+$color-scarpa-flow: #58585a;
+
+//Green
+$color-sushi: #8dc63f;
+
+//Blue
+$color-cerulean: #00aeef;
+
+//Orange 
+$color-tree-poppy: #f7941e;
+
+//Pink
+$color-wisteria: #9f65aa;
+
+//Red
+$color-well-read: #bc3431;
+
+/* Body variables */
+$body-font-family: $font-regular;
+$body-text-color: rgba($color-black, 0.8);
+$body-font-size: 18px;
+$body-font-size-mobile: 15px;
+$body-line-height: 24px;
+$body-line-height-mobile: 20px;
+$body-bg: $color-white;
+
+
+/* Header */
+$header-bg: $color-mirage;
+$navbar-toggle-color: $color-sushi;
+
+/* Hero */
+
+
+/* Prefooter */
+$prefooter-bg: $color-outer-space;
+
+
+/* Footer */
+$footer-bg: $color-black;
+
+

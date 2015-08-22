@@ -1,0 +1,190 @@
+/* CALENDAR */
+.calendar-holder {
+    @extend .clearfix;
+    width: 100%;
+    @include calc(height, '100% - 62px');
+    .part {
+        width: 50%;
+        float: left;
+        // @include respond-to(tablet-portrait) {
+        //     width: 100%;
+        //     float: none;
+        // }
+        &.part-left {
+            background: url(../images/temp/bg-info-box.jpg) center center no-repeat;
+            background-size: cover;
+            color: $site-color-white;
+            height: 100%;
+            .title-holder {
+                color: $site-color-white;
+                .control-link {
+                    color: $site-color-white;
+                    &:hover {
+                        color: darken($site-color-white, 10%);
+                    }
+                }
+            }
+            .part-top {
+                height: 280px;
+                .mask {
+                    height: 100%;
+                    background: rgba(blue, 0.4);
+                    padding: 0 30px;
+                }
+                .inner {
+                    text-align: center;
+                    height: 100%;
+                    border-bottom: 1px solid $site-color-tiara;
+                    padding: 40px 0;
+                }
+            }
+            .part-bottom {
+                @include calc(height, '100% - 280px');
+                .mask {
+                    height: 100%;
+                    background: rgba(blue, 0.6);
+                    padding: 0 30px;
+                }
+                .inner {
+                    border-top: 1px solid $site-color-blue-bayoux;
+                    padding: 40px 0 20px 0;
+                    height: 100%;
+                }
+                .scrollable-outer {
+                    height: 100%;
+                    overflow: auto;
+                }
+                .scrollable-content {
+                    padding-right: 20px;
+                }
+            }
+        }
+        &.part-right {
+            background: $site-color-white;
+            height: 100%;
+            .inner {
+                padding: 40px 30px;
+            }
+        }
+    }
+    .title-holder {
+        line-height: 26px;
+        margin-bottom: 24px;
+        color: $site-color-black;
+        .title {
+            line-height: inherit;
+            text-align: center;
+            color: inherit;
+        }
+        .control {
+            width: 26px;
+            height: 26px;
+            vertical-align: middle;
+            font-size: 21px;
+        }
+        .control-link {
+            color: $site-color-iron;
+            &.prev {
+                text-align: left;
+            }
+            &.next {
+                text-align: right;
+            }
+            &:hover {
+                color: darken($site-color-iron, 10%);
+            }
+        }
+    }
+    .date-holder {
+        color: $site-color-white;
+        text-align: center;
+        font-size: 100px;
+        line-height: 150px;
+        display: inline-block;
+        font-weight: $font-weight-medium;
+    }
+}
+.schedule-item {
+    margin-bottom: 20px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+    .item-time {
+        float: left;
+        min-width: 80px;
+        padding-right: 10px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .item-content {
+        overflow: hidden;
+    }
+    .item-title {
+        color: $site-color-white;
+        @include text-overflow();
+        margin-bottom: 0;
+    }
+    .item-subtitle {
+        margin-bottom: 10px;
+    }
+    .item-text {
+        > span {
+            display: block;
+        }
+    }
+    .item-actions {
+        float: right;
+        white-space: nowrap;
+        padding-left: 10px;
+        > a {
+            margin-left: 10px;
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+}
+.calendar {
+    width: 100%;
+    text-transform: uppercase;
+    th, td {
+        text-align: center;
+        font-size: 16px;
+        vertical-align: middle;
+        a, span {
+            display: block;
+            width: 37px;
+            height: 37px;
+            padding: 2px;
+            line-height: 30px;
+        }
+    }
+    th {
+        font-weight: 700;
+        color: $site-color-sushi;
+        cursor: default;
+    }
+    a {
+        color: $site-color-black;
+        &.today {
+            background: $site-color-sushi;
+            color: $site-color-white;
+        }
+        &.scheduled {
+            border-radius: 50%;
+            border: 2px solid $site-color-sushi;
+        }
+        &.past-days {
+            color: $site-color-black-haze;
+            &.scheduled {
+                border-color: $site-color-black-haze;
+            }
+        }
+        &.next-month {
+            color: $site-color-silver;
+            &.scheduled {
+                border-color: $site-color-silver;
+            }
+        }
+    }
+}

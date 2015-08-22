@@ -1,0 +1,15 @@
+[
+  '{{repeat(100, 100)}}',
+  {
+    description: '{{lorem(1)}}',
+    file: '/static/exhibits.pdf',
+    id: '{{index()}}',
+    name: '{{firstName()}} {{surname()}}',
+    resource_uri: function (tags) {
+  return '/api/v1/exhibit/' + this.id;
+},
+  transcript: function(tags) {
+  return '/api/v1/transcript/'+(Math.floor(tags.index()/2));
+}
+}
+]

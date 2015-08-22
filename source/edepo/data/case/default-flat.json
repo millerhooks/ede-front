@@ -1,0 +1,202 @@
+[
+  {
+    "attorneys": "Winnie Carter, Gutierrez Justice",
+    "court": "Walland City Court",
+    "created": "Thu, Mar 27, 2014 4:29 AM",
+    "defendant": "Patricia Guzman",
+    "deleted": false,
+    "deleted_timestamp": "",
+    "id": 0,
+    "modified": "Fri, Jul 18, 2014 3:32 AM",
+    "name": "Bell Hill v. Lessie Miranda",
+    "plaintiff": "Carole Boone",
+    "resource_uri": "/api/v1/case/0",
+    "transcripts": [
+      "/api/v1/transcript/0",
+      "/api/v1/transcript/1",
+      "/api/v1/transcript/2",
+      "/api/v1/transcript/3",
+      "/api/v1/transcript/4"
+    ]
+  },
+  {
+    "attorneys": "Cleo Curry, Veronica Black",
+    "court": "Cherokee City Court",
+    "created": "Wed, Jul 9, 2014 7:09 PM",
+    "defendant": "Gamble Sellers",
+    "deleted": false,
+    "deleted_timestamp": "",
+    "id": 1,
+    "modified": "Mon, Sep 15, 2014 8:19 AM",
+    "name": "Nell Newton v. Fran Compton",
+    "plaintiff": "Landry Cardenas",
+    "resource_uri": "/api/v1/case/1",
+    "transcripts": [
+      "/api/v1/transcript/5",
+      "/api/v1/transcript/6",
+      "/api/v1/transcript/7",
+      "/api/v1/transcript/8",
+      "/api/v1/transcript/9"
+    ]
+  },
+  {
+    "attorneys": "Frye Rasmussen, Malone Farrell",
+    "court": "Zeba City Court",
+    "created": "Thu, Apr 24, 2014 4:42 PM",
+    "defendant": "Collins Durham",
+    "deleted": false,
+    "deleted_timestamp": "",
+    "id": 2,
+    "modified": "Fri, Jun 6, 2014 10:04 PM",
+    "name": "Nichols Hooper v. Maura Browning",
+    "plaintiff": "Fry Mayer",
+    "resource_uri": "/api/v1/case/2",
+    "transcripts": [
+      "/api/v1/transcript/10",
+      "/api/v1/transcript/11",
+      "/api/v1/transcript/12",
+      "/api/v1/transcript/13",
+      "/api/v1/transcript/14"
+    ]
+  },
+  {
+    "attorneys": "Ramirez Hamilton, Dora Donovan",
+    "court": "Crisman City Court",
+    "created": "Fri, Sep 12, 2014 5:14 AM",
+    "defendant": "Crystal Caldwell",
+    "deleted": false,
+    "deleted_timestamp": "",
+    "id": 3,
+    "modified": "Thu, Sep 18, 2014 10:47 AM",
+    "name": "Maxine Walker v. Doreen Dickson",
+    "plaintiff": "Raquel Spencer",
+    "resource_uri": "/api/v1/case/3",
+    "transcripts": [
+      "/api/v1/transcript/15",
+      "/api/v1/transcript/16",
+      "/api/v1/transcript/17",
+      "/api/v1/transcript/18",
+      "/api/v1/transcript/19"
+    ]
+  },
+  {
+    "attorneys": "Wooten Franco, Eloise Lambert",
+    "court": "Urbana City Court",
+    "created": "Thu, Apr 24, 2014 1:10 PM",
+    "defendant": "Hyde Blanchard",
+    "deleted": false,
+    "deleted_timestamp": "",
+    "id": 4,
+    "modified": "Tue, Jan 7, 2014 8:26 PM",
+    "name": "Everett Vargas v. Ayers Ball",
+    "plaintiff": "Case Randall",
+    "resource_uri": "/api/v1/case/4",
+    "transcripts": [
+      "/api/v1/transcript/20",
+      "/api/v1/transcript/21",
+      "/api/v1/transcript/22",
+      "/api/v1/transcript/23",
+      "/api/v1/transcript/24"
+    ]
+  },
+  {
+    "attorneys": "Adele Clark, Cortez Booker",
+    "court": "Conestoga City Court",
+    "created": "Mon, May 5, 2014 11:16 PM",
+    "defendant": "Cervantes Prince",
+    "deleted": false,
+    "deleted_timestamp": "",
+    "id": 5,
+    "modified": "Mon, Sep 15, 2014 8:45 PM",
+    "name": "Rodriquez Chavez v. Stuart Carver",
+    "plaintiff": "Muriel Camacho",
+    "resource_uri": "/api/v1/case/5",
+    "transcripts": [
+      "/api/v1/transcript/25",
+      "/api/v1/transcript/26",
+      "/api/v1/transcript/27",
+      "/api/v1/transcript/28",
+      "/api/v1/transcript/29"
+    ]
+  },
+  {
+    "attorneys": "Ford Irwin, Shelly Orr",
+    "court": "Summertown City Court",
+    "created": "Wed, Sep 17, 2014 7:52 PM",
+    "defendant": "Marietta Mckay",
+    "deleted": false,
+    "deleted_timestamp": "",
+    "id": 6,
+    "modified": "Sat, May 10, 2014 3:57 PM",
+    "name": "Mildred Rowe v. Latonya David",
+    "plaintiff": "Brandi Harding",
+    "resource_uri": "/api/v1/case/6",
+    "transcripts": [
+      "/api/v1/transcript/30",
+      "/api/v1/transcript/31",
+      "/api/v1/transcript/32",
+      "/api/v1/transcript/33",
+      "/api/v1/transcript/34"
+    ]
+  },
+  {
+    "attorneys": "Glass Copeland, Marsh Pitts",
+    "court": "Woodburn City Court",
+    "created": "Thu, Jan 23, 2014 6:58 PM",
+    "defendant": "Karina Meadows",
+    "deleted": false,
+    "deleted_timestamp": "",
+    "id": 7,
+    "modified": "Fri, Sep 12, 2014 12:15 PM",
+    "name": "Frieda Blake v. Fischer Harvey",
+    "plaintiff": "Adeline Higgins",
+    "resource_uri": "/api/v1/case/7",
+    "transcripts": [
+      "/api/v1/transcript/35",
+      "/api/v1/transcript/36",
+      "/api/v1/transcript/37",
+      "/api/v1/transcript/38",
+      "/api/v1/transcript/39"
+    ]
+  },
+  {
+    "attorneys": "Margo Weaver, Craft Bell",
+    "court": "Ticonderoga City Court",
+    "created": "Fri, Oct 31, 2014 5:20 AM",
+    "defendant": "Cline Berg",
+    "deleted": false,
+    "deleted_timestamp": "",
+    "id": 8,
+    "modified": "Thu, Jul 10, 2014 9:45 PM",
+    "name": "Glenda Mcneil v. Richmond Wilder",
+    "plaintiff": "Vargas Blackburn",
+    "resource_uri": "/api/v1/case/8",
+    "transcripts": [
+      "/api/v1/transcript/40",
+      "/api/v1/transcript/41",
+      "/api/v1/transcript/42",
+      "/api/v1/transcript/43",
+      "/api/v1/transcript/44"
+    ]
+  },
+  {
+    "attorneys": "Erma Sweeney, Imogene Boyle",
+    "court": "Greer City Court",
+    "created": "Sun, Nov 9, 2014 3:08 AM",
+    "defendant": "Wanda Mccarty",
+    "deleted": false,
+    "deleted_timestamp": "",
+    "id": 9,
+    "modified": "Mon, Oct 20, 2014 12:27 PM",
+    "name": "Renee Fleming v. Elma Castro",
+    "plaintiff": "Byers Salas",
+    "resource_uri": "/api/v1/case/9",
+    "transcripts": [
+      "/api/v1/transcript/45",
+      "/api/v1/transcript/46",
+      "/api/v1/transcript/47",
+      "/api/v1/transcript/48",
+      "/api/v1/transcript/49"
+    ]
+  }
+]

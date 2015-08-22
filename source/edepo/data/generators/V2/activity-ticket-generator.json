@@ -1,0 +1,47 @@
+[
+  '{{repeat(20, 20)}}',
+  {
+    id: '{{index()}}',
+    message_class: '{{random("Standard", "Success", "Attention", "Warning", "Locked")}}',
+    message: '{{lorem(1, "sentences")}}',
+    icon: "/icon.png",
+    user: [
+      {
+        avatar: "/icon.png",
+        name: '{{firstName()}} {{surname()}}'
+      }
+    ],
+    deposition:
+    [
+      {
+        id: '{{integer(1, 10)}}',
+        created: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("llll")}}',
+        deponent: '{{firstName()}} {{surname()}}',
+        deposition_date: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("llll")}}',
+        encoded_video: '/static/video.mp4',
+        exhibits:
+        [
+          '{{repeat(1, 10)}}',
+          {
+            description: '',
+            file: '/static/exhibits.pdf',
+            id: '{{integer(1, 10)}}',
+            name: '{{firstName()}} {{surname()}}',
+            resource_uri: function (tags) {
+          return '/api/v1/exhibit/' + this.id;
+        },
+          transcript: '/api/v1/transcript/' + '{{integer(1, 10)}}'
+          }
+        ],
+        modified: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("llll")}}',
+        resource_uri: function (tags) {
+      return '/api/v1/transcript/' + this.id;
+    },
+      transcript: '/static/transcript.txt',
+      transcript_xml: '/static/transcript.xml'
+
+      }
+
+    ]
+  }
+]

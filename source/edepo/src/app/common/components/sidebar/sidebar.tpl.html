@@ -1,0 +1,40 @@
+<aside id="sidebarLeft" class="offcanvas-left animatedSlide show">
+    <div class="scrollable-area">
+        <div class="search-field">
+            <input type="search" class="placeholder input-search" placeholder="Search">
+        </div><!-- search-field -->
+        <ul>
+            <li data-toggle="collapse" data-target="#case-list" class="expanded">
+                <a><i class="fa fa-gift fa-lg"></i> Case List <span class="caret"></span></a>
+            </li>
+            <ul class="sub-menu collapse out" id="case-list">
+                <edepo-case-list-sidebar></edepo-case-list-sidebar>
+            </ul>
+
+
+            <li data-toggle="collapse" data-target="#event-list" class="collapsed">
+                <a><i class="fa fa-globe fa-lg"></i> Events <span class="caret"></span></a>
+            </li>
+            <ul class="sub-menu collapse out" id="event-list">
+                <edepo-event-list-sidebar></edepo-event-list-sidebar>
+            </ul>
+
+
+            <li data-toggle="collapse" data-target="#job-list" class="collapsed">
+                <a><i class="fa fa-car fa-lg"></i> Jobs <span class="caret"></span></a>
+            </li>
+            <ul class="sub-menu collapse out" id="job-list">
+                <edepo-job-list-sidebar></edepo-job-list-sidebar>
+            </ul>
+
+            <li data-toggle="collapse" data-target="#invoicing-list" class="collapsed">
+                <a><i class="fa fa-car fa-lg"></i> Invoicing <span class="caret"></span></a>
+            </li>
+            <ul class="sub-menu collapse out" id="invoicing-list">
+                <li>Summary</li>
+                <li>Settings</li>
+            </ul>
+
+        </ul>
+    </div><!-- scrollable-area -->
+</aside>

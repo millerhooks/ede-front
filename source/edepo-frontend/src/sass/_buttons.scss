@@ -1,0 +1,33 @@
+/* BUTTONS */
+.custom-btn {
+	box-shadow: 0 4px 5px 2px rgba($site-color-black, 0.2);
+	color: $site-color-white;
+	border-radius: 0;
+	font-size: 1.143rem;
+	line-height: 1.286rem;
+	padding: 6px 12px;
+	border: none;
+	cursor: pointer;
+	text-shadow: 0 3px 5px rgba($site-color-black, 0.4);
+	text-transform: capitalize;
+	&:focus {
+		border: none;
+		box-shadow: 0 4px 5px 2px rgba($site-color-black, 0.2);
+		outline: none;
+		color: $site-color-white;
+	}
+	&.no-shadow {
+		box-shadow: none;
+	}
+	&.custom-btn-green {
+		@include gradient-vertical($start-color: $site-color-sushi, $end-color: $site-color-vida-loca, $start-percent: 0%, $end-percent: 100%);
+		&:hover {
+			@include gradient-vertical($start-color: $site-color-sushi, $end-color: $site-color-sushi, $start-percent: 0%, $end-percent: 100%);
+			color: $site-color-white;
+		}
+		&:active {
+			@include gradient-vertical($start-color: $site-color-vida-loca, $end-color: $site-color-vida-loca, $start-percent: 0%, $end-percent: 100%);
+			color: $site-color-white;
+		}
+	}
+}

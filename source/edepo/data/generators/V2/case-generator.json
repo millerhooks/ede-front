@@ -1,0 +1,27 @@
+[
+  '{{repeat(10, 10)}}',
+  {
+    attorneys: '{{firstName()}} {{surname()}}, {{firstName()}} {{surname()}}',
+    court: '{{city()}} City Court',
+    created: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("llll")}}',
+    defendant: '{{firstName()}} {{surname()}}',
+    deleted: 'false',
+    deleted_timestamp: '',
+    id: '{{index()}}',
+    modified: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("llll")}}',
+    name: '{{firstName()}} {{surname()}} v. {{firstName()}} {{surname()}}',
+    plaintiff: '{{firstName()}} {{surname()}}',
+    resource_uri: function (tags) {
+  return '/api/v1/case/' + this.id;
+},
+  transcripts: function (tags, index) {
+  var api = '/api/v1/transcript/';
+  var depos = [];
+  var start = tags.index() * 5;
+  for (var i in tags.range(start, start+5)) {
+  depos.push(api+(parseInt(i)+start));
+}
+  return depos;
+}
+}
+]

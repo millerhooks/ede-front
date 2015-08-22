@@ -1,0 +1,10 @@
+/* RIGHT SIDEBAR */
+.sidebar-item {
+	margin-bottom: 25px;
+	.item-title {
+		color: rgba($site-color-black, 0.7);
+		padding-bottom: 20px;
+		border-bottom: 1px solid $site-color-sky-blue;
+		margin-bottom: 15px;
+	}
+}

@@ -1,0 +1,291 @@
+[
+    {
+        "scheduler": {
+            "name": "Martinez Dillard",
+            "email": "Wooten@Goodwin.co.uk",
+            "phone": "(944) 442-3899"
+        },
+        "attorney": {
+            "firm": "Holman & Cross",
+            "name": "Bowers Gutierrez",
+            "phone": "(814) 482-2074"
+        },
+        "time": "Thu, Oct 9, 2014 2:52 AM",
+        "location": "4514 Johnson Avenue",
+        "witnesses": [
+            {
+                "name": "Olga Chang",
+                "time": "",
+                "duration": 120
+            },
+            {
+                "name": "Bonita Carney",
+                "time": "",
+                "duration": 104
+            }
+        ],
+        "_case": {
+            "name": "Day v. Roth",
+            "proceeding_type": "Hearing"
+        },
+        "is_video": false,
+        "is_translated": true,
+        "language": "Spanish",
+        "is_rush": false,
+        "deposition_notice": [],
+        "comments": "irure amet aliqua culpa anim dolore laborum"
+    },
+    {
+        "scheduler": {
+            "name": "Burnett Oliver",
+            "email": "Lynne@Potts.com",
+            "phone": "(809) 529-3031"
+        },
+        "attorney": {
+            "firm": "Delaney & Horton",
+            "name": "Wynn Coleman",
+            "phone": "(892) 436-2382"
+        },
+        "time": "Mon, May 12, 2014 10:54 AM",
+        "location": "367 Oriental Court",
+        "witnesses": [
+            {
+                "name": "Park Landry",
+                "time": "",
+                "duration": 78
+            },
+            {
+                "name": "Leona Waters",
+                "time": "",
+                "duration": 69
+            },
+            {
+                "name": "Melanie Burt",
+                "time": "",
+                "duration": 31
+            }
+        ],
+        "_case": {
+            "name": "Griffith v. Morse",
+            "proceeding_type": "Exam under Oath"
+        },
+        "is_video": false,
+        "is_translated": true,
+        "language": "English",
+        "is_rush": true,
+        "deposition_notice": [
+            {
+                "filename": "Chen37.pdf"
+            },
+            {
+                "filename": "Buckner29.pdf"
+            },
+            {
+                "filename": "Key33.pdf"
+            },
+            {
+                "filename": "Zamora22.pdf"
+            },
+            {
+                "filename": "Ellis92.pdf"
+            }
+        ],
+        "comments": "ea aliquip magna fugiat qui in magna"
+    },
+    {
+        "scheduler": {
+            "name": "Jimmie Luna",
+            "email": "Henson@Keith.name",
+            "phone": "(850) 429-2411"
+        },
+        "attorney": {
+            "firm": "Simmons & Bauer",
+            "name": "Mercer Sampson",
+            "phone": "(817) 412-3171"
+        },
+        "time": "Fri, Oct 10, 2014 8:33 PM",
+        "location": "3059 Remsen Street",
+        "witnesses": [
+            {
+                "name": "Curtis Ryan",
+                "time": "",
+                "duration": 79
+            },
+            {
+                "name": "Heidi Conner",
+                "time": "",
+                "duration": 112
+            },
+            {
+                "name": "Hall Parks",
+                "time": "",
+                "duration": 120
+            },
+            {
+                "name": "Noel Bush",
+                "time": "",
+                "duration": 177
+            }
+        ],
+        "_case": {
+            "name": "Zimmerman v. Daniels",
+            "proceeding_type": "Exam under Oath"
+        },
+        "is_video": false,
+        "is_translated": false,
+        "language": "French",
+        "is_rush": false,
+        "deposition_notice": [
+            {
+                "filename": "Noble66.pdf"
+            },
+            {
+                "filename": "Kaufman46.pdf"
+            },
+            {
+                "filename": "Sweeney81.pdf"
+            },
+            {
+                "filename": "Joseph41.pdf"
+            },
+            {
+                "filename": "Gonzalez52.pdf"
+            }
+        ],
+        "comments": "quis mollit irure qui aliquip ut aute"
+    },
+    {
+        "scheduler": {
+            "name": "Cotton Hines",
+            "email": "Fay@Cardenas.info",
+            "phone": "(888) 436-2764"
+        },
+        "attorney": {
+            "firm": "Atkins & Sawyer",
+            "name": "Love Lopez",
+            "phone": "(981) 585-2542"
+        },
+        "time": "Thu, Sep 11, 2014 10:57 PM",
+        "location": "664 Bills Place",
+        "witnesses": [
+            {
+                "name": "Robles Parrish",
+                "time": "",
+                "duration": 164
+            },
+            {
+                "name": "Combs Cole",
+                "time": "",
+                "duration": 78
+            },
+            {
+                "name": "Mavis Cherry",
+                "time": "",
+                "duration": 169
+            },
+            {
+                "name": "Mckee Wallace",
+                "time": "",
+                "duration": 53
+            },
+            {
+                "name": "Berger Prince",
+                "time": "",
+                "duration": 79
+            }
+        ],
+        "_case": {
+            "name": "Lindsey v. Nichols",
+            "proceeding_type": "Swown Statement"
+        },
+        "is_video": true,
+        "is_translated": false,
+        "language": "English",
+        "is_rush": false,
+        "deposition_notice": [
+            {
+                "filename": "Stein22.pdf"
+            },
+            {
+                "filename": "Santos21.pdf"
+            },
+            {
+                "filename": "Terrell8.pdf"
+            },
+            {
+                "filename": "Matthews20.pdf"
+            },
+            {
+                "filename": "Harris78.pdf"
+            }
+        ],
+        "comments": "fugiat culpa ex qui aliqua enim minim"
+    },
+    {
+        "scheduler": {
+            "name": "Whitaker Watkins",
+            "email": "Joanna@Hurley.org",
+            "phone": "(934) 489-2078"
+        },
+        "attorney": {
+            "firm": "Boyd & Hurst",
+            "name": "Kelly Medina",
+            "phone": "(849) 428-2100"
+        },
+        "time": "Tue, Jul 15, 2014 5:41 PM",
+        "location": "2237 Box Street",
+        "witnesses": [
+            {
+                "name": "Marquita Witt",
+                "time": "",
+                "duration": 49
+            },
+            {
+                "name": "Keisha Monroe",
+                "time": "",
+                "duration": 48
+            },
+            {
+                "name": "Nicole Rasmussen",
+                "time": "",
+                "duration": 20
+            },
+            {
+                "name": "Virginia Conway",
+                "time": "",
+                "duration": 24
+            },
+            {
+                "name": "Thelma Stevenson",
+                "time": "",
+                "duration": 30
+            }
+        ],
+        "_case": {
+            "name": "Allen v. Houston",
+            "proceeding_type": "Hearing"
+        },
+        "is_video": false,
+        "is_translated": true,
+        "language": "French",
+        "is_rush": true,
+        "deposition_notice": [
+            {
+                "filename": "Marsh89.pdf"
+            },
+            {
+                "filename": "Boyle20.pdf"
+            },
+            {
+                "filename": "Maynard11.pdf"
+            },
+            {
+                "filename": "Best39.pdf"
+            },
+            {
+                "filename": "Guy30.pdf"
+            }
+        ],
+        "comments": "ullamco est ipsum nulla sunt pariatur tempor"
+    }
+]

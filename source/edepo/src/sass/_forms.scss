@@ -1,0 +1,53 @@
+/* FORMS */
+
+//Custom Checkboxes styles
+.custom-radio,
+.custom-checkbox {
+	padding-left: 0;
+	+ .custom-radio,
+	+ .custom-checkbox {
+		margin-left: 20px;
+	}
+	[class*='custom-icon-'] {
+		display: inline-block;
+		width: 22px;
+		height: 22px;
+		border: 1px solid $site-color-manatee;
+		vertical-align: middle;
+		text-align: center;
+		margin-right: 5px;
+	}
+	.custom-icon-radio {
+		border-radius: 50%;
+	}
+	input[type='radio'],
+	input[type='checkbox'] {
+		position: absolute;
+		left: -9999px;
+		visibility: hidden;
+		&:checked {
+			+ [class*='custom-icon-'] {
+				background: $site-color-sushi;
+				border-color: $site-color-sushi;
+				text-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+				&:before {
+					font-family: 'fontello';
+					color: $site-color-white;
+					line-height: 1.429rem;
+					vertical-align: top;
+					font-size: 0.714rem;
+				}
+			}
+			+ .custom-icon-radio {
+				&:before {
+					content: '\e815';
+				}
+			}
+			+ .custom-icon-checkbox {
+				&:before {
+					content: '\e817';
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,3090 @@
+[
+    {
+        "attorneys": "Estes Greer, Jimenez Knapp",
+        "court": "Finzel City Court",
+        "created": "Tue, Apr 1, 2014 12:59 PM",
+        "defendant": "Sue Cruz",
+        "deleted": false,
+        "deleted_timestamp": "",
+        "id": 6,
+        "modified": "Tue, May 27, 2014 8:20 AM",
+        "name": "Hensley Floyd v. Carroll Woodard",
+        "plaintiff": "Donovan Gill",
+        "resource_uri": "/api/v1/case/6",
+        "depositions": [
+            {
+                "id": 2,
+                "created": "Wed, Apr 23, 2014 6:20 AM",
+                "deponent": "Reyna Henderson",
+                "deposition_date": "Thu, Feb 13, 2014 7:13 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Hopkins Carson",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Joann Howell",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Gail Berger",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/6"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Rachael Francis",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Ewing Morales",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Brock Sosa",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Richards Lopez",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/4"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 1,
+                        "name": "Sherry Mendez",
+                        "resource_uri": "/api/v1/exhibit/1",
+                        "transcript": "/api/v1/transcript/4"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "William White",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 1,
+                        "name": "Cornelia Dillon",
+                        "resource_uri": "/api/v1/exhibit/1",
+                        "transcript": "/api/v1/transcript/2"
+                    }
+                ],
+                "modified": "Mon, Jun 9, 2014 2:52 AM",
+                "resource_uri": "/api/v1/transcript/2",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 7,
+                "created": "Thu, Sep 25, 2014 8:33 AM",
+                "deponent": "Olsen Moody",
+                "deposition_date": "Mon, Jan 20, 2014 12:29 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 2,
+                        "name": "Guthrie Russell",
+                        "resource_uri": "/api/v1/exhibit/2",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 2,
+                        "name": "Hunt Ramsey",
+                        "resource_uri": "/api/v1/exhibit/2",
+                        "transcript": "/api/v1/transcript/10"
+                    }
+                ],
+                "modified": "Mon, Aug 11, 2014 9:19 PM",
+                "resource_uri": "/api/v1/transcript/7",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 4,
+                "created": "Sat, May 24, 2014 11:29 PM",
+                "deponent": "Guerrero Fleming",
+                "deposition_date": "Mon, Jun 23, 2014 11:18 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Miriam Rogers",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Malone Valentine",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/3"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Sophie Kline",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Calhoun Jensen",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Tillman Ayala",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Lynch Burris",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 1,
+                        "name": "Ferguson Dunn",
+                        "resource_uri": "/api/v1/exhibit/1",
+                        "transcript": "/api/v1/transcript/10"
+                    }
+                ],
+                "modified": "Tue, Jun 24, 2014 4:05 PM",
+                "resource_uri": "/api/v1/transcript/4",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 3,
+                "created": "Fri, Jan 3, 2014 6:53 AM",
+                "deponent": "Eliza Kim",
+                "deposition_date": "Sun, Jun 15, 2014 4:23 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Carter Walters",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Sears Perkins",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/4"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Alyson Adams",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/4"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Christi Petersen",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Christie Conley",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/3"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 2,
+                        "name": "Stella Mathews",
+                        "resource_uri": "/api/v1/exhibit/2",
+                        "transcript": "/api/v1/transcript/3"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Cole Benjamin",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/8"
+                    }
+                ],
+                "modified": "Tue, Jun 10, 2014 2:49 PM",
+                "resource_uri": "/api/v1/transcript/3",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 4,
+                "created": "Sat, Aug 30, 2014 12:57 AM",
+                "deponent": "Lee House",
+                "deposition_date": "Mon, Jul 14, 2014 1:57 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 1,
+                        "name": "Dena Workman",
+                        "resource_uri": "/api/v1/exhibit/1",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Luella Bartlett",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/1"
+                    }
+                ],
+                "modified": "Sun, May 4, 2014 2:38 AM",
+                "resource_uri": "/api/v1/transcript/4",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 8,
+                "created": "Fri, Jun 6, 2014 3:28 PM",
+                "deponent": "Marissa Wright",
+                "deposition_date": "Sat, May 10, 2014 12:26 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Abbott Rodriguez",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Jannie Bowman",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Maura Mclean",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Susan Potts",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Marsha Hester",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Mason Stevens",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/6"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 2,
+                        "name": "Cathleen Reed",
+                        "resource_uri": "/api/v1/exhibit/2",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Laurel Stanley",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Rosemarie Ramos",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/2"
+                    }
+                ],
+                "modified": "Mon, Jul 14, 2014 11:07 AM",
+                "resource_uri": "/api/v1/transcript/8",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            }
+        ]
+    },
+    {
+        "attorneys": "Viola Kerr, Andrews Mckenzie",
+        "court": "Cashtown City Court",
+        "created": "Thu, Jun 26, 2014 11:24 AM",
+        "defendant": "Bradshaw Curtis",
+        "deleted": false,
+        "deleted_timestamp": "",
+        "id": 6,
+        "modified": "Wed, Oct 15, 2014 10:50 AM",
+        "name": "Hodge Roberts v. Quinn Holcomb",
+        "plaintiff": "Dotson Lindsay",
+        "resource_uri": "/api/v1/case/6",
+        "depositions": [
+            {
+                "id": 10,
+                "created": "Wed, Sep 10, 2014 10:02 AM",
+                "deponent": "Louise Medina",
+                "deposition_date": "Thu, Oct 16, 2014 3:19 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Blanca Hanson",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Jeannette Britt",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "James Dodson",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/4"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 2,
+                        "name": "Hebert Fry",
+                        "resource_uri": "/api/v1/exhibit/2",
+                        "transcript": "/api/v1/transcript/4"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Imogene Pena",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/1"
+                    }
+                ],
+                "modified": "Sat, Jan 11, 2014 7:28 AM",
+                "resource_uri": "/api/v1/transcript/10",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 7,
+                "created": "Wed, Feb 5, 2014 5:13 AM",
+                "deponent": "Ericka Ruiz",
+                "deposition_date": "Mon, Sep 15, 2014 9:38 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Angelique Mayo",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Vera Melendez",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Salinas Head",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Dejesus Miles",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/8"
+                    }
+                ],
+                "modified": "Mon, Mar 10, 2014 12:04 AM",
+                "resource_uri": "/api/v1/transcript/7",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 10,
+                "created": "Mon, Feb 10, 2014 12:00 AM",
+                "deponent": "Miranda Guy",
+                "deposition_date": "Thu, Jan 16, 2014 10:50 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Jessie Kinney",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/3"
+                    }
+                ],
+                "modified": "Tue, Aug 5, 2014 9:16 PM",
+                "resource_uri": "/api/v1/transcript/10",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 3,
+                "created": "Wed, Apr 16, 2014 6:02 PM",
+                "deponent": "King Zamora",
+                "deposition_date": "Wed, Jul 30, 2014 2:59 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Sofia Graves",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/6"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Melinda Dominguez",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Taylor Lynn",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 2,
+                        "name": "Haynes Mejia",
+                        "resource_uri": "/api/v1/exhibit/2",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Cote Mccormick",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 1,
+                        "name": "Madeleine Dawson",
+                        "resource_uri": "/api/v1/exhibit/1",
+                        "transcript": "/api/v1/transcript/2"
+                    }
+                ],
+                "modified": "Thu, May 22, 2014 12:46 PM",
+                "resource_uri": "/api/v1/transcript/3",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 5,
+                "created": "Wed, Apr 2, 2014 2:35 PM",
+                "deponent": "Fisher Rivers",
+                "deposition_date": "Fri, Mar 14, 2014 2:03 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Day Oconnor",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/3"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Hyde Newton",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Nguyen James",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/7"
+                    }
+                ],
+                "modified": "Fri, May 9, 2014 8:11 PM",
+                "resource_uri": "/api/v1/transcript/5",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            }
+        ]
+    },
+    {
+        "attorneys": "Jennie Clay, Latonya Buckley",
+        "court": "Clarence City Court",
+        "created": "Sat, May 31, 2014 7:17 PM",
+        "defendant": "Simmons Randolph",
+        "deleted": false,
+        "deleted_timestamp": "",
+        "id": 5,
+        "modified": "Tue, Apr 15, 2014 3:17 PM",
+        "name": "Amalia Combs v. Leigh Bradshaw",
+        "plaintiff": "Duffy Rollins",
+        "resource_uri": "/api/v1/case/5",
+        "depositions": [
+            {
+                "id": 3,
+                "created": "Thu, May 15, 2014 6:21 AM",
+                "deponent": "Waller Brooks",
+                "deposition_date": "Tue, Feb 18, 2014 7:23 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 1,
+                        "name": "Webster Santos",
+                        "resource_uri": "/api/v1/exhibit/1",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Glenna Stark",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Gallegos Gibson",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Brennan Marks",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 1,
+                        "name": "Zimmerman Stone",
+                        "resource_uri": "/api/v1/exhibit/1",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 2,
+                        "name": "Clarice Chapman",
+                        "resource_uri": "/api/v1/exhibit/2",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Arline Phillips",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/4"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Bartlett Clayton",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/3"
+                    }
+                ],
+                "modified": "Thu, Sep 4, 2014 6:49 AM",
+                "resource_uri": "/api/v1/transcript/3",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 9,
+                "created": "Sat, Aug 23, 2014 8:06 PM",
+                "deponent": "Celina Sparks",
+                "deposition_date": "Wed, Feb 12, 2014 7:57 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Alexandra Carroll",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Lina Langley",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/1"
+                    }
+                ],
+                "modified": "Fri, Apr 18, 2014 5:49 PM",
+                "resource_uri": "/api/v1/transcript/9",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 1,
+                "created": "Wed, Aug 13, 2014 8:27 AM",
+                "deponent": "Leann Frazier",
+                "deposition_date": "Tue, Jan 28, 2014 1:42 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Lindsey Collier",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 1,
+                        "name": "Chambers Jarvis",
+                        "resource_uri": "/api/v1/exhibit/1",
+                        "transcript": "/api/v1/transcript/4"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Stanley Vaughn",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Stokes Ball",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/4"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Malinda Bernard",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/3"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Althea Shepherd",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Luisa Porter",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Constance Holmes",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/2"
+                    }
+                ],
+                "modified": "Mon, Jul 28, 2014 1:06 PM",
+                "resource_uri": "/api/v1/transcript/1",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 6,
+                "created": "Sun, Apr 13, 2014 10:39 AM",
+                "deponent": "Gardner Cohen",
+                "deposition_date": "Tue, May 20, 2014 3:15 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Esperanza Garrison",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Elva Estes",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Valenzuela Rice",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Catalina Dickerson",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Whitney Mcintyre",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 1,
+                        "name": "Carlson Bates",
+                        "resource_uri": "/api/v1/exhibit/1",
+                        "transcript": "/api/v1/transcript/9"
+                    }
+                ],
+                "modified": "Wed, May 14, 2014 11:52 PM",
+                "resource_uri": "/api/v1/transcript/6",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 8,
+                "created": "Fri, Feb 28, 2014 9:11 PM",
+                "deponent": "Katy Marsh",
+                "deposition_date": "Thu, Mar 20, 2014 6:48 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Price Gray",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/6"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Cotton Moses",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 2,
+                        "name": "Chan Michael",
+                        "resource_uri": "/api/v1/exhibit/2",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Tommie Mercado",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Bowen Hicks",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Bailey Witt",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/5"
+                    }
+                ],
+                "modified": "Sat, Jul 19, 2014 6:56 AM",
+                "resource_uri": "/api/v1/transcript/8",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 8,
+                "created": "Thu, Feb 27, 2014 3:59 PM",
+                "deponent": "Lupe Hensley",
+                "deposition_date": "Wed, Aug 6, 2014 10:55 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Josefina Alston",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Angelia Hale",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "James Valencia",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Kim Hawkins",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 2,
+                        "name": "Haley Blankenship",
+                        "resource_uri": "/api/v1/exhibit/2",
+                        "transcript": "/api/v1/transcript/3"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Goodwin Benton",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/8"
+                    }
+                ],
+                "modified": "Thu, Aug 28, 2014 9:00 AM",
+                "resource_uri": "/api/v1/transcript/8",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 4,
+                "created": "Mon, Feb 10, 2014 5:27 PM",
+                "deponent": "Jewell Sloan",
+                "deposition_date": "Thu, May 29, 2014 3:28 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Freda Acosta",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/9"
+                    }
+                ],
+                "modified": "Fri, Jan 31, 2014 7:30 AM",
+                "resource_uri": "/api/v1/transcript/4",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 3,
+                "created": "Tue, Mar 18, 2014 12:22 PM",
+                "deponent": "Sanford Coffey",
+                "deposition_date": "Tue, Oct 7, 2014 8:53 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Ellis Fowler",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Julia Bridges",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/6"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Kathy Page",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Britney Conrad",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/6"
+                    }
+                ],
+                "modified": "Wed, May 7, 2014 8:41 AM",
+                "resource_uri": "/api/v1/transcript/3",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 6,
+                "created": "Sat, Aug 16, 2014 4:01 AM",
+                "deponent": "Carolyn Castillo",
+                "deposition_date": "Thu, Jan 23, 2014 8:53 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Tyler Paul",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Whitehead Berg",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "French Figueroa",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Etta Spears",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/4"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Caitlin Cline",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Bridges Andrews",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/4"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Parsons Lewis",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/3"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Dixie Payne",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/5"
+                    }
+                ],
+                "modified": "Mon, Sep 22, 2014 5:52 AM",
+                "resource_uri": "/api/v1/transcript/6",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 7,
+                "created": "Tue, May 13, 2014 5:25 PM",
+                "deponent": "Michele Carlson",
+                "deposition_date": "Sat, Sep 6, 2014 12:54 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 2,
+                        "name": "Rita Mcpherson",
+                        "resource_uri": "/api/v1/exhibit/2",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Fleming Avery",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/3"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Kidd Finley",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/6"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Moore Finch",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Genevieve Clarke",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/10"
+                    }
+                ],
+                "modified": "Sun, May 25, 2014 3:20 PM",
+                "resource_uri": "/api/v1/transcript/7",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            }
+        ]
+    },
+    {
+        "attorneys": "Summer Deleon, Cooke Wiggins",
+        "court": "Riceville City Court",
+        "created": "Mon, Apr 28, 2014 5:54 PM",
+        "defendant": "Dixon Brady",
+        "deleted": false,
+        "deleted_timestamp": "",
+        "id": 5,
+        "modified": "Wed, Feb 5, 2014 8:35 PM",
+        "name": "Clay Edwards v. Hunter Stout",
+        "plaintiff": "Carly Terrell",
+        "resource_uri": "/api/v1/case/5",
+        "depositions": [
+            {
+                "id": 10,
+                "created": "Sun, Mar 30, 2014 2:12 PM",
+                "deponent": "Cora Mack",
+                "deposition_date": "Wed, Feb 5, 2014 5:21 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Mcdonald Justice",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/4"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Yang Vinson",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/1"
+                    }
+                ],
+                "modified": "Wed, Apr 2, 2014 7:43 PM",
+                "resource_uri": "/api/v1/transcript/10",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 8,
+                "created": "Thu, Jan 23, 2014 5:20 PM",
+                "deponent": "Battle Kirkland",
+                "deposition_date": "Sun, Jun 22, 2014 8:01 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 2,
+                        "name": "Cline Delaney",
+                        "resource_uri": "/api/v1/exhibit/2",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Watson Bennett",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/3"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Gomez Livingston",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/4"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Penny Wilkins",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/4"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Melissa Curry",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Kimberly Elliott",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Deborah Horton",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/3"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Houston Morris",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Knox Espinoza",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/4"
+                    }
+                ],
+                "modified": "Wed, Mar 5, 2014 8:06 AM",
+                "resource_uri": "/api/v1/transcript/8",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            }
+        ]
+    },
+    {
+        "attorneys": "Cash Anderson, Kelly Padilla",
+        "court": "Yonah City Court",
+        "created": "Sat, Feb 15, 2014 11:58 PM",
+        "defendant": "Denise Savage",
+        "deleted": false,
+        "deleted_timestamp": "",
+        "id": 10,
+        "modified": "Thu, Oct 2, 2014 10:58 AM",
+        "name": "Adriana Ochoa v. Phelps Terry",
+        "plaintiff": "Stephenson Freeman",
+        "resource_uri": "/api/v1/case/10",
+        "depositions": [
+            {
+                "id": 2,
+                "created": "Wed, Apr 16, 2014 6:45 PM",
+                "deponent": "Roth Randall",
+                "deposition_date": "Sat, Sep 13, 2014 12:05 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Selena Jackson",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Lucia Sanchez",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Delia French",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Melisa Mccray",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/2"
+                    }
+                ],
+                "modified": "Sat, Jul 19, 2014 10:29 PM",
+                "resource_uri": "/api/v1/transcript/2",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 10,
+                "created": "Thu, Jul 17, 2014 7:06 AM",
+                "deponent": "Alisa Barnes",
+                "deposition_date": "Fri, Apr 25, 2014 3:42 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Robbins Kirby",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 1,
+                        "name": "May Welch",
+                        "resource_uri": "/api/v1/exhibit/1",
+                        "transcript": "/api/v1/transcript/2"
+                    }
+                ],
+                "modified": "Sat, Sep 20, 2014 3:39 AM",
+                "resource_uri": "/api/v1/transcript/10",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 3,
+                "created": "Mon, Jul 14, 2014 7:21 PM",
+                "deponent": "Tamra Pickett",
+                "deposition_date": "Mon, Feb 10, 2014 11:00 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Crane Beard",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Rhonda Bush",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 1,
+                        "name": "Bauer Jordan",
+                        "resource_uri": "/api/v1/exhibit/1",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Bette Nielsen",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/6"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Newton Flores",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 1,
+                        "name": "Ingrid Goodwin",
+                        "resource_uri": "/api/v1/exhibit/1",
+                        "transcript": "/api/v1/transcript/3"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Millie Aguirre",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/6"
+                    }
+                ],
+                "modified": "Thu, Jul 3, 2014 8:18 PM",
+                "resource_uri": "/api/v1/transcript/3",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 4,
+                "created": "Wed, Jun 18, 2014 4:38 PM",
+                "deponent": "Anderson Vaughan",
+                "deposition_date": "Thu, Jun 5, 2014 1:50 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Krista Kemp",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Foreman Frye",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Fry Whitehead",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Baldwin Wilder",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Wendi Campos",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/6"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Patty Mcclure",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/4"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Mccarty Mccarthy",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 1,
+                        "name": "Joan Simon",
+                        "resource_uri": "/api/v1/exhibit/1",
+                        "transcript": "/api/v1/transcript/1"
+                    }
+                ],
+                "modified": "Mon, Mar 31, 2014 3:16 AM",
+                "resource_uri": "/api/v1/transcript/4",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 2,
+                "created": "Sat, Mar 1, 2014 1:21 AM",
+                "deponent": "Fern Crawford",
+                "deposition_date": "Wed, May 28, 2014 6:00 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Nora Brennan",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/6"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Shari Stokes",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Julie Shields",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Keisha Watkins",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Ava Mcknight",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/4"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Kimberley Fox",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Tamara Baldwin",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Mcmillan Powers",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/4"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Tisha Joyner",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Margie Hines",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/3"
+                    }
+                ],
+                "modified": "Wed, Jun 18, 2014 11:23 AM",
+                "resource_uri": "/api/v1/transcript/2",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 1,
+                "created": "Mon, Jun 2, 2014 4:36 AM",
+                "deponent": "Lauri Dean",
+                "deposition_date": "Wed, May 21, 2014 10:42 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Madeline Ortega",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/3"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Jodi Burke",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/4"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Duncan Sandoval",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Stacy Sexton",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/5"
+                    }
+                ],
+                "modified": "Wed, Jun 4, 2014 11:54 PM",
+                "resource_uri": "/api/v1/transcript/1",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            }
+        ]
+    },
+    {
+        "attorneys": "Tate Peterson, Osborn Harper",
+        "court": "Salunga City Court",
+        "created": "Wed, Jun 18, 2014 10:09 PM",
+        "defendant": "Villarreal Love",
+        "deleted": false,
+        "deleted_timestamp": "",
+        "id": 1,
+        "modified": "Fri, Jan 24, 2014 10:35 PM",
+        "name": "Oconnor Butler v. Yvonne King",
+        "plaintiff": "Louella Mcgowan",
+        "resource_uri": "/api/v1/case/1",
+        "depositions": [
+            {
+                "id": 3,
+                "created": "Fri, Mar 21, 2014 2:27 AM",
+                "deponent": "Edna Landry",
+                "deposition_date": "Fri, Sep 5, 2014 5:52 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Rogers Mccullough",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Nelson Rhodes",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Karina Walls",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 1,
+                        "name": "Tia Haley",
+                        "resource_uri": "/api/v1/exhibit/1",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Betty Delgado",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Leonard Mckay",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/6"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Douglas Oliver",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Kline Alvarado",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/3"
+                    }
+                ],
+                "modified": "Sat, Aug 9, 2014 2:52 PM",
+                "resource_uri": "/api/v1/transcript/3",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            }
+        ]
+    },
+    {
+        "attorneys": "Vazquez Torres, Vasquez Howard",
+        "court": "Riegelwood City Court",
+        "created": "Sun, Sep 14, 2014 9:01 PM",
+        "defendant": "Dickson Melton",
+        "deleted": false,
+        "deleted_timestamp": "",
+        "id": 1,
+        "modified": "Tue, Mar 4, 2014 10:49 AM",
+        "name": "Patton Martin v. House Wyatt",
+        "plaintiff": "Stuart Bradley",
+        "resource_uri": "/api/v1/case/1",
+        "depositions": [
+            {
+                "id": 2,
+                "created": "Sun, Mar 23, 2014 3:28 PM",
+                "deponent": "Shawn Tanner",
+                "deposition_date": "Wed, Mar 26, 2014 3:04 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Merrill Branch",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Morgan Carver",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Reba Holden",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Mccray Rodgers",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Ophelia Lamb",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/3"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Goodman Wise",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Lyons Gross",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 2,
+                        "name": "Beth Fulton",
+                        "resource_uri": "/api/v1/exhibit/2",
+                        "transcript": "/api/v1/transcript/2"
+                    }
+                ],
+                "modified": "Sun, Sep 21, 2014 8:34 PM",
+                "resource_uri": "/api/v1/transcript/2",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 10,
+                "created": "Thu, Apr 3, 2014 3:11 AM",
+                "deponent": "Maddox Mcintosh",
+                "deposition_date": "Sat, May 10, 2014 1:03 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Diaz Hurst",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Brenda Parsons",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Carey Snyder",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 2,
+                        "name": "Louisa Cash",
+                        "resource_uri": "/api/v1/exhibit/2",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Keri Burch",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Gray Fernandez",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/8"
+                    }
+                ],
+                "modified": "Sat, Mar 1, 2014 4:24 PM",
+                "resource_uri": "/api/v1/transcript/10",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 10,
+                "created": "Thu, May 29, 2014 3:33 AM",
+                "deponent": "Odonnell Atkins",
+                "deposition_date": "Sun, Jun 8, 2014 10:53 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Stephens Watson",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Vilma Robertson",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/3"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Terry Lawrence",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Thelma Carpenter",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Debora Franks",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/6"
+                    }
+                ],
+                "modified": "Wed, Mar 19, 2014 4:05 AM",
+                "resource_uri": "/api/v1/transcript/10",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 7,
+                "created": "Thu, May 1, 2014 3:19 PM",
+                "deponent": "Allison Spencer",
+                "deposition_date": "Sun, Feb 9, 2014 4:23 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 1,
+                        "name": "Kerry Clemons",
+                        "resource_uri": "/api/v1/exhibit/1",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 2,
+                        "name": "Goff Guzman",
+                        "resource_uri": "/api/v1/exhibit/2",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Shauna Weiss",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Simpson Foreman",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/3"
+                    }
+                ],
+                "modified": "Sat, Jan 25, 2014 5:23 PM",
+                "resource_uri": "/api/v1/transcript/7",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 2,
+                "created": "Wed, Sep 3, 2014 2:08 AM",
+                "deponent": "Ana Robinson",
+                "deposition_date": "Wed, Jan 15, 2014 2:53 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Cameron Goff",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Rivers Pittman",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Connie Vasquez",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Maryann Burton",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Manning Montoya",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Aisha Hernandez",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Sybil Mosley",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/10"
+                    }
+                ],
+                "modified": "Tue, Sep 23, 2014 8:28 AM",
+                "resource_uri": "/api/v1/transcript/2",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 5,
+                "created": "Fri, Apr 4, 2014 3:47 AM",
+                "deponent": "Matilda Davis",
+                "deposition_date": "Fri, Sep 5, 2014 11:28 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Marie Sullivan",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Shannon Chan",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Myers Pope",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 2,
+                        "name": "Christy Joseph",
+                        "resource_uri": "/api/v1/exhibit/2",
+                        "transcript": "/api/v1/transcript/6"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Valarie Chase",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 2,
+                        "name": "Karla Allison",
+                        "resource_uri": "/api/v1/exhibit/2",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Stafford Wall",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/3"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Araceli Armstrong",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Whitley Monroe",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Pierce Wagner",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/7"
+                    }
+                ],
+                "modified": "Thu, Jan 2, 2014 9:53 AM",
+                "resource_uri": "/api/v1/transcript/5",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 3,
+                "created": "Wed, Aug 6, 2014 2:57 PM",
+                "deponent": "Frost Wilcox",
+                "deposition_date": "Wed, Sep 17, 2014 6:11 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 1,
+                        "name": "Barnes Tate",
+                        "resource_uri": "/api/v1/exhibit/1",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Rosie Steele",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Gentry Fitzgerald",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Cecelia Mullen",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/6"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Alberta Lucas",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Ware Schwartz",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Sparks Douglas",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/6"
+                    }
+                ],
+                "modified": "Mon, Jun 2, 2014 9:41 AM",
+                "resource_uri": "/api/v1/transcript/3",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 7,
+                "created": "Fri, Sep 5, 2014 3:54 PM",
+                "deponent": "Spears Patterson",
+                "deposition_date": "Mon, Apr 28, 2014 2:07 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Mari Rowland",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Grimes Beasley",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Wanda Frederick",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/4"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Walls Mooney",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Powers Velez",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Wheeler Farley",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Mattie Gallagher",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Hurley Lynch",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Sharlene Rosario",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Ray Rios",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/8"
+                    }
+                ],
+                "modified": "Tue, Mar 25, 2014 5:59 PM",
+                "resource_uri": "/api/v1/transcript/7",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            }
+        ]
+    },
+    {
+        "attorneys": "Ryan Raymond, Meredith Barrera",
+        "court": "Jacksonburg City Court",
+        "created": "Wed, Mar 5, 2014 2:58 AM",
+        "defendant": "Minnie Walton",
+        "deleted": false,
+        "deleted_timestamp": "",
+        "id": 10,
+        "modified": "Thu, May 8, 2014 10:13 AM",
+        "name": "Strong Obrien v. Eula Brown",
+        "plaintiff": "Bates Hays",
+        "resource_uri": "/api/v1/case/10",
+        "depositions": [
+            {
+                "id": 4,
+                "created": "Wed, Apr 16, 2014 11:01 AM",
+                "deponent": "Carver Larsen",
+                "deposition_date": "Mon, Jan 6, 2014 8:31 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Alfreda Mcmahon",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Michael Nunez",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/6"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 1,
+                        "name": "Velez Hobbs",
+                        "resource_uri": "/api/v1/exhibit/1",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Leanna Cobb",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Bernard Horn",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/6"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 2,
+                        "name": "Atkinson George",
+                        "resource_uri": "/api/v1/exhibit/2",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Tammi Green",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Woods Banks",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/6"
+                    }
+                ],
+                "modified": "Tue, Apr 29, 2014 11:48 PM",
+                "resource_uri": "/api/v1/transcript/4",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 9,
+                "created": "Wed, Jul 9, 2014 11:38 AM",
+                "deponent": "Love Wheeler",
+                "deposition_date": "Sun, Apr 6, 2014 5:43 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Vicky Pratt",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/3"
+                    }
+                ],
+                "modified": "Fri, Aug 29, 2014 8:54 PM",
+                "resource_uri": "/api/v1/transcript/9",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            }
+        ]
+    },
+    {
+        "attorneys": "Cantu Chavez, Yesenia Hudson",
+        "court": "Movico City Court",
+        "created": "Sat, Apr 12, 2014 11:20 AM",
+        "defendant": "Shaffer Fischer",
+        "deleted": false,
+        "deleted_timestamp": "",
+        "id": 9,
+        "modified": "Tue, Sep 23, 2014 1:42 PM",
+        "name": "Floyd Cotton v. Essie Bradford",
+        "plaintiff": "Willa Molina",
+        "resource_uri": "/api/v1/case/9",
+        "depositions": [
+            {
+                "id": 7,
+                "created": "Fri, Aug 15, 2014 10:43 PM",
+                "deponent": "Case York",
+                "deposition_date": "Sun, May 11, 2014 7:26 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Margaret Drake",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/6"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Yates Gilmore",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Miranda Griffin",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Maggie Whitley",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Ochoa Barry",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/8"
+                    }
+                ],
+                "modified": "Fri, May 16, 2014 7:09 PM",
+                "resource_uri": "/api/v1/transcript/7",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 5,
+                "created": "Sat, Aug 23, 2014 12:54 AM",
+                "deponent": "Gilda Ferguson",
+                "deposition_date": "Fri, Feb 14, 2014 8:56 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Kirsten Guthrie",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/6"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Alice Tucker",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Stone Lowery",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Eunice Parrish",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Natalie Harrison",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/1"
+                    }
+                ],
+                "modified": "Thu, May 22, 2014 7:07 AM",
+                "resource_uri": "/api/v1/transcript/5",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 7,
+                "created": "Sat, Jan 11, 2014 5:24 PM",
+                "deponent": "Geneva Phelps",
+                "deposition_date": "Mon, Jun 2, 2014 9:27 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Conrad Calderon",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/7"
+                    }
+                ],
+                "modified": "Fri, Feb 28, 2014 6:19 PM",
+                "resource_uri": "/api/v1/transcript/7",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 9,
+                "created": "Fri, Feb 21, 2014 1:05 AM",
+                "deponent": "Emerson Henson",
+                "deposition_date": "Wed, Apr 16, 2014 3:05 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 2,
+                        "name": "Flora Hendrix",
+                        "resource_uri": "/api/v1/exhibit/2",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 8,
+                        "name": "Hartman Nguyen",
+                        "resource_uri": "/api/v1/exhibit/8",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Pruitt Blevins",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Holmes Chaney",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/1"
+                    }
+                ],
+                "modified": "Fri, May 2, 2014 1:15 AM",
+                "resource_uri": "/api/v1/transcript/9",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            }
+        ]
+    },
+    {
+        "attorneys": "Tessa Diaz, Isabel Wilson",
+        "court": "Grayhawk City Court",
+        "created": "Wed, Mar 19, 2014 1:05 AM",
+        "defendant": "Kerri Newman",
+        "deleted": false,
+        "deleted_timestamp": "",
+        "id": 9,
+        "modified": "Mon, Jan 13, 2014 3:39 PM",
+        "name": "Boyer Mcguire v. Koch Maynard",
+        "plaintiff": "Savage Garza",
+        "resource_uri": "/api/v1/case/9",
+        "depositions": [
+            {
+                "id": 8,
+                "created": "Mon, May 12, 2014 1:49 AM",
+                "deponent": "Lynette Murray",
+                "deposition_date": "Thu, May 22, 2014 9:03 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Muriel Morin",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Snow Tran",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Sanchez Mcleod",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Ada Nichols",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Banks Richardson",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Lydia Rosales",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Marla Blackwell",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/3"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Galloway Warner",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Frieda Fuentes",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Alyce Potter",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/8"
+                    }
+                ],
+                "modified": "Sun, Feb 9, 2014 7:43 AM",
+                "resource_uri": "/api/v1/transcript/8",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 7,
+                "created": "Wed, Jul 2, 2014 2:22 AM",
+                "deponent": "Enid Turner",
+                "deposition_date": "Sun, Sep 28, 2014 10:07 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Blackwell Brock",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 1,
+                        "name": "Wall Sanders",
+                        "resource_uri": "/api/v1/exhibit/1",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Darcy Maddox",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Bettye Stephenson",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/3"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Erika Goodman",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Pickett Ware",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/6"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Jones Whitfield",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Audra Bowen",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 2,
+                        "name": "Booth Rosa",
+                        "resource_uri": "/api/v1/exhibit/2",
+                        "transcript": "/api/v1/transcript/3"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Hutchinson Buck",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/3"
+                    }
+                ],
+                "modified": "Thu, Apr 10, 2014 7:32 AM",
+                "resource_uri": "/api/v1/transcript/7",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 9,
+                "created": "Mon, Mar 3, 2014 4:13 PM",
+                "deponent": "Rosetta Moon",
+                "deposition_date": "Sat, Feb 1, 2014 12:18 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Nieves Madden",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Isabella Johnston",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/4"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Nichole Sampson",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/3"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 1,
+                        "name": "Bethany Casey",
+                        "resource_uri": "/api/v1/exhibit/1",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "Maria Weber",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 4,
+                        "name": "White Davenport",
+                        "resource_uri": "/api/v1/exhibit/4",
+                        "transcript": "/api/v1/transcript/7"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Cooley Clements",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/6"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Scott Gates",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/8"
+                    }
+                ],
+                "modified": "Tue, Sep 30, 2014 1:20 PM",
+                "resource_uri": "/api/v1/transcript/9",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 7,
+                "created": "Wed, Sep 10, 2014 5:33 PM",
+                "deponent": "Beryl Christensen",
+                "deposition_date": "Sat, Apr 5, 2014 4:17 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Elvia Hoffman",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Callie Benson",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/10"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 5,
+                        "name": "Lesley Dickson",
+                        "resource_uri": "/api/v1/exhibit/5",
+                        "transcript": "/api/v1/transcript/3"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 1,
+                        "name": "Lauren Sims",
+                        "resource_uri": "/api/v1/exhibit/1",
+                        "transcript": "/api/v1/transcript/4"
+                    }
+                ],
+                "modified": "Sat, Aug 9, 2014 2:13 AM",
+                "resource_uri": "/api/v1/transcript/7",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 3,
+                "created": "Sun, Jul 6, 2014 1:28 PM",
+                "deponent": "Anna Hood",
+                "deposition_date": "Mon, Oct 6, 2014 2:27 PM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Finch Todd",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/5"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 7,
+                        "name": "Kaufman Burt",
+                        "resource_uri": "/api/v1/exhibit/7",
+                        "transcript": "/api/v1/transcript/1"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 9,
+                        "name": "Wyatt Puckett",
+                        "resource_uri": "/api/v1/exhibit/9",
+                        "transcript": "/api/v1/transcript/2"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 1,
+                        "name": "Elsa Guerra",
+                        "resource_uri": "/api/v1/exhibit/1",
+                        "transcript": "/api/v1/transcript/4"
+                    }
+                ],
+                "modified": "Sat, May 17, 2014 4:18 PM",
+                "resource_uri": "/api/v1/transcript/3",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            },
+            {
+                "id": 10,
+                "created": "Wed, Jul 2, 2014 11:12 PM",
+                "deponent": "Lawanda Haney",
+                "deposition_date": "Thu, Apr 24, 2014 3:31 AM",
+                "encoded_video": "/static/video.mp4",
+                "exhibits": [
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Sandoval Franklin",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/9"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 10,
+                        "name": "Bright Aguilar",
+                        "resource_uri": "/api/v1/exhibit/10",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 6,
+                        "name": "Maynard Pruitt",
+                        "resource_uri": "/api/v1/exhibit/6",
+                        "transcript": "/api/v1/transcript/4"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 2,
+                        "name": "Sheila Hogan",
+                        "resource_uri": "/api/v1/exhibit/2",
+                        "transcript": "/api/v1/transcript/8"
+                    },
+                    {
+                        "description": "",
+                        "file": "/static/exhibits.pdf",
+                        "id": 3,
+                        "name": "Elena Noble",
+                        "resource_uri": "/api/v1/exhibit/3",
+                        "transcript": "/api/v1/transcript/3"
+                    }
+                ],
+                "modified": "Sun, Jan 26, 2014 4:41 PM",
+                "resource_uri": "/api/v1/transcript/10",
+                "transcript": "/static/transcript.txt",
+                "transcript_xml": "/static/transcript.xml"
+            }
+        ]
+    }
+]

@@ -1,0 +1,88 @@
+/* TYPOGRAPHY */
+html, body {
+	font-family: $body-font-family;
+	font-size: $body-font-size;
+	color: $body-font-color;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-family-regular;
+	font-weight: normal;
+	margin: 0;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+h2 {
+	font-size: 2.571rem;
+	font-family: $font-family-bold;
+	@include respond-to(tablets-small) {
+		font-size: 1.6rem;
+	}
+}
+
+h3 {
+	font-size: 2.000rem;
+}
+
+h4 {
+	font-size: 1.143rem;
+	font-family: $font-family-medium;
+	margin-bottom: 15px;
+}
+
+a {
+	@include transition(150ms);
+	color: $site-color-sushi;
+	text-decoration: none;
+	&:focus {
+		outline: none;
+		text-decoration: none;
+	}
+	&:hover {
+		color: lighten($site-color-sushi, 10%);
+		text-decoration: none;
+	}
+	&:active {
+		color: $site-color-vida-loca;
+	}
+	&.like-btn-height {
+		line-height: 1.286rem;
+		padding: 6px 0;
+	}
+}
+
+p {
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+small {
+	font-size: 0.857rem;
+}
+
+ul {
+	@extend .list-unstyled;
+}
+
+img {
+	&:focus {
+		outline: none;
+	}
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.label-semiblack {
+	display: inline-block;
+	background: rgba($site-color-black, 0.8);
+	color: rgba($site-color-white, 0.4);
+	font-size: 12px;
+	line-height: 16px;
+	padding: 1px 5px;
+}

@@ -1,0 +1,88 @@
+/* VARIABLES */
+
+/* FONTS variables */
+$font-family-light: 'MavenProLight';
+$font-family-regular: 'MavenProRegular';
+$font-family-medium: 'MavenProMedium';
+$font-family-bold: 'MavenProBold';
+
+/* SITE COLORS */
+//for the color names this service was used: http://chir.ag/projects/name-that-color/
+$site-color-white: #ffffff;
+$site-color-black: #000000;
+$site-color-gray: #858585;
+$site-color-scorpion: #5c5c5c;
+$site-color-ship-gray: #34313a;
+$site-color-mercury: #e1e1e1;
+$site-color-baltic-sea: #1a181d;
+$site-color-silver-sand: #bdbebf;
+$site-color-iron: #dcddde;
+$site-color-porcelain: #edeff0;
+$site-color-gray-chateau: #a6a8ab;
+$site-color-mountain-mist: #9a989d;
+$site-color-manatee: #979799;
+$site-color-scarpa-flow: #59595b;
+$site-color-wisteria: #9f65aa;
+$site-color-mine-shaft: #303030;
+$site-color-shark: #1d1d1e;
+$site-color-sushi: #8dc63f;
+$site-color-vida-loca: #588c10;
+$site-color-big-stone: #193640;
+$site-color-cerulean: #00aeef;
+$site-color-picton-blue: #55c1e3;
+$site-color-eastern-blue: #1388b1;
+$site-color-bleached-cedar: #302332;
+$site-color-wisteria: #9f60b5;
+$site-color-trendy-pink: #7f5188;
+$site-color-bossanova: #4f2457;
+$site-color-atoll: #087086;
+$site-color-big-stone: #19353f;
+$site-color-affair: #854f91;
+$site-color-bastille: #2e2230;
+$site-color-flush-mahogany: #c13832;
+$site-color-affair: #7D4B8B;
+$site-color-ming: #3A7084;
+$site-color-tree-poppy: #f6931e;
+$site-color-dove-gray: #666666;
+
+
+
+
+
+/* BODY variables */
+$body-font-family: 'MavenProRegular';
+$body-font-size: 14px;
+$body-font-color: $site-color-baltic-sea;
+
+
+/* OFFCANVAS variables */
+
+
+/* HEADER variables */
+$header-offcanvas-toggle-color: $site-color-white;
+$header-border: $site-color-scorpion;
+
+
+/* BREADCRUMBS variables */
+$breadcrumbs-bg: rgba($site-color-black, 0.8);
+
+
+/* MESAGE HOLDER variables */
+$message-holder-bg: $site-color-white;
+$message-holder-border: $site-color-iron;
+$message-holder-title-color: $site-color-black;
+$message-holder-comments-holder-border: $site-color-iron;
+
+
+/* USERPIC variables */
+$userpic-border: $site-color-white;
+$userpic-shadow: rgba($site-color-black, 0.2);
+
+/* ALERT BADGE */
+$alert-badge-bg-from: $site-color-sushi;
+$alert-badge-bg-to: $site-color-vida-loca;
+$alert-badge-color: $site-color-white;
+
+
+
+

@@ -1,0 +1,7 @@
+{
+    "config": {
+        "isDev": false,
+        "authToken": false,
+        "baseApiUrl": "https://dev.edepo.com/api/v1"
+    }
+}

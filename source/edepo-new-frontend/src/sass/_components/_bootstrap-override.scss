@@ -1,0 +1,15 @@
+/* BOOTSTRAP OVERRIDE */
+* {
+    &:last-child {
+        margin-bottom: 0;
+    }
+    &:focus {
+        text-decoration: none !important;
+
+        outline: none !important;
+    }
+}
+
+ul {
+    @extend .list-unstyled;
+}

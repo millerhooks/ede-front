@@ -1,0 +1,2290 @@
+{
+    "meta": {
+        "limit": 20,
+        "next": "/api/v1/case/?limit=20&offset=20",
+        "offset": 2,
+        "previous": null,
+        "total_count": 28
+    },
+    "objects": [
+        {
+            "id": 69,
+            "name": "\u2279\u222d\u21f2\u2c67\u1d6c\u1d01",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "Kings Court",
+            "attorneys": "",
+            "created": "Mon, 05 May 2014 14:51:19 +0000",
+            "modified": "Mon, 17 Nov 2014 21:53:24 +0000",
+            "depositions": [
+                {
+                    "id": 119,
+                    "case": "/api/v1/case/69/",
+                    "created": "Mon, 05 May 2014 14:53:31 +0000",
+                    "modified": "Thu, 02 Oct 2014 17:43:47 +0000",
+                    "deponent": "\u1d7d\u2188\u00a7\u22c2",
+                    "deposition_date": "Sat, 03 May 1952 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/ac9b969f-94aa-4ec1-9740-73a9d87dfd2b/txt/2014-05-05-095355.txt",
+                    "transcript_xml": "/secured_media/af2d715d-8b78-4b49-8cb3-0a894068850a/xml/2014-10-02-124301.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/119/",
+                    "case_id": 69,
+                    "case_uri": "/api/v1/case/69/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/69/"
+        },
+        {
+            "id": 57,
+            "name": "asdf",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "asdf",
+            "attorneys": "asdf",
+            "created": "Wed, 12 Mar 2014 03:15:15 +0000",
+            "modified": "Wed, 12 Mar 2014 03:15:15 +0000",
+            "depositions": [
+                {
+                    "id": 109,
+                    "case": "/api/v1/case/57/",
+                    "created": "Mon, 07 Apr 2014 19:42:13 +0000",
+                    "modified": "Mon, 07 Apr 2014 19:52:03 +0000",
+                    "deponent": "Darby",
+                    "deposition_date": "Sun, 01 Jan 1950 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/dd5c22af-dd35-44a9-86b2-b552a33e7df0/txt/2014-04-07-144524.txt",
+                    "transcript_xml": "/secured_media/15cbaaaa-f852-4e28-8210-9d654b45f50f/xml/2014-04-07-144556.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/109/",
+                    "case_id": 57,
+                    "case_uri": "/api/v1/case/57/"
+                },
+                {
+                    "id": 105,
+                    "case": "/api/v1/case/57/",
+                    "created": "Tue, 01 Apr 2014 18:31:58 +0000",
+                    "modified": "Tue, 01 Apr 2014 20:12:13 +0000",
+                    "deponent": "Flow Test",
+                    "deposition_date": "Fri, 03 Jan 1958 06:00:00 +0000",
+                    "encoded_video": "/secured_media/7b3a0136-3652-4e9e-a305-03a83ab37e19/mp4/2014-04-01-145053.mp4",
+                    "transcript": "/secured_media/5884316a-806c-422e-9358-3649c831688a/txt/2014-04-01-145017.txt",
+                    "transcript_xml": "/secured_media/81dc214f-867e-4ac1-bea6-0f38a901de8e/xml/2014-04-01-150646.xml",
+                    "exhibits": [],
+                    "segments": [
+                        {
+                            "id": 36,
+                            "original_media": 861,
+                            "encoded_audio": null,
+                            "transcript": 105
+                        }
+                    ],
+                    "resource_uri": "/api/v1/deposition/105/",
+                    "case_id": 57,
+                    "case_uri": "/api/v1/case/57/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/57/"
+        },
+        {
+            "id": 54,
+            "name": "asdf",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "asdf",
+            "attorneys": "ssadf",
+            "created": "Tue, 04 Mar 2014 05:23:05 +0000",
+            "modified": "Tue, 04 Mar 2014 05:23:05 +0000",
+            "depositions": [
+                {
+                    "id": 72,
+                    "case": "/api/v1/case/54/",
+                    "created": "Tue, 04 Mar 2014 05:23:15 +0000",
+                    "modified": "Fri, 07 Mar 2014 00:12:55 +0000",
+                    "deponent": "asdf123",
+                    "deposition_date": "Sat, 02 Feb 1952 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/8dd73109-7dc1-4edd-90a6-49a78f9a6400/txt/2014-03-06-181253.txt",
+                    "transcript_xml": "/secured_media/1bacbc21-e70f-4e35-923e-1a9db357f42a/xml/2014-03-06-181253.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/72/",
+                    "case_id": 54,
+                    "case_uri": "/api/v1/case/54/"
+                },
+                {
+                    "id": 76,
+                    "case": "/api/v1/case/54/",
+                    "created": "Fri, 07 Mar 2014 05:10:51 +0000",
+                    "modified": "Fri, 07 Mar 2014 19:07:20 +0000",
+                    "deponent": "Danger Zone",
+                    "deposition_date": "Sun, 01 Jan 1950 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/f2ba924d-3a91-4fdd-a256-89bc3e1fa850/txt/2014-03-07-130719.txt",
+                    "transcript_xml": "/secured_media/f9f17821-9441-4be1-8240-7cafe4b130c6/xml/2014-03-07-130720.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/76/",
+                    "case_id": 54,
+                    "case_uri": "/api/v1/case/54/"
+                },
+                {
+                    "id": 79,
+                    "case": "/api/v1/case/54/",
+                    "created": "Fri, 07 Mar 2014 15:25:33 +0000",
+                    "modified": "Fri, 07 Mar 2014 15:26:33 +0000",
+                    "deponent": "Disarm you with a smile",
+                    "deposition_date": "Sun, 31 Oct 1982 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/cb13a061-0ee4-4767-b9a5-0c2777c56932/txt/2014-03-07-092556.txt",
+                    "transcript_xml": "/secured_media/e41ec03d-a97c-4659-9276-4965ff4af85d/xml/2014-03-07-092556.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/79/",
+                    "case_id": 54,
+                    "case_uri": "/api/v1/case/54/"
+                },
+                {
+                    "id": 75,
+                    "case": "/api/v1/case/54/",
+                    "created": "Fri, 07 Mar 2014 04:08:35 +0000",
+                    "modified": "Fri, 07 Mar 2014 04:26:55 +0000",
+                    "deponent": "Fifth Piano Concerto",
+                    "deposition_date": "Wed, 13 May 1964 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/aa5554aa-2bb3-4fad-a84a-5d0b05136d6e/txt/2014-03-06-222652.txt",
+                    "transcript_xml": "/secured_media/135a9394-1b68-485b-906b-7992c8320df4/xml/2014-03-06-222653.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/75/",
+                    "case_id": 54,
+                    "case_uri": "/api/v1/case/54/"
+                },
+                {
+                    "id": 77,
+                    "case": "/api/v1/case/54/",
+                    "created": "Fri, 07 Mar 2014 15:05:47 +0000",
+                    "modified": "Fri, 07 Mar 2014 15:18:42 +0000",
+                    "deponent": "Gladiator",
+                    "deposition_date": "Wed, 10 Jan 1979 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/1a3c03ca-9bf8-461d-ab08-9863531bbbaa/txt/2014-03-07-091821.txt",
+                    "transcript_xml": "/secured_media/98742f0c-399f-4e89-9ade-1de546b8a43b/xml/2014-03-07-091822.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/77/",
+                    "case_id": 54,
+                    "case_uri": "/api/v1/case/54/"
+                },
+                {
+                    "id": 74,
+                    "case": "/api/v1/case/54/",
+                    "created": "Fri, 07 Mar 2014 03:39:59 +0000",
+                    "modified": "Fri, 07 Mar 2014 03:53:41 +0000",
+                    "deponent": "Glassworks",
+                    "deposition_date": "Sun, 01 Jan 1950 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/3fd0c25f-e8cb-44b3-917f-2b826bed7421/txt/2014-03-06-215337.txt",
+                    "transcript_xml": "/secured_media/0ff18110-c72d-4fb6-80f4-ced729d639b2/xml/2014-03-06-215337.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/74/",
+                    "case_id": 54,
+                    "case_uri": "/api/v1/case/54/"
+                },
+                {
+                    "id": 73,
+                    "case": "/api/v1/case/54/",
+                    "created": "Fri, 07 Mar 2014 00:11:51 +0000",
+                    "modified": "Fri, 07 Mar 2014 19:04:47 +0000",
+                    "deponent": "Happy Happy",
+                    "deposition_date": "Tue, 01 Jan 1952 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/df974313-fbab-467d-94df-f12f195c1e50/txt/2014-03-07-130445.txt",
+                    "transcript_xml": "/secured_media/72e2a1f8-06de-4b76-91ed-f0a71bcdd9ed/xml/2014-03-07-130445.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/73/",
+                    "case_id": 54,
+                    "case_uri": "/api/v1/case/54/"
+                },
+                {
+                    "id": 84,
+                    "case": "/api/v1/case/54/",
+                    "created": "Fri, 07 Mar 2014 18:15:53 +0000",
+                    "modified": "Fri, 07 Mar 2014 19:14:03 +0000",
+                    "deponent": "Ivy Focus",
+                    "deposition_date": "Sun, 15 Sep 1985 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/60a4b392-ba3c-4a05-b988-2b3099f98df7/txt/2014-03-07-131402.txt",
+                    "transcript_xml": "/secured_media/c26d73be-43c0-4731-ac18-5d103bb47212/xml/2014-03-07-131402.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/84/",
+                    "case_id": 54,
+                    "case_uri": "/api/v1/case/54/"
+                },
+                {
+                    "id": 87,
+                    "case": "/api/v1/case/54/",
+                    "created": "Fri, 07 Mar 2014 18:35:43 +0000",
+                    "modified": "Fri, 07 Mar 2014 18:39:42 +0000",
+                    "deponent": "LKHG",
+                    "deposition_date": "Tue, 12 Sep 1967 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/1999f688-e758-4797-a351-e050b73ab01e/txt/2014-03-07-123916.txt",
+                    "transcript_xml": "/secured_media/91e1c7fe-f77d-4cbc-b902-d01f29b336d2/xml/2014-03-07-123916.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/87/",
+                    "case_id": 54,
+                    "case_uri": "/api/v1/case/54/"
+                },
+                {
+                    "id": 81,
+                    "case": "/api/v1/case/54/",
+                    "created": "Fri, 07 Mar 2014 16:15:52 +0000",
+                    "modified": "Fri, 07 Mar 2014 19:12:57 +0000",
+                    "deponent": "Perfect Nelle Hooper",
+                    "deposition_date": "Thu, 09 Mar 1961 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/743c6375-16ec-4aee-81b3-207c3c3d8b04/txt/2014-03-07-131255.txt",
+                    "transcript_xml": "/secured_media/61a7e9ac-c3b8-4157-9a1b-44eda22d4157/xml/2014-03-07-131255.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/81/",
+                    "case_id": 54,
+                    "case_uri": "/api/v1/case/54/"
+                },
+                {
+                    "id": 86,
+                    "case": "/api/v1/case/54/",
+                    "created": "Fri, 07 Mar 2014 18:26:39 +0000",
+                    "modified": "Fri, 07 Mar 2014 18:29:32 +0000",
+                    "deponent": "Pinky",
+                    "deposition_date": "Wed, 31 Jul 2002 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/77b2c5c2-2eb5-4e4b-9705-c33d05658e87/txt/2014-03-07-122916.txt",
+                    "transcript_xml": "/secured_media/883c69d2-7c5b-46dd-b330-8827c53d663a/xml/2014-03-07-122916.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/86/",
+                    "case_id": 54,
+                    "case_uri": "/api/v1/case/54/"
+                },
+                {
+                    "id": 83,
+                    "case": "/api/v1/case/54/",
+                    "created": "Fri, 07 Mar 2014 16:28:34 +0000",
+                    "modified": "Fri, 07 Mar 2014 16:29:19 +0000",
+                    "deponent": "POIUY",
+                    "deposition_date": "Sun, 01 Jan 1950 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/f0ee5103-8b20-42a3-9740-31612f24dfc1/txt/2014-03-07-102858.txt",
+                    "transcript_xml": "/secured_media/8e72493d-6232-4eab-b199-0b863ce2503f/xml/2014-03-07-102858.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/83/",
+                    "case_id": 54,
+                    "case_uri": "/api/v1/case/54/"
+                },
+                {
+                    "id": 82,
+                    "case": "/api/v1/case/54/",
+                    "created": "Fri, 07 Mar 2014 16:24:05 +0000",
+                    "modified": "Fri, 07 Mar 2014 16:33:22 +0000",
+                    "deponent": "QWERTY",
+                    "deposition_date": "Sun, 14 Aug 1966 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/57659433-050b-4bc3-905a-3b19c0a9c053/txt/2014-03-07-103251.txt",
+                    "transcript_xml": "/secured_media/4f38ce13-fa3a-49a8-a7bf-961bf5435810/xml/2014-03-07-103251.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/82/",
+                    "case_id": 54,
+                    "case_uri": "/api/v1/case/54/"
+                },
+                {
+                    "id": 80,
+                    "case": "/api/v1/case/54/",
+                    "created": "Fri, 07 Mar 2014 15:35:20 +0000",
+                    "modified": "Fri, 07 Mar 2014 15:36:31 +0000",
+                    "deponent": "The Beginning is the end is the Beginning",
+                    "deposition_date": "Thu, 20 Apr 1950 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/dc0b4ab4-6aab-4bc2-a971-4828d2536ada/txt/2014-03-07-093554.txt",
+                    "transcript_xml": "/secured_media/33ce12bf-94e3-4694-a0ec-bf61e964ad5b/xml/2014-03-07-093554.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/80/",
+                    "case_id": 54,
+                    "case_uri": "/api/v1/case/54/"
+                },
+                {
+                    "id": 78,
+                    "case": "/api/v1/case/54/",
+                    "created": "Fri, 07 Mar 2014 15:20:43 +0000",
+                    "modified": "Fri, 07 Mar 2014 19:16:34 +0000",
+                    "deponent": "Today Is The Greatest Day",
+                    "deposition_date": "Sun, 31 Oct 1982 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/8746f8d4-ed50-4db4-b00c-bf5f794a65bc/txt/2014-03-07-131632.txt",
+                    "transcript_xml": "/secured_media/2192e5f8-b300-40ee-94ec-0b6d708986e6/xml/2014-03-07-131632.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/78/",
+                    "case_id": 54,
+                    "case_uri": "/api/v1/case/54/"
+                },
+                {
+                    "id": 85,
+                    "case": "/api/v1/case/54/",
+                    "created": "Fri, 07 Mar 2014 18:20:35 +0000",
+                    "modified": "Fri, 07 Mar 2014 18:21:49 +0000",
+                    "deponent": "ZXCVB",
+                    "deposition_date": "Tue, 09 Jun 1959 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/2eecdaec-aea8-46d7-95b7-82cda51d922c/txt/2014-03-07-122127.txt",
+                    "transcript_xml": "/secured_media/95aaf289-d3bf-4d40-b8b6-c74a1216fde4/xml/2014-03-07-122127.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/85/",
+                    "case_id": 54,
+                    "case_uri": "/api/v1/case/54/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/54/"
+        },
+        {
+            "id": 65,
+            "name": "Bertha M. Fontenot, et al. vs. City of Houston, et al. (TEST)",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "",
+            "attorneys": "",
+            "created": "Wed, 23 Apr 2014 03:39:03 +0000",
+            "modified": "Wed, 23 Apr 2014 03:39:03 +0000",
+            "depositions": [
+                {
+                    "id": 114,
+                    "case": "/api/v1/case/65/",
+                    "created": "Wed, 23 Apr 2014 03:39:03 +0000",
+                    "modified": "Tue, 29 Apr 2014 23:46:41 +0000",
+                    "deponent": "David Miller (TEST)",
+                    "deposition_date": null,
+                    "encoded_video": null,
+                    "transcript": "/secured_media/7051ad0a-f4f1-418a-a24d-26fc8aeb99c9/TXT/2014-04-29-154549.TXT",
+                    "transcript_xml": "/secured_media/25c59d04-681c-4388-9e0c-2cad8b9832fd/xml/2014-04-29-174444.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/114/",
+                    "case_id": 65,
+                    "case_uri": "/api/v1/case/65/"
+                },
+                {
+                    "id": 113,
+                    "case": "/api/v1/case/65/",
+                    "created": "Wed, 23 Apr 2014 03:39:03 +0000",
+                    "modified": "Sat, 03 May 2014 17:50:29 +0000",
+                    "deponent": "Mark \"Randy\" Zamora\" (TEST)",
+                    "deposition_date": null,
+                    "encoded_video": null,
+                    "transcript": "/secured_media/6d4971f8-a658-4c27-bef3-d34ae8d83703/txt/2014-05-02-162317.txt",
+                    "transcript_xml": "/secured_media/1f4150f6-7e1d-44ba-b85c-a932e13e4cf0/xml/2014-05-03-124914.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/113/",
+                    "case_id": 65,
+                    "case_uri": "/api/v1/case/65/"
+                },
+                {
+                    "id": 112,
+                    "case": "/api/v1/case/65/",
+                    "created": "Wed, 23 Apr 2014 03:39:03 +0000",
+                    "modified": "Fri, 09 May 2014 20:44:03 +0000",
+                    "deponent": "Santa Zamarron (TEST)",
+                    "deposition_date": null,
+                    "encoded_video": null,
+                    "transcript": "/secured_media/c23b334e-0e70-4687-9522-020e80347d1e/txt/2014-05-02-163017.txt",
+                    "transcript_xml": "/secured_media/9e58cb09-e042-4326-af75-4b2f5aa76c79/xml/2014-05-09-154158.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/112/",
+                    "case_id": 65,
+                    "case_uri": "/api/v1/case/65/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/65/"
+        },
+        {
+            "id": 72,
+            "name": "BRL",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "123123",
+            "attorneys": "asdf",
+            "created": "Tue, 20 May 2014 19:12:24 +0000",
+            "modified": "Tue, 20 May 2014 19:12:24 +0000",
+            "depositions": [
+                {
+                    "id": 127,
+                    "case": "/api/v1/case/72/",
+                    "created": "Tue, 20 May 2014 19:24:02 +0000",
+                    "modified": "Tue, 20 May 2014 19:27:29 +0000",
+                    "deponent": "Christopher Rovenstine",
+                    "deposition_date": "Tue, 06 Apr 1982 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/01df4f47-0a29-4873-9933-eb82ab231db6/txt/2014-05-20-142411.txt",
+                    "transcript_xml": "/secured_media/debb480b-1ce6-40ca-bfff-9fec2de2e39c/xml/2014-05-20-142417.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/127/",
+                    "case_id": 72,
+                    "case_uri": "/api/v1/case/72/"
+                },
+                {
+                    "id": 125,
+                    "case": "/api/v1/case/72/",
+                    "created": "Tue, 20 May 2014 19:12:39 +0000",
+                    "modified": "Tue, 20 May 2014 19:13:58 +0000",
+                    "deponent": "David Serretia",
+                    "deposition_date": "Thu, 09 May 1957 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/ca913cbe-c8ae-40ee-b128-704a28fd4a32/txt/2014-05-20-141253.txt",
+                    "transcript_xml": "/secured_media/ab8414bc-d615-4253-a5d6-d93c549e61e9/xml/2014-05-20-141300.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/125/",
+                    "case_id": 72,
+                    "case_uri": "/api/v1/case/72/"
+                },
+                {
+                    "id": 128,
+                    "case": "/api/v1/case/72/",
+                    "created": "Tue, 20 May 2014 19:25:05 +0000",
+                    "modified": "Tue, 20 May 2014 19:30:09 +0000",
+                    "deponent": "Luc Messier",
+                    "deposition_date": "Tue, 22 Oct 2002 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/840c3dc2-d52f-4db2-815e-56491aa95292/txt/2014-05-20-142513.txt",
+                    "transcript_xml": "/secured_media/bbf52405-9584-4c48-95cd-a11032e1d86f/xml/2014-05-20-142518.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/128/",
+                    "case_id": 72,
+                    "case_uri": "/api/v1/case/72/"
+                },
+                {
+                    "id": 126,
+                    "case": "/api/v1/case/72/",
+                    "created": "Tue, 20 May 2014 19:22:24 +0000",
+                    "modified": "Tue, 20 May 2014 19:24:55 +0000",
+                    "deponent": "Mary Angelo",
+                    "deposition_date": "Sun, 01 Jan 1950 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/b02d1cc6-a952-4cee-8e79-972f178ca637/txt/2014-05-20-142239.txt",
+                    "transcript_xml": "/secured_media/008cceae-2f15-4406-9069-63702b0172f2/xml/2014-05-20-142245.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/126/",
+                    "case_id": 72,
+                    "case_uri": "/api/v1/case/72/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/72/"
+        },
+        {
+            "id": 55,
+            "name": "Compilation of Depositions",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "Custom Court",
+            "attorneys": "",
+            "created": "Fri, 07 Mar 2014 20:04:55 +0000",
+            "modified": "Wed, 12 Mar 2014 03:15:56 +0000",
+            "depositions": [
+                {
+                    "id": 88,
+                    "case": "/api/v1/case/55/",
+                    "created": "Fri, 07 Mar 2014 20:07:24 +0000",
+                    "modified": "Tue, 11 Mar 2014 03:10:11 +0000",
+                    "deponent": "2012-10-04-141821.txt - JAY CLAPPER",
+                    "deposition_date": "Mon, 05 Jan 1953 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/7c75671a-3b91-4f6a-ae5e-c4bb5d9db964/txt/2014-03-10-221010.txt",
+                    "transcript_xml": "/secured_media/e1a44279-5190-4405-96fd-e24a71b05921/xml/2014-03-10-221010.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/88/",
+                    "case_id": 55,
+                    "case_uri": "/api/v1/case/55/"
+                },
+                {
+                    "id": 89,
+                    "case": "/api/v1/case/55/",
+                    "created": "Fri, 07 Mar 2014 20:12:14 +0000",
+                    "modified": "Tue, 11 Mar 2014 21:51:47 +0000",
+                    "deponent": "2012-12-19-200924.txt - PATTI ROSE BROWN",
+                    "deposition_date": "Mon, 10 Jun 1963 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/75dbee2c-0195-488b-b3c5-e550adc243f9/txt/2014-03-11-165146.txt",
+                    "transcript_xml": "/secured_media/123ec428-b509-4444-8239-e7b27ff4d1bb/xml/2014-03-11-165146.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/89/",
+                    "case_id": 55,
+                    "case_uri": "/api/v1/case/55/"
+                },
+                {
+                    "id": 90,
+                    "case": "/api/v1/case/55/",
+                    "created": "Fri, 07 Mar 2014 20:16:07 +0000",
+                    "modified": "Fri, 07 Mar 2014 20:17:14 +0000",
+                    "deponent": "2013-07-02-155348.txt - ION MIHALE",
+                    "deposition_date": "Thu, 15 Sep 1983 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/08369ab1-1287-410d-93f7-e17d72f5f93f/txt/2014-03-07-141637.txt",
+                    "transcript_xml": "/secured_media/8e984947-bbe2-4503-ace5-683b394c6326/xml/2014-03-07-141637.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/90/",
+                    "case_id": 55,
+                    "case_uri": "/api/v1/case/55/"
+                },
+                {
+                    "id": 93,
+                    "case": "/api/v1/case/55/",
+                    "created": "Fri, 07 Mar 2014 21:51:27 +0000",
+                    "modified": "Tue, 11 Mar 2014 02:54:01 +0000",
+                    "deponent": "2013-07-19-111710.txt - ERIC LANGAN",
+                    "deposition_date": "Sat, 16 Oct 1965 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/5fa6e231-7ee0-4e31-b93f-a5d50aca226a/txt/2014-03-10-215359.txt",
+                    "transcript_xml": "/secured_media/2bc6bfb5-d0ea-43ff-aa9d-0f9100fc712d/xml/2014-03-10-215359.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/93/",
+                    "case_id": 55,
+                    "case_uri": "/api/v1/case/55/"
+                },
+                {
+                    "id": 91,
+                    "case": "/api/v1/case/55/",
+                    "created": "Fri, 07 Mar 2014 20:54:04 +0000",
+                    "modified": "Tue, 11 Mar 2014 21:53:44 +0000",
+                    "deponent": "2013-09-26-172739.txt - PATTI DARBY",
+                    "deposition_date": "Mon, 15 Sep 2008 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/9424890e-28cf-4f63-b98c-fe4e6b89371c/txt/2014-03-11-165342.txt",
+                    "transcript_xml": "/secured_media/0cbd4253-9e7d-4702-bbd9-e3ef0d6dd62f/xml/2014-03-11-165342.xml",
+                    "exhibits": [
+                        {
+                            "id": 103,
+                            "transcript": 91,
+                            "name": "Exhibit 1",
+                            "description": "",
+                            "file": "/secured_media/414ea40b-fac8-47d7-abe7-ffa8814e3039/pdf/2014-03-11-112434.pdf",
+                            "resource_uri": "/api/v1/exhibit/103/",
+                            "transcript_id": 91,
+                            "transcript_uri": "/api/v1/transcript/91/"
+                        }
+                    ],
+                    "segments": [
+                        {
+                            "id": 28,
+                            "original_media": 669,
+                            "encoded_audio": null,
+                            "transcript": 91
+                        }
+                    ],
+                    "resource_uri": "/api/v1/deposition/91/",
+                    "case_id": 55,
+                    "case_uri": "/api/v1/case/55/"
+                },
+                {
+                    "id": 92,
+                    "case": "/api/v1/case/55/",
+                    "created": "Fri, 07 Mar 2014 21:21:43 +0000",
+                    "modified": "Tue, 11 Mar 2014 02:55:13 +0000",
+                    "deponent": "2014-02-06-102142.txt - NORMA VALLES",
+                    "deposition_date": "Mon, 15 Nov 1965 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/088cd58c-6b3b-4c59-8f89-58c13312b19e/txt/2014-03-10-215511.txt",
+                    "transcript_xml": "/secured_media/6dd91870-955e-4573-99a9-c755fb4b4f49/xml/2014-03-10-215512.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/92/",
+                    "case_id": 55,
+                    "case_uri": "/api/v1/case/55/"
+                },
+                {
+                    "id": 96,
+                    "case": "/api/v1/case/55/",
+                    "created": "Wed, 12 Mar 2014 03:15:34 +0000",
+                    "modified": "Wed, 12 Mar 2014 03:15:34 +0000",
+                    "deponent": "zxcvxzcvzxcv",
+                    "deposition_date": "Wed, 06 Feb 1957 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": null,
+                    "transcript_xml": null,
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/96/",
+                    "case_id": 55,
+                    "case_uri": "/api/v1/case/55/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/55/"
+        },
+        {
+            "id": 70,
+            "name": "Deborah Poche v. Avondale Industries, Inc",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "ARGGG",
+            "attorneys": "PIRATES LIFE FOR ME",
+            "created": "Fri, 16 May 2014 15:21:42 +0000",
+            "modified": "Fri, 16 May 2014 15:26:00 +0000",
+            "depositions": [
+                {
+                    "id": 123,
+                    "case": "/api/v1/case/70/",
+                    "created": "Fri, 16 May 2014 15:21:42 +0000",
+                    "modified": "Fri, 16 May 2014 15:26:09 +0000",
+                    "deponent": "Dr. Jan Rothman 02-13-14",
+                    "deposition_date": "Wed, 07 Sep 1955 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": null,
+                    "transcript_xml": null,
+                    "exhibits": [
+                        {
+                            "id": 114,
+                            "transcript": 123,
+                            "name": "Exhibit 11.pdf",
+                            "description": "",
+                            "file": "/secured_media/7e43ef5f-d8d6-4ed1-81fe-ce709d5d7f0b/pdf/2014-05-16-102229.pdf",
+                            "resource_uri": "/api/v1/exhibit/114/",
+                            "transcript_id": 123,
+                            "transcript_uri": "/api/v1/transcript/123/"
+                        },
+                        {
+                            "id": 115,
+                            "transcript": 123,
+                            "name": "Exhibit 6.pdf",
+                            "description": "",
+                            "file": "/secured_media/d88b750b-d478-4469-b99a-aec309c7915f/pdf/2014-05-16-102229_1.pdf",
+                            "resource_uri": "/api/v1/exhibit/115/",
+                            "transcript_id": 123,
+                            "transcript_uri": "/api/v1/transcript/123/"
+                        },
+                        {
+                            "id": 116,
+                            "transcript": 123,
+                            "name": "Exhibit 10.pdf",
+                            "description": "",
+                            "file": "/secured_media/095c8be2-042a-4715-a35d-b12360007b33/pdf/2014-05-16-102229_2.pdf",
+                            "resource_uri": "/api/v1/exhibit/116/",
+                            "transcript_id": 123,
+                            "transcript_uri": "/api/v1/transcript/123/"
+                        },
+                        {
+                            "id": 117,
+                            "transcript": 123,
+                            "name": "Exhibit 13.pdf",
+                            "description": "",
+                            "file": "/secured_media/5b3584ad-5b98-48a8-ad19-4d5b568ec00d/pdf/2014-05-16-102230.pdf",
+                            "resource_uri": "/api/v1/exhibit/117/",
+                            "transcript_id": 123,
+                            "transcript_uri": "/api/v1/transcript/123/"
+                        },
+                        {
+                            "id": 118,
+                            "transcript": 123,
+                            "name": "Exhibit 1.pdf",
+                            "description": "",
+                            "file": "/secured_media/3f6769e7-7cdc-4fbc-989a-b0de3aff1172/pdf/2014-05-16-102230_1.pdf",
+                            "resource_uri": "/api/v1/exhibit/118/",
+                            "transcript_id": 123,
+                            "transcript_uri": "/api/v1/transcript/123/"
+                        },
+                        {
+                            "id": 119,
+                            "transcript": 123,
+                            "name": "Exhibit 14.pdf",
+                            "description": "",
+                            "file": "/secured_media/3713442a-31d4-4846-9de6-dedd70a9633e/pdf/2014-05-16-102230_2.pdf",
+                            "resource_uri": "/api/v1/exhibit/119/",
+                            "transcript_id": 123,
+                            "transcript_uri": "/api/v1/transcript/123/"
+                        },
+                        {
+                            "id": 120,
+                            "transcript": 123,
+                            "name": "Exhibit 4.pdf",
+                            "description": "",
+                            "file": "/secured_media/542a2028-9b39-4fa0-989a-eeead2e2bedf/pdf/2014-05-16-102230_3.pdf",
+                            "resource_uri": "/api/v1/exhibit/120/",
+                            "transcript_id": 123,
+                            "transcript_uri": "/api/v1/transcript/123/"
+                        },
+                        {
+                            "id": 121,
+                            "transcript": 123,
+                            "name": "Exhibit 5.pdf",
+                            "description": "",
+                            "file": "/secured_media/3e9fe3f2-c6bd-45ff-8e7d-4cbf1a320c01/pdf/2014-05-16-102230_4.pdf",
+                            "resource_uri": "/api/v1/exhibit/121/",
+                            "transcript_id": 123,
+                            "transcript_uri": "/api/v1/transcript/123/"
+                        },
+                        {
+                            "id": 122,
+                            "transcript": 123,
+                            "name": "Exhibit 12.pdf",
+                            "description": "",
+                            "file": "/secured_media/58799b17-3002-4d68-a8e6-7c3daa058f3d/pdf/2014-05-16-102230_5.pdf",
+                            "resource_uri": "/api/v1/exhibit/122/",
+                            "transcript_id": 123,
+                            "transcript_uri": "/api/v1/transcript/123/"
+                        },
+                        {
+                            "id": 123,
+                            "transcript": 123,
+                            "name": "Exhibit 2.pdf",
+                            "description": "",
+                            "file": "/secured_media/089b981a-a83b-4bf6-84f7-78317a9d5342/pdf/2014-05-16-102230_6.pdf",
+                            "resource_uri": "/api/v1/exhibit/123/",
+                            "transcript_id": 123,
+                            "transcript_uri": "/api/v1/transcript/123/"
+                        },
+                        {
+                            "id": 124,
+                            "transcript": 123,
+                            "name": "Exhibit 15.pdf",
+                            "description": "",
+                            "file": "/secured_media/20156a3f-b5d9-47e7-8fa4-6cb0e29922c9/pdf/2014-05-16-102230_7.pdf",
+                            "resource_uri": "/api/v1/exhibit/124/",
+                            "transcript_id": 123,
+                            "transcript_uri": "/api/v1/transcript/123/"
+                        },
+                        {
+                            "id": 125,
+                            "transcript": 123,
+                            "name": "Exhibit 7.pdf",
+                            "description": "",
+                            "file": "/secured_media/1500ebde-cd69-4228-93db-c44c6b98bfe9/pdf/2014-05-16-102230_8.pdf",
+                            "resource_uri": "/api/v1/exhibit/125/",
+                            "transcript_id": 123,
+                            "transcript_uri": "/api/v1/transcript/123/"
+                        },
+                        {
+                            "id": 126,
+                            "transcript": 123,
+                            "name": "Exhibit 3.pdf",
+                            "description": "",
+                            "file": "/secured_media/3ec4e4d2-0002-4884-ae8d-5734b24accd0/pdf/2014-05-16-102231.pdf",
+                            "resource_uri": "/api/v1/exhibit/126/",
+                            "transcript_id": 123,
+                            "transcript_uri": "/api/v1/transcript/123/"
+                        },
+                        {
+                            "id": 127,
+                            "transcript": 123,
+                            "name": "Exhibit 9.pdf",
+                            "description": "",
+                            "file": "/secured_media/793fabab-d8e9-43bc-85aa-e4e7bee021b7/pdf/2014-05-16-102231_1.pdf",
+                            "resource_uri": "/api/v1/exhibit/127/",
+                            "transcript_id": 123,
+                            "transcript_uri": "/api/v1/transcript/123/"
+                        },
+                        {
+                            "id": 128,
+                            "transcript": 123,
+                            "name": "Exhibit 8.pdf",
+                            "description": "",
+                            "file": "/secured_media/b14037bd-0ad2-4fd2-9a65-6ae3325aaa30/pdf/2014-05-16-102231_2.pdf",
+                            "resource_uri": "/api/v1/exhibit/128/",
+                            "transcript_id": 123,
+                            "transcript_uri": "/api/v1/transcript/123/"
+                        }
+                    ],
+                    "segments": [
+                        {
+                            "id": 48,
+                            "original_media": 1635,
+                            "encoded_audio": null,
+                            "transcript": 123
+                        }
+                    ],
+                    "resource_uri": "/api/v1/deposition/123/",
+                    "case_id": 70,
+                    "case_uri": "/api/v1/case/70/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/70/"
+        },
+        {
+            "id": 79,
+            "name": "DragDropTest",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "",
+            "attorneys": "",
+            "created": "Thu, 28 Aug 2014 18:43:21 +0000",
+            "modified": "Thu, 28 Aug 2014 18:43:21 +0000",
+            "depositions": [
+                {
+                    "id": 135,
+                    "case": "/api/v1/case/79/",
+                    "created": "Thu, 28 Aug 2014 18:43:21 +0000",
+                    "modified": "Thu, 28 Aug 2014 18:43:46 +0000",
+                    "deponent": "DumbDeponent",
+                    "deposition_date": null,
+                    "encoded_video": null,
+                    "transcript": "/secured_media/75560f32-78b8-4717-9f1e-276319d2a53f/txt/2014-08-28-134346.txt",
+                    "transcript_xml": null,
+                    "exhibits": [
+                        {
+                            "id": 151,
+                            "transcript": 135,
+                            "name": "071114bm ex01_test",
+                            "description": "",
+                            "file": "/secured_media/78a5ff32-20de-44a4-b532-6d60a65a0cb7/pdf/2014-08-28-134335.pdf",
+                            "resource_uri": "/api/v1/exhibit/151/",
+                            "transcript_id": 135,
+                            "transcript_uri": "/api/v1/transcript/135/"
+                        }
+                    ],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/135/",
+                    "case_id": 79,
+                    "case_uri": "/api/v1/case/79/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/79/"
+        },
+        {
+            "id": 80,
+            "name": "DragDropTest2",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "",
+            "attorneys": "",
+            "created": "Fri, 29 Aug 2014 17:38:36 +0000",
+            "modified": "Fri, 29 Aug 2014 17:38:36 +0000",
+            "depositions": [
+                {
+                    "id": 136,
+                    "case": "/api/v1/case/80/",
+                    "created": "Fri, 29 Aug 2014 17:38:36 +0000",
+                    "modified": "Fri, 29 Aug 2014 17:38:44 +0000",
+                    "deponent": "DumbDeponent",
+                    "deposition_date": null,
+                    "encoded_video": null,
+                    "transcript": "/secured_media/c6879f5f-4c7e-490d-9010-3cf5afab19e6/txt/2014-08-29-123844.txt",
+                    "transcript_xml": null,
+                    "exhibits": [
+                        {
+                            "id": 152,
+                            "transcript": 136,
+                            "name": "071114bm ex01_test",
+                            "description": "",
+                            "file": "/secured_media/026607ea-cfec-41f5-bffe-f98b02e9a35e/pdf/2014-08-29-123842.pdf",
+                            "resource_uri": "/api/v1/exhibit/152/",
+                            "transcript_id": 136,
+                            "transcript_uri": "/api/v1/transcript/136/"
+                        }
+                    ],
+                    "segments": [
+                        {
+                            "id": 74,
+                            "original_media": 1723,
+                            "encoded_audio": null,
+                            "transcript": 136
+                        }
+                    ],
+                    "resource_uri": "/api/v1/deposition/136/",
+                    "case_id": 80,
+                    "case_uri": "/api/v1/case/80/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/80/"
+        },
+        {
+            "id": 67,
+            "name": "EDM vs. House",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "Who Cares?",
+            "attorneys": "No one",
+            "created": "Sat, 03 May 2014 18:07:05 +0000",
+            "modified": "Sat, 03 May 2014 18:07:05 +0000",
+            "depositions": [
+                {
+                    "id": 122,
+                    "case": "/api/v1/case/67/",
+                    "created": "Wed, 14 May 2014 20:16:37 +0000",
+                    "modified": "Thu, 15 May 2014 02:35:39 +0000",
+                    "deponent": "123456",
+                    "deposition_date": "Tue, 05 Mar 1963 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/0a7ba669-0152-46bb-9637-51a686fb80f1/txt/2014-05-14-151703.txt",
+                    "transcript_xml": "/secured_media/264a0a53-5306-4d58-906c-5d38b1b6020a/xml/2014-05-14-213413.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/122/",
+                    "case_id": 67,
+                    "case_uri": "/api/v1/case/67/"
+                },
+                {
+                    "id": 121,
+                    "case": "/api/v1/case/67/",
+                    "created": "Thu, 08 May 2014 15:22:19 +0000",
+                    "modified": "Thu, 08 May 2014 20:01:25 +0000",
+                    "deponent": "Monster vs Red Bull",
+                    "deposition_date": "Sun, 01 Jan 1950 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/68f56adf-2b98-4924-ba80-1cc7b7d4fd95/txt/2014-05-08-113724.txt",
+                    "transcript_xml": "/secured_media/eb15afec-7477-4bbc-85c8-62e210f545cb/xml/2014-05-08-145939.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/121/",
+                    "case_id": 67,
+                    "case_uri": "/api/v1/case/67/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/67/"
+        },
+        {
+            "id": 46,
+            "name": "INTERNATIONAL MERCHANDISING CORPORATION and TONY LEVINE",
+            "defendant": "INTERNATIONAL MERCHANDISING CORPORATION",
+            "plaintiff": "JEFF SCHEMMEL",
+            "court": "",
+            "attorneys": "",
+            "created": "Tue, 21 May 2013 22:06:30 +0000",
+            "modified": "Mon, 31 Mar 2014 22:19:11 +0000",
+            "depositions": [
+                {
+                    "id": 55,
+                    "case": "/api/v1/case/46/",
+                    "created": "Fri, 24 Jan 2014 02:33:20 +0000",
+                    "modified": "Fri, 24 Jan 2014 02:33:20 +0000",
+                    "deponent": "BARRY DETLEFSEN",
+                    "deposition_date": "Sun, 01 Jan 1950 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/170380c4-abf2-4d72-a002-1f42735fd5cd/txt/2014-01-23-203320.txt",
+                    "transcript_xml": null,
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/55/",
+                    "case_id": 46,
+                    "case_uri": "/api/v1/case/46/"
+                },
+                {
+                    "id": 54,
+                    "case": "/api/v1/case/46/",
+                    "created": "Tue, 21 May 2013 22:07:27 +0000",
+                    "modified": "Tue, 24 Jun 2014 17:54:27 +0000",
+                    "deponent": "Jeff Schemmel",
+                    "deposition_date": "Thu, 02 May 2013 05:00:00 +0000",
+                    "encoded_video": "/secured_media/7b1040bf-cd86-4534-a27c-0bf1c3dbe9f3/mp4/2013-05-21-183514.mp4",
+                    "transcript": "/secured_media/6a2ed404-7769-424d-a475-ea922ccd900e/txt/2013-05-21-170727.txt",
+                    "transcript_xml": "/secured_media/89026379-7be0-4daa-a38e-397cbc16f063/xml/2013-05-22-111352.xml",
+                    "exhibits": [],
+                    "segments": [
+                        {
+                            "id": 26,
+                            "original_media": 349,
+                            "encoded_audio": null,
+                            "transcript": 54
+                        },
+                        {
+                            "id": 27,
+                            "original_media": 350,
+                            "encoded_audio": null,
+                            "transcript": 54
+                        }
+                    ],
+                    "resource_uri": "/api/v1/deposition/54/",
+                    "case_id": 46,
+                    "case_uri": "/api/v1/case/46/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/46/"
+        },
+        {
+            "id": 68,
+            "name": "Karl - Test",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "Sample",
+            "attorneys": "Test",
+            "created": "Mon, 05 May 2014 00:32:19 +0000",
+            "modified": "Mon, 05 May 2014 00:32:19 +0000",
+            "depositions": [
+                {
+                    "id": 118,
+                    "case": "/api/v1/case/68/",
+                    "created": "Mon, 05 May 2014 00:32:37 +0000",
+                    "modified": "Mon, 05 May 2014 13:35:13 +0000",
+                    "deponent": "Sample Sammy",
+                    "deposition_date": "Tue, 01 Jan 2013 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/45fe7593-d088-4f1a-bdc1-3ae9393ac563/txt/2014-05-04-193255.txt",
+                    "transcript_xml": "/secured_media/a3e8ee96-7838-4755-8f10-c9f6d5fdf02f/xml/2014-05-04-193318.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/118/",
+                    "case_id": 68,
+                    "case_uri": "/api/v1/case/68/"
+                },
+                {
+                    "id": 120,
+                    "case": "/api/v1/case/68/",
+                    "created": "Mon, 05 May 2014 16:27:15 +0000",
+                    "modified": "Mon, 05 May 2014 16:36:54 +0000",
+                    "deponent": "Testie Tyrion",
+                    "deposition_date": "Thu, 01 Jan 1953 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/e8b9a1d7-7536-4dc2-975a-998f8fbcf689/txt/2014-05-05-112729.txt",
+                    "transcript_xml": "/secured_media/4a8be4e3-6656-4564-a48c-7d8985ab1c4a/xml/2014-05-05-112755.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/120/",
+                    "case_id": 68,
+                    "case_uri": "/api/v1/case/68/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/68/"
+        },
+        {
+            "id": 59,
+            "name": "Lannister vs. Stark",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "California District Court",
+            "attorneys": "Gregor Clegane, Rickon Stark",
+            "created": "Mon, 17 Mar 2014 19:59:04 +0000",
+            "modified": "Mon, 17 Mar 2014 19:59:04 +0000",
+            "depositions": [
+                {
+                    "id": 101,
+                    "case": "/api/v1/case/59/",
+                    "created": "Mon, 17 Mar 2014 19:59:04 +0000",
+                    "modified": "Mon, 14 Apr 2014 22:11:26 +0000",
+                    "deponent": "Edmure Tully",
+                    "deposition_date": "Sat, 09 Mar 2013 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/7e19f82f-3a7e-4673-bd34-905481bfb4bb/txt/2014-04-09-165653.txt",
+                    "transcript_xml": "/secured_media/fe6daa85-7fac-4dba-998c-148e870b6a7e/xml/2014-04-14-171008.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/101/",
+                    "case_id": 59,
+                    "case_uri": "/api/v1/case/59/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/59/"
+        },
+        {
+            "id": 62,
+            "name": "Liebeck vs. McDonalds",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "New Mexico District Court",
+            "attorneys": "Reed Morgan, Neil Starks",
+            "created": "Mon, 17 Mar 2014 19:59:04 +0000",
+            "modified": "Mon, 17 Mar 2014 19:59:04 +0000",
+            "depositions": [
+                {
+                    "id": 104,
+                    "case": "/api/v1/case/62/",
+                    "created": "Mon, 17 Mar 2014 19:59:04 +0000",
+                    "modified": "Wed, 19 Mar 2014 06:35:47 +0000",
+                    "deponent": "James McMahon",
+                    "deposition_date": "Wed, 15 Aug 2012 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/9cc6549c-76aa-4fac-a660-253fd921e4ca/txt/2014-03-19-013546.txt",
+                    "transcript_xml": "/secured_media/4322b0da-2ef9-4c33-9e41-37966fddada9/xml/2014-03-19-013547.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/104/",
+                    "case_id": 62,
+                    "case_uri": "/api/v1/case/62/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/62/"
+        },
+        {
+            "id": 73,
+            "name": "LukesWebDavTest",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "",
+            "attorneys": "",
+            "created": "Tue, 17 Jun 2014 20:39:37 +0000",
+            "modified": "Mon, 21 Jul 2014 17:47:41 +0000",
+            "depositions": [
+                {
+                    "id": 129,
+                    "case": "/api/v1/case/73/",
+                    "created": "Tue, 17 Jun 2014 20:41:52 +0000",
+                    "modified": "Mon, 21 Jul 2014 17:47:31 +0000",
+                    "deponent": "SomeStupidDeposition",
+                    "deposition_date": null,
+                    "encoded_video": null,
+                    "transcript": "/secured_media/9b10067e-5c9b-4bab-8fd1-7cda873aba65/txt/2014-06-18-104753.txt",
+                    "transcript_xml": null,
+                    "exhibits": [
+                        {
+                            "id": 144,
+                            "transcript": 129,
+                            "name": "Ronald_Joseph_Ralls-Transcript.pdf",
+                            "description": "",
+                            "file": "/secured_media/3a1af100-1f81-43ff-9970-d3b45e58fb94/pdf/2014-06-18-103849.pdf",
+                            "resource_uri": "/api/v1/exhibit/144/",
+                            "transcript_id": 129,
+                            "transcript_uri": "/api/v1/transcript/129/"
+                        },
+                        {
+                            "id": 143,
+                            "transcript": 129,
+                            "name": "3-BERTHA_FONTENOT2.pdf",
+                            "description": "",
+                            "file": "/secured_media/e6a9f5ba-3ebc-4e79-b62d-197f485a542e/pdf/2014-06-18-102846.pdf",
+                            "resource_uri": "/api/v1/exhibit/143/",
+                            "transcript_id": 129,
+                            "transcript_uri": "/api/v1/transcript/129/"
+                        }
+                    ],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/129/",
+                    "case_id": 73,
+                    "case_uri": "/api/v1/case/73/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/73/"
+        },
+        {
+            "id": 60,
+            "name": "Mathison vs. Brody",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "United States District Court, Western District of New York",
+            "attorneys": "Saul Berenson, Dana Lazaro",
+            "created": "Mon, 17 Mar 2014 19:59:04 +0000",
+            "modified": "Mon, 17 Mar 2014 19:59:04 +0000",
+            "depositions": [
+                {
+                    "id": 102,
+                    "case": "/api/v1/case/60/",
+                    "created": "Mon, 17 Mar 2014 19:59:04 +0000",
+                    "modified": "Tue, 25 Mar 2014 23:35:08 +0000",
+                    "deponent": "Abu Nazir",
+                    "deposition_date": "Sun, 02 Feb 2014 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/7aefd5ba-ecd9-4f03-8554-6abcc609d0f1/txt/2014-03-25-183508.txt",
+                    "transcript_xml": "/secured_media/bcc5d0ad-ea05-4642-a7ab-328458b2832c/xml/2014-03-25-183508.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/102/",
+                    "case_id": 60,
+                    "case_uri": "/api/v1/case/60/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/60/"
+        },
+        {
+            "id": 74,
+            "name": "Moms et al",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "",
+            "attorneys": "",
+            "created": "Tue, 17 Jun 2014 23:25:09 +0000",
+            "modified": "Tue, 24 Jun 2014 17:13:42 +0000",
+            "depositions": [
+                {
+                    "id": 130,
+                    "case": "/api/v1/case/74/",
+                    "created": "Tue, 17 Jun 2014 23:25:27 +0000",
+                    "modified": "Tue, 17 Jun 2014 23:25:27 +0000",
+                    "deponent": "My mom",
+                    "deposition_date": null,
+                    "encoded_video": null,
+                    "transcript": null,
+                    "transcript_xml": null,
+                    "exhibits": [
+                        {
+                            "id": 149,
+                            "transcript": 130,
+                            "name": "3-BERTHA_FONTENOT.pdf",
+                            "description": "",
+                            "file": "/secured_media/31e6ebed-3e46-4b6b-812d-144ff0a4a212/pdf/2014-07-17-100401.pdf",
+                            "resource_uri": "/api/v1/exhibit/149/",
+                            "transcript_id": 130,
+                            "transcript_uri": "/api/v1/transcript/130/"
+                        }
+                    ],
+                    "segments": [
+                        {
+                            "id": 65,
+                            "original_media": 1708,
+                            "encoded_audio": null,
+                            "transcript": 130
+                        },
+                        {
+                            "id": 66,
+                            "original_media": 1709,
+                            "encoded_audio": null,
+                            "transcript": 130
+                        },
+                        {
+                            "id": 67,
+                            "original_media": 1710,
+                            "encoded_audio": null,
+                            "transcript": 130
+                        },
+                        {
+                            "id": 68,
+                            "original_media": 1711,
+                            "encoded_audio": null,
+                            "transcript": 130
+                        },
+                        {
+                            "id": 69,
+                            "original_media": 1712,
+                            "encoded_audio": null,
+                            "transcript": 130
+                        }
+                    ],
+                    "resource_uri": "/api/v1/deposition/130/",
+                    "case_id": 74,
+                    "case_uri": "/api/v1/case/74/"
+                },
+                {
+                    "id": 132,
+                    "case": "/api/v1/case/74/",
+                    "created": "Tue, 17 Jun 2014 23:25:51 +0000",
+                    "modified": "Wed, 18 Jun 2014 15:57:13 +0000",
+                    "deponent": "Tu Madre",
+                    "deposition_date": null,
+                    "encoded_video": null,
+                    "transcript": "/secured_media/9dfe0a2b-6b39-455b-99bb-c7a3045ef6fe/txt/2014-06-18-105713.txt",
+                    "transcript_xml": null,
+                    "exhibits": [
+                        {
+                            "id": 147,
+                            "transcript": 132,
+                            "name": "3-BERTHA_FONTENOT.pdf",
+                            "description": "",
+                            "file": "/secured_media/9fcd2b79-6fef-4563-8ed7-5b10cd83276f/pdf/2014-06-26-101528.pdf",
+                            "resource_uri": "/api/v1/exhibit/147/",
+                            "transcript_id": 132,
+                            "transcript_uri": "/api/v1/transcript/132/"
+                        },
+                        {
+                            "id": 150,
+                            "transcript": 132,
+                            "name": "071114bm ex01.pdf",
+                            "description": "",
+                            "file": "/secured_media/2defb997-fd28-411b-abfe-f7cf506d13eb/pdf/2014-07-25-093346.pdf",
+                            "resource_uri": "/api/v1/exhibit/150/",
+                            "transcript_id": 132,
+                            "transcript_uri": "/api/v1/transcript/132/"
+                        }
+                    ],
+                    "segments": [
+                        {
+                            "id": 51,
+                            "original_media": 1689,
+                            "encoded_audio": null,
+                            "transcript": 132
+                        },
+                        {
+                            "id": 52,
+                            "original_media": 1690,
+                            "encoded_audio": null,
+                            "transcript": 132
+                        },
+                        {
+                            "id": 53,
+                            "original_media": 1694,
+                            "encoded_audio": null,
+                            "transcript": 132
+                        },
+                        {
+                            "id": 54,
+                            "original_media": 1697,
+                            "encoded_audio": null,
+                            "transcript": 132
+                        },
+                        {
+                            "id": 55,
+                            "original_media": 1698,
+                            "encoded_audio": null,
+                            "transcript": 132
+                        },
+                        {
+                            "id": 56,
+                            "original_media": 1699,
+                            "encoded_audio": null,
+                            "transcript": 132
+                        },
+                        {
+                            "id": 57,
+                            "original_media": 1700,
+                            "encoded_audio": null,
+                            "transcript": 132
+                        },
+                        {
+                            "id": 58,
+                            "original_media": 1701,
+                            "encoded_audio": null,
+                            "transcript": 132
+                        },
+                        {
+                            "id": 59,
+                            "original_media": 1702,
+                            "encoded_audio": null,
+                            "transcript": 132
+                        },
+                        {
+                            "id": 60,
+                            "original_media": 1703,
+                            "encoded_audio": null,
+                            "transcript": 132
+                        },
+                        {
+                            "id": 61,
+                            "original_media": 1704,
+                            "encoded_audio": null,
+                            "transcript": 132
+                        },
+                        {
+                            "id": 62,
+                            "original_media": 1705,
+                            "encoded_audio": null,
+                            "transcript": 132
+                        },
+                        {
+                            "id": 63,
+                            "original_media": 1706,
+                            "encoded_audio": null,
+                            "transcript": 132
+                        },
+                        {
+                            "id": 64,
+                            "original_media": 1707,
+                            "encoded_audio": null,
+                            "transcript": 132
+                        },
+                        {
+                            "id": 72,
+                            "original_media": 1717,
+                            "encoded_audio": null,
+                            "transcript": 132
+                        },
+                        {
+                            "id": 73,
+                            "original_media": 1718,
+                            "encoded_audio": null,
+                            "transcript": 132
+                        }
+                    ],
+                    "resource_uri": "/api/v1/deposition/132/",
+                    "case_id": 74,
+                    "case_uri": "/api/v1/case/74/"
+                },
+                {
+                    "id": 131,
+                    "case": "/api/v1/case/74/",
+                    "created": "Tue, 17 Jun 2014 23:25:40 +0000",
+                    "modified": "Tue, 12 Aug 2014 17:26:15 +0000",
+                    "deponent": "Your Mom",
+                    "deposition_date": null,
+                    "encoded_video": null,
+                    "transcript": null,
+                    "transcript_xml": null,
+                    "exhibits": [
+                        {
+                            "id": 148,
+                            "transcript": 131,
+                            "name": "3-BERTHA_FONTENOT.pdf",
+                            "description": "",
+                            "file": "/secured_media/4f91d293-39a1-4aca-ad1e-166534f32e04/pdf/2014-06-26-111806.pdf",
+                            "resource_uri": "/api/v1/exhibit/148/",
+                            "transcript_id": 131,
+                            "transcript_uri": "/api/v1/transcript/131/"
+                        }
+                    ],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/131/",
+                    "case_id": 74,
+                    "case_uri": "/api/v1/case/74/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/74/"
+        },
+        {
+            "id": 75,
+            "name": "RenameTest",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "",
+            "attorneys": "",
+            "created": "Thu, 19 Jun 2014 15:39:06 +0000",
+            "modified": "Tue, 24 Jun 2014 14:57:21 +0000",
+            "depositions": [],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/75/"
+        },
+        {
+            "id": 76,
+            "name": "RenameTest2",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "",
+            "attorneys": "",
+            "created": "Thu, 19 Jun 2014 15:43:19 +0000",
+            "modified": "Tue, 24 Jun 2014 14:58:01 +0000",
+            "depositions": [],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/76/"
+        },
+        {
+            "id": 78,
+            "name": "Seelbach and Stamm, et al. vs. The World, et. al",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "The Best Fucking Court in the World",
+            "attorneys": "We don't need no stinkin' attorneys",
+            "created": "Thu, 19 Jun 2014 15:55:20 +0000",
+            "modified": "Thu, 19 Jun 2014 15:55:20 +0000",
+            "depositions": [
+                {
+                    "id": 133,
+                    "case": "/api/v1/case/78/",
+                    "created": "Thu, 19 Jun 2014 16:10:13 +0000",
+                    "modified": "Thu, 19 Jun 2014 16:10:41 +0000",
+                    "deponent": "Test Case - Karl - Awesome",
+                    "deposition_date": null,
+                    "encoded_video": null,
+                    "transcript": "/secured_media/b4f11188-3bd1-43c4-8c32-a1e636125a25/txt/2014-06-19-111041.txt",
+                    "transcript_xml": null,
+                    "exhibits": [
+                        {
+                            "id": 145,
+                            "transcript": 133,
+                            "name": "Exhibit.pdf",
+                            "description": "",
+                            "file": "/secured_media/921bf735-36ad-4e85-bc60-561f28287d61/pdf/2014-06-19-111045.pdf",
+                            "resource_uri": "/api/v1/exhibit/145/",
+                            "transcript_id": 133,
+                            "transcript_uri": "/api/v1/transcript/133/"
+                        },
+                        {
+                            "id": 146,
+                            "transcript": 133,
+                            "name": "Exhibit2.pdf",
+                            "description": "",
+                            "file": "/secured_media/eb415dd1-9901-4a65-bd54-1c9a85a3b818/pdf/2014-06-19-111614.pdf",
+                            "resource_uri": "/api/v1/exhibit/146/",
+                            "transcript_id": 133,
+                            "transcript_uri": "/api/v1/transcript/133/"
+                        }
+                    ],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/133/",
+                    "case_id": 78,
+                    "case_uri": "/api/v1/case/78/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/78/"
+        },
+        {
+            "id": 71,
+            "name": "Someone v. Someone",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "Blasted Court",
+            "attorneys": "NO MORE ATTORNEYS!",
+            "created": "Fri, 16 May 2014 15:22:31 +0000",
+            "modified": "Fri, 16 May 2014 15:25:40 +0000",
+            "depositions": [
+                {
+                    "id": 124,
+                    "case": "/api/v1/case/71/",
+                    "created": "Fri, 16 May 2014 15:22:31 +0000",
+                    "modified": "Fri, 16 May 2014 15:25:09 +0000",
+                    "deponent": "Brian Smith",
+                    "deposition_date": "Sat, 05 May 1956 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": null,
+                    "transcript_xml": null,
+                    "exhibits": [
+                        {
+                            "id": 129,
+                            "transcript": 124,
+                            "name": "Exhibit  10.pdf",
+                            "description": "",
+                            "file": "/secured_media/d4c0ed88-f1a8-47cb-8498-4a00d347bc36/pdf/2014-05-16-102318.pdf",
+                            "resource_uri": "/api/v1/exhibit/129/",
+                            "transcript_id": 124,
+                            "transcript_uri": "/api/v1/transcript/124/"
+                        },
+                        {
+                            "id": 130,
+                            "transcript": 124,
+                            "name": "Exhibit 11.pdf",
+                            "description": "",
+                            "file": "/secured_media/ad490c14-66c7-41b5-9758-9024b492c7fd/pdf/2014-05-16-102318_1.pdf",
+                            "resource_uri": "/api/v1/exhibit/130/",
+                            "transcript_id": 124,
+                            "transcript_uri": "/api/v1/transcript/124/"
+                        },
+                        {
+                            "id": 131,
+                            "transcript": 124,
+                            "name": "Exhibit 6.pdf",
+                            "description": "",
+                            "file": "/secured_media/bbb8e052-1ed9-4f85-b187-34e0ffd1dd68/pdf/2014-05-16-102318_2.pdf",
+                            "resource_uri": "/api/v1/exhibit/131/",
+                            "transcript_id": 124,
+                            "transcript_uri": "/api/v1/transcript/124/"
+                        },
+                        {
+                            "id": 132,
+                            "transcript": 124,
+                            "name": "Exhibit 13.pdf",
+                            "description": "",
+                            "file": "/secured_media/ebec84f4-bc29-4fb1-8a8a-019358ed017a/pdf/2014-05-16-102318_3.pdf",
+                            "resource_uri": "/api/v1/exhibit/132/",
+                            "transcript_id": 124,
+                            "transcript_uri": "/api/v1/transcript/124/"
+                        },
+                        {
+                            "id": 133,
+                            "transcript": 124,
+                            "name": "Exhibit 1.pdf",
+                            "description": "",
+                            "file": "/secured_media/540518be-5b1e-4d8a-a036-53d393239c04/pdf/2014-05-16-102319.pdf",
+                            "resource_uri": "/api/v1/exhibit/133/",
+                            "transcript_id": 124,
+                            "transcript_uri": "/api/v1/transcript/124/"
+                        },
+                        {
+                            "id": 134,
+                            "transcript": 124,
+                            "name": "Exhibit 14.pdf",
+                            "description": "",
+                            "file": "/secured_media/ff74e09b-0ba4-4cec-8c85-2ff9a697aa69/pdf/2014-05-16-102319_1.pdf",
+                            "resource_uri": "/api/v1/exhibit/134/",
+                            "transcript_id": 124,
+                            "transcript_uri": "/api/v1/transcript/124/"
+                        },
+                        {
+                            "id": 135,
+                            "transcript": 124,
+                            "name": "Exhibit 4.pdf",
+                            "description": "",
+                            "file": "/secured_media/f2aa576c-2aed-49ff-9334-2ea974ab4375/pdf/2014-05-16-102319_2.pdf",
+                            "resource_uri": "/api/v1/exhibit/135/",
+                            "transcript_id": 124,
+                            "transcript_uri": "/api/v1/transcript/124/"
+                        },
+                        {
+                            "id": 136,
+                            "transcript": 124,
+                            "name": "Exhibit 5.pdf",
+                            "description": "",
+                            "file": "/secured_media/140257a3-4093-41a4-841e-411a85e48ce0/pdf/2014-05-16-102319_3.pdf",
+                            "resource_uri": "/api/v1/exhibit/136/",
+                            "transcript_id": 124,
+                            "transcript_uri": "/api/v1/transcript/124/"
+                        },
+                        {
+                            "id": 137,
+                            "transcript": 124,
+                            "name": "Exhibit 12.pdf",
+                            "description": "",
+                            "file": "/secured_media/c8840943-eb61-4be5-8d97-14355aa2cab9/pdf/2014-05-16-102319_4.pdf",
+                            "resource_uri": "/api/v1/exhibit/137/",
+                            "transcript_id": 124,
+                            "transcript_uri": "/api/v1/transcript/124/"
+                        },
+                        {
+                            "id": 138,
+                            "transcript": 124,
+                            "name": "Exhibit 2.pdf",
+                            "description": "",
+                            "file": "/secured_media/bfcad12f-9c88-4a40-85af-ef99a03276fa/pdf/2014-05-16-102319_5.pdf",
+                            "resource_uri": "/api/v1/exhibit/138/",
+                            "transcript_id": 124,
+                            "transcript_uri": "/api/v1/transcript/124/"
+                        },
+                        {
+                            "id": 139,
+                            "transcript": 124,
+                            "name": "Exhibit 7.pdf",
+                            "description": "",
+                            "file": "/secured_media/242bb7f4-1787-4085-b6b0-fe7d46ad0599/pdf/2014-05-16-102319_6.pdf",
+                            "resource_uri": "/api/v1/exhibit/139/",
+                            "transcript_id": 124,
+                            "transcript_uri": "/api/v1/transcript/124/"
+                        },
+                        {
+                            "id": 140,
+                            "transcript": 124,
+                            "name": "Exhibit 3.pdf",
+                            "description": "",
+                            "file": "/secured_media/e5904872-ed79-4fcc-b205-fb5390cca394/pdf/2014-05-16-102320.pdf",
+                            "resource_uri": "/api/v1/exhibit/140/",
+                            "transcript_id": 124,
+                            "transcript_uri": "/api/v1/transcript/124/"
+                        },
+                        {
+                            "id": 141,
+                            "transcript": 124,
+                            "name": "Exhibit 9.pdf",
+                            "description": "",
+                            "file": "/secured_media/a9f3bb87-22c0-47c1-83ef-8cb24edfd7d6/pdf/2014-05-16-102320_1.pdf",
+                            "resource_uri": "/api/v1/exhibit/141/",
+                            "transcript_id": 124,
+                            "transcript_uri": "/api/v1/transcript/124/"
+                        },
+                        {
+                            "id": 142,
+                            "transcript": 124,
+                            "name": "Exhibit 8.pdf",
+                            "description": "",
+                            "file": "/secured_media/95e3547b-2463-4d29-a096-668dd861e5cc/pdf/2014-05-16-102320_2.pdf",
+                            "resource_uri": "/api/v1/exhibit/142/",
+                            "transcript_id": 124,
+                            "transcript_uri": "/api/v1/transcript/124/"
+                        }
+                    ],
+                    "segments": [
+                        {
+                            "id": 49,
+                            "original_media": 1651,
+                            "encoded_audio": null,
+                            "transcript": 124
+                        },
+                        {
+                            "id": 50,
+                            "original_media": 1652,
+                            "encoded_audio": null,
+                            "transcript": 124
+                        }
+                    ],
+                    "resource_uri": "/api/v1/deposition/124/",
+                    "case_id": 71,
+                    "case_uri": "/api/v1/case/71/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/71/"
+        },
+        {
+            "id": 58,
+            "name": "Stamper vs. Underwood",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "United States District Court, Northern District of New York",
+            "attorneys": "Peter Russo, Edward Meechum, Christina Gallagher",
+            "created": "Mon, 17 Mar 2014 19:59:04 +0000",
+            "modified": "Mon, 17 Mar 2014 19:59:04 +0000",
+            "depositions": [
+                {
+                    "id": 100,
+                    "case": "/api/v1/case/58/",
+                    "created": "Mon, 17 Mar 2014 19:59:04 +0000",
+                    "modified": "Mon, 17 Mar 2014 19:59:04 +0000",
+                    "deponent": "Claire Underwood",
+                    "deposition_date": "Wed, 15 Jan 2014 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": null,
+                    "transcript_xml": null,
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/100/",
+                    "case_id": 58,
+                    "case_uri": "/api/v1/case/58/"
+                },
+                {
+                    "id": 99,
+                    "case": "/api/v1/case/58/",
+                    "created": "Mon, 17 Mar 2014 19:59:04 +0000",
+                    "modified": "Mon, 17 Mar 2014 19:59:04 +0000",
+                    "deponent": "Garrett Walker",
+                    "deposition_date": "Thu, 05 Apr 2012 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": null,
+                    "transcript_xml": null,
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/99/",
+                    "case_id": 58,
+                    "case_uri": "/api/v1/case/58/"
+                },
+                {
+                    "id": 98,
+                    "case": "/api/v1/case/58/",
+                    "created": "Mon, 17 Mar 2014 19:59:04 +0000",
+                    "modified": "Mon, 17 Mar 2014 19:59:04 +0000",
+                    "deponent": "Remy Danton",
+                    "deposition_date": "Thu, 15 Aug 2013 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": null,
+                    "transcript_xml": null,
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/98/",
+                    "case_id": 58,
+                    "case_uri": "/api/v1/case/58/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/58/"
+        },
+        {
+            "id": 40,
+            "name": "TEST",
+            "defendant": "N/A",
+            "plaintiff": "N/A",
+            "court": "N/A",
+            "attorneys": "",
+            "created": "Thu, 02 May 2013 02:55:00 +0000",
+            "modified": "Mon, 31 Mar 2014 22:17:35 +0000",
+            "depositions": [
+                {
+                    "id": 47,
+                    "case": "/api/v1/case/40/",
+                    "created": "Thu, 02 May 2013 02:55:42 +0000",
+                    "modified": "Wed, 09 Apr 2014 15:01:52 +0000",
+                    "deponent": "LUKE STAMM",
+                    "deposition_date": "Sun, 01 Jan 1950 06:00:00 +0000",
+                    "encoded_video": "/secured_media/47d849e9-958c-421c-ad80-84ff94c10f2d/mp4/2014-03-31-182217.mp4",
+                    "transcript": "/secured_media/86dabb73-eb71-47f6-90dc-d5a0d36c16f1/txt/2014-03-31-175035.txt",
+                    "transcript_xml": "/secured_media/d382709c-e690-4903-80c0-0b1990e93f88/xml/2014-03-31-183418.xml",
+                    "exhibits": [],
+                    "segments": [
+                        {
+                            "id": 15,
+                            "original_media": 270,
+                            "encoded_audio": null,
+                            "transcript": 47
+                        },
+                        {
+                            "id": 16,
+                            "original_media": 271,
+                            "encoded_audio": null,
+                            "transcript": 47
+                        },
+                        {
+                            "id": 17,
+                            "original_media": 272,
+                            "encoded_audio": null,
+                            "transcript": 47
+                        },
+                        {
+                            "id": 18,
+                            "original_media": 273,
+                            "encoded_audio": null,
+                            "transcript": 47
+                        },
+                        {
+                            "id": 34,
+                            "original_media": 854,
+                            "encoded_audio": null,
+                            "transcript": 47
+                        },
+                        {
+                            "id": 35,
+                            "original_media": 858,
+                            "encoded_audio": null,
+                            "transcript": 47
+                        }
+                    ],
+                    "resource_uri": "/api/v1/deposition/47/",
+                    "case_id": 40,
+                    "case_uri": "/api/v1/case/40/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/40/"
+        },
+        {
+            "id": 56,
+            "name": "testies",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "",
+            "attorneys": "",
+            "created": "Tue, 11 Mar 2014 16:25:04 +0000",
+            "modified": "Tue, 11 Mar 2014 16:25:04 +0000",
+            "depositions": [
+                {
+                    "id": 108,
+                    "case": "/api/v1/case/56/",
+                    "created": "Wed, 02 Apr 2014 00:40:07 +0000",
+                    "modified": "Wed, 02 Apr 2014 00:44:46 +0000",
+                    "deponent": "Aquaman",
+                    "deposition_date": "Sun, 04 Mar 1956 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/f50b5435-93be-4ae2-9eff-cd55558679d5/txt/2014-04-01-194052.txt",
+                    "transcript_xml": "/secured_media/1ea25674-8f60-4c51-94c2-1f3fdb3b66f5/xml/2014-04-01-194112.xml",
+                    "exhibits": [],
+                    "segments": [
+                        {
+                            "id": 42,
+                            "original_media": 882,
+                            "encoded_audio": null,
+                            "transcript": 108
+                        },
+                        {
+                            "id": 43,
+                            "original_media": 883,
+                            "encoded_audio": null,
+                            "transcript": 108
+                        }
+                    ],
+                    "resource_uri": "/api/v1/deposition/108/",
+                    "case_id": 56,
+                    "case_uri": "/api/v1/case/56/"
+                },
+                {
+                    "id": 97,
+                    "case": "/api/v1/case/56/",
+                    "created": "Wed, 12 Mar 2014 20:17:33 +0000",
+                    "modified": "Tue, 01 Apr 2014 23:20:43 +0000",
+                    "deponent": "BOBBY LEE WEBSTER",
+                    "deposition_date": "Thu, 08 Mar 1956 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/7199b0e4-153c-4b5e-a345-3a4eb4052991/txt/2014-03-13-135824.txt",
+                    "transcript_xml": "/secured_media/92358902-784a-46ce-95ae-cba90e45f6c9/xml/2014-03-13-135824.xml",
+                    "exhibits": [],
+                    "segments": [
+                        {
+                            "id": 41,
+                            "original_media": 877,
+                            "encoded_audio": null,
+                            "transcript": 97
+                        },
+                        {
+                            "id": 40,
+                            "original_media": 876,
+                            "encoded_audio": null,
+                            "transcript": 97
+                        }
+                    ],
+                    "resource_uri": "/api/v1/deposition/97/",
+                    "case_id": 56,
+                    "case_uri": "/api/v1/case/56/"
+                },
+                {
+                    "id": 95,
+                    "case": "/api/v1/case/56/",
+                    "created": "Tue, 11 Mar 2014 21:55:38 +0000",
+                    "modified": "Thu, 03 Apr 2014 05:08:22 +0000",
+                    "deponent": "CAROLYN GILMAN",
+                    "deposition_date": "Tue, 11 Jun 1963 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/36f561c1-ee16-4b86-ae68-f09111550ace/txt/2014-03-12-151438.txt",
+                    "transcript_xml": "/secured_media/299c4a63-1f13-4c8e-a655-190fd4932b93/xml/2014-03-12-151438.xml",
+                    "exhibits": [],
+                    "segments": [
+                        {
+                            "id": 29,
+                            "original_media": 689,
+                            "encoded_audio": null,
+                            "transcript": 95
+                        },
+                        {
+                            "id": 30,
+                            "original_media": 690,
+                            "encoded_audio": null,
+                            "transcript": 95
+                        },
+                        {
+                            "id": 31,
+                            "original_media": 691,
+                            "encoded_audio": null,
+                            "transcript": 95
+                        },
+                        {
+                            "id": 32,
+                            "original_media": 692,
+                            "encoded_audio": null,
+                            "transcript": 95
+                        },
+                        {
+                            "id": 33,
+                            "original_media": 693,
+                            "encoded_audio": null,
+                            "transcript": 95
+                        }
+                    ],
+                    "resource_uri": "/api/v1/deposition/95/",
+                    "case_id": 56,
+                    "case_uri": "/api/v1/case/56/"
+                },
+                {
+                    "id": 94,
+                    "case": "/api/v1/case/56/",
+                    "created": "Tue, 11 Mar 2014 16:25:22 +0000",
+                    "modified": "Tue, 11 Mar 2014 16:25:54 +0000",
+                    "deponent": "clapps",
+                    "deposition_date": "Tue, 01 Jan 1952 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/e021adbe-2980-427b-8bab-fd4a208e3b8f/txt/2014-03-11-112540.txt",
+                    "transcript_xml": "/secured_media/e3ae51f1-789d-4838-a8cd-d7e555689ffa/xml/2014-03-11-112540.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/94/",
+                    "case_id": 56,
+                    "case_uri": "/api/v1/case/56/"
+                },
+                {
+                    "id": 106,
+                    "case": "/api/v1/case/56/",
+                    "created": "Tue, 01 Apr 2014 20:09:00 +0000",
+                    "modified": "Tue, 01 Apr 2014 21:49:04 +0000",
+                    "deponent": "Miller Hooks Test",
+                    "deposition_date": "Mon, 06 Jan 1958 06:00:00 +0000",
+                    "encoded_video": "/secured_media/e99c1181-f676-4494-9f0c-4d99c1751ec3/mp4/2014-04-01-152619.mp4",
+                    "transcript": "/secured_media/da3d61f4-109e-45d4-b1ea-1a598f3adbbe/txt/2014-04-01-151043.txt",
+                    "transcript_xml": "/secured_media/9255779a-3a33-493b-91f2-3d547bec3a59/xml/2014-04-01-151221.xml",
+                    "exhibits": [],
+                    "segments": [
+                        {
+                            "id": 37,
+                            "original_media": 868,
+                            "encoded_audio": null,
+                            "transcript": 106
+                        }
+                    ],
+                    "resource_uri": "/api/v1/deposition/106/",
+                    "case_id": 56,
+                    "case_uri": "/api/v1/case/56/"
+                },
+                {
+                    "id": 107,
+                    "case": "/api/v1/case/56/",
+                    "created": "Tue, 01 Apr 2014 20:23:43 +0000",
+                    "modified": "Tue, 01 Apr 2014 23:14:05 +0000",
+                    "deponent": "Steve Boneman",
+                    "deposition_date": "Tue, 05 May 1953 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/bed4deb1-d0b8-4422-862b-e4a76efd5502/txt/2014-04-01-152418.txt",
+                    "transcript_xml": null,
+                    "exhibits": [],
+                    "segments": [
+                        {
+                            "id": 38,
+                            "original_media": 873,
+                            "encoded_audio": null,
+                            "transcript": 107
+                        },
+                        {
+                            "id": 39,
+                            "original_media": 874,
+                            "encoded_audio": null,
+                            "transcript": 107
+                        }
+                    ],
+                    "resource_uri": "/api/v1/deposition/107/",
+                    "case_id": 56,
+                    "case_uri": "/api/v1/case/56/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/56/"
+        },
+        {
+            "id": 61,
+            "name": "Tyson vs. Holyfield",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "Nevada Supreme Court",
+            "attorneys": "Michael Spinks, Trevor Berbick",
+            "created": "Mon, 17 Mar 2014 19:59:04 +0000",
+            "modified": "Mon, 17 Mar 2014 19:59:04 +0000",
+            "depositions": [
+                {
+                    "id": 103,
+                    "case": "/api/v1/case/61/",
+                    "created": "Mon, 17 Mar 2014 19:59:04 +0000",
+                    "modified": "Wed, 19 Mar 2014 06:44:37 +0000",
+                    "deponent": "Zach Galifianakis",
+                    "deposition_date": "Sun, 27 May 2012 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": "/secured_media/532541a2-2301-4bda-b295-f4c0904e15ec/txt/2014-03-19-014437.txt",
+                    "transcript_xml": "/secured_media/e5f35326-f48b-4e9f-b782-285852f1af8b/xml/2014-03-19-014437.xml",
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/103/",
+                    "case_id": 61,
+                    "case_uri": "/api/v1/case/61/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/61/"
+        },
+        {
+            "id": 77,
+            "name": "untitled folder 3",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "",
+            "attorneys": "",
+            "created": "Thu, 19 Jun 2014 15:49:27 +0000",
+            "modified": "Thu, 19 Jun 2014 15:49:27 +0000",
+            "depositions": [
+                {
+                    "id": 134,
+                    "case": "/api/v1/case/77/",
+                    "created": "Wed, 20 Aug 2014 23:46:00 +0000",
+                    "modified": "Wed, 20 Aug 2014 23:46:00 +0000",
+                    "deponent": "No One In Particular",
+                    "deposition_date": "Thu, 12 Mar 2009 05:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": null,
+                    "transcript_xml": null,
+                    "exhibits": [],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/134/",
+                    "case_id": 77,
+                    "case_uri": "/api/v1/case/77/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/77/"
+        },
+        {
+            "id": 66,
+            "name": "Video Demo",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "",
+            "attorneys": "",
+            "created": "Wed, 23 Apr 2014 03:39:03 +0000",
+            "modified": "Wed, 23 Apr 2014 03:39:03 +0000",
+            "depositions": [
+                {
+                    "id": 115,
+                    "case": "/api/v1/case/66/",
+                    "created": "Wed, 23 Apr 2014 03:39:03 +0000",
+                    "modified": "Thu, 09 Oct 2014 21:58:30 +0000",
+                    "deponent": "Dustin Hanna",
+                    "deposition_date": null,
+                    "encoded_video": "/secured_media/07c0bdde-8a3f-43bc-88b6-a94e7bdc6e3d/mp4/2014-10-09-165409.mp4",
+                    "transcript": "/secured_media/00ae9f0d-64d4-4ffa-8c99-baa2fa94e980/txt/2014-04-22-223903.TXT",
+                    "transcript_xml": "/secured_media/9b977b67-000e-434c-adb8-a9e795f36dd4/xml/2014-04-24-121114.xml",
+                    "exhibits": [],
+                    "segments": [
+                        {
+                            "id": 44,
+                            "original_media": 994,
+                            "encoded_audio": null,
+                            "transcript": 115
+                        }
+                    ],
+                    "resource_uri": "/api/v1/deposition/115/",
+                    "case_id": 66,
+                    "case_uri": "/api/v1/case/66/"
+                },
+                {
+                    "id": 116,
+                    "case": "/api/v1/case/66/",
+                    "created": "Thu, 24 Apr 2014 16:32:04 +0000",
+                    "modified": "Thu, 24 Apr 2014 17:11:33 +0000",
+                    "deponent": "Test Dropbox Download",
+                    "deposition_date": "Wed, 04 Feb 1959 06:00:00 +0000",
+                    "encoded_video": null,
+                    "transcript": null,
+                    "transcript_xml": null,
+                    "exhibits": [],
+                    "segments": [
+                        {
+                            "id": 45,
+                            "original_media": 1003,
+                            "encoded_audio": null,
+                            "transcript": 116
+                        },
+                        {
+                            "id": 46,
+                            "original_media": 1006,
+                            "encoded_audio": null,
+                            "transcript": 116
+                        },
+                        {
+                            "id": 47,
+                            "original_media": 1007,
+                            "encoded_audio": null,
+                            "transcript": 116
+                        }
+                    ],
+                    "resource_uri": "/api/v1/deposition/116/",
+                    "case_id": 66,
+                    "case_uri": "/api/v1/case/66/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/66/"
+        },
+        {
+            "id": 64,
+            "name": "Xennia Technology, Ltd. v. David Bond, et al.",
+            "defendant": "",
+            "plaintiff": "",
+            "court": "",
+            "attorneys": "",
+            "created": "Wed, 23 Apr 2014 03:24:01 +0000",
+            "modified": "Wed, 23 Apr 2014 03:24:01 +0000",
+            "depositions": [
+                {
+                    "id": 111,
+                    "case": "/api/v1/case/64/",
+                    "created": "Wed, 23 Apr 2014 03:24:01 +0000",
+                    "modified": "Wed, 23 Apr 2014 03:37:07 +0000",
+                    "deponent": "Daryl Bristow",
+                    "deposition_date": null,
+                    "encoded_video": null,
+                    "transcript": "/secured_media/f194f0c9-56f5-44e2-a08f-18b112e9fd90/txt/2014-04-22-223707.txt",
+                    "transcript_xml": null,
+                    "exhibits": [
+                        {
+                            "id": 104,
+                            "transcript": 111,
+                            "name": "Bristow-Exhibit 63.pdf",
+                            "description": "",
+                            "file": "/secured_media/fed92e06-58c7-48f6-9207-da305c6e20a1/pdf/2014-04-22-223901.pdf",
+                            "resource_uri": "/api/v1/exhibit/104/",
+                            "transcript_id": 111,
+                            "transcript_uri": "/api/v1/transcript/111/"
+                        },
+                        {
+                            "id": 105,
+                            "transcript": 111,
+                            "name": "Bristow-Exhibit 68.pdf",
+                            "description": "",
+                            "file": "/secured_media/6a625b3d-8945-46c8-9c74-ac9b22c1fcb4/pdf/2014-04-22-223901_1.pdf",
+                            "resource_uri": "/api/v1/exhibit/105/",
+                            "transcript_id": 111,
+                            "transcript_uri": "/api/v1/transcript/111/"
+                        },
+                        {
+                            "id": 106,
+                            "transcript": 111,
+                            "name": "Bristow-Exhibit 65.pdf",
+                            "description": "",
+                            "file": "/secured_media/45ae16f4-76bf-4ed5-97dc-5f92141d7c36/pdf/2014-04-22-223901_2.pdf",
+                            "resource_uri": "/api/v1/exhibit/106/",
+                            "transcript_id": 111,
+                            "transcript_uri": "/api/v1/transcript/111/"
+                        },
+                        {
+                            "id": 107,
+                            "transcript": 111,
+                            "name": "Bristow-Exhibit 70.pdf",
+                            "description": "",
+                            "file": "/secured_media/eb1935f4-4a4a-4446-8b1e-d3892c8f38b3/pdf/2014-04-22-223901_3.pdf",
+                            "resource_uri": "/api/v1/exhibit/107/",
+                            "transcript_id": 111,
+                            "transcript_uri": "/api/v1/transcript/111/"
+                        },
+                        {
+                            "id": 108,
+                            "transcript": 111,
+                            "name": "Bristow-Exhibit 71.pdf",
+                            "description": "",
+                            "file": "/secured_media/84d90b2a-4664-4877-a542-817bbd8969f8/pdf/2014-04-22-223902.pdf",
+                            "resource_uri": "/api/v1/exhibit/108/",
+                            "transcript_id": 111,
+                            "transcript_uri": "/api/v1/transcript/111/"
+                        },
+                        {
+                            "id": 109,
+                            "transcript": 111,
+                            "name": "Bristow-Exhibit 69.pdf",
+                            "description": "",
+                            "file": "/secured_media/882c5055-563a-40a7-8bc7-1d53b5d7fdc2/pdf/2014-04-22-223902_1.pdf",
+                            "resource_uri": "/api/v1/exhibit/109/",
+                            "transcript_id": 111,
+                            "transcript_uri": "/api/v1/transcript/111/"
+                        },
+                        {
+                            "id": 110,
+                            "transcript": 111,
+                            "name": "Bristow-Exhibit 67.pdf",
+                            "description": "",
+                            "file": "/secured_media/543d68d9-2b2d-4af2-bfd0-71ac11a24f97/pdf/2014-04-22-223902_2.pdf",
+                            "resource_uri": "/api/v1/exhibit/110/",
+                            "transcript_id": 111,
+                            "transcript_uri": "/api/v1/transcript/111/"
+                        },
+                        {
+                            "id": 111,
+                            "transcript": 111,
+                            "name": "Bristow-Exhibit 64.pdf",
+                            "description": "",
+                            "file": "/secured_media/df2063c1-3300-4314-b2ef-c1b318d15fd4/pdf/2014-04-22-223902_3.pdf",
+                            "resource_uri": "/api/v1/exhibit/111/",
+                            "transcript_id": 111,
+                            "transcript_uri": "/api/v1/transcript/111/"
+                        },
+                        {
+                            "id": 112,
+                            "transcript": 111,
+                            "name": "Bristow-Exhibit 72.pdf",
+                            "description": "",
+                            "file": "/secured_media/7760cc22-6944-4ed4-869c-e405fc6a3d92/pdf/2014-04-22-223903.pdf",
+                            "resource_uri": "/api/v1/exhibit/112/",
+                            "transcript_id": 111,
+                            "transcript_uri": "/api/v1/transcript/111/"
+                        },
+                        {
+                            "id": 113,
+                            "transcript": 111,
+                            "name": "Bristow-Exhibit 66.pdf",
+                            "description": "",
+                            "file": "/secured_media/96f37190-bf72-4b2d-8b11-f64b373ad39e/pdf/2014-04-22-223903_1.pdf",
+                            "resource_uri": "/api/v1/exhibit/113/",
+                            "transcript_id": 111,
+                            "transcript_uri": "/api/v1/transcript/111/"
+                        }
+                    ],
+                    "segments": [],
+                    "resource_uri": "/api/v1/deposition/111/",
+                    "case_id": 64,
+                    "case_uri": "/api/v1/case/64/"
+                }
+            ],
+            "transcripts": [],
+            "resource_uri": "/api/v1/case/64/"
+        }
+    ]
+}

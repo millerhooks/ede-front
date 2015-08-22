@@ -1,0 +1,1662 @@
+[
+  {
+    "id": 0,
+    "message_class": "Success",
+    "message": "Ex cillum deserunt laborum ullamco eiusmod proident mollit do amet adipisicing exercitation dolor quis Lorem.",
+    "icon": "/icon.png",
+    "user": [
+      {
+        "avatar": "/icon.png",
+        "name": "Berry Jimenez"
+      }
+    ],
+    "deposition": [
+      {
+        "id": 2,
+        "created": "Thu, Oct 30, 2014 1:42 PM",
+        "deponent": "Hines Thornton",
+        "deposition_date": "Thu, May 1, 2014 3:58 AM",
+        "encoded_video": "/static/video.mp4",
+        "exhibits": [
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 2,
+            "name": "Eleanor Peters",
+            "resource_uri": "/api/v1/exhibit/2",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Marilyn Pope",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Armstrong Rush",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Gutierrez Noble",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/1"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Hallie Anthony",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/8"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 10,
+            "name": "Shawn Phillips",
+            "resource_uri": "/api/v1/exhibit/10",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Rosa Mcbride",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/9"
+          }
+        ],
+        "modified": "Sat, May 3, 2014 8:37 AM",
+        "resource_uri": "/api/v1/transcript/2",
+        "transcript": "/static/transcript.txt",
+        "transcript_xml": "/static/transcript.xml"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "message_class": "Attention",
+    "message": "Duis voluptate veniam reprehenderit officia fugiat.",
+    "icon": "/icon.png",
+    "user": [
+      {
+        "avatar": "/icon.png",
+        "name": "Berry Jimenez"
+      }
+    ],
+    "deposition": [
+      {
+        "id": 2,
+        "created": "Thu, Oct 30, 2014 1:42 PM",
+        "deponent": "Hines Thornton",
+        "deposition_date": "Thu, May 1, 2014 3:58 AM",
+        "encoded_video": "/static/video.mp4",
+        "exhibits": [
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 2,
+            "name": "Eleanor Peters",
+            "resource_uri": "/api/v1/exhibit/2",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Marilyn Pope",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Armstrong Rush",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Gutierrez Noble",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/1"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Hallie Anthony",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/8"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 10,
+            "name": "Shawn Phillips",
+            "resource_uri": "/api/v1/exhibit/10",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Rosa Mcbride",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/9"
+          }
+        ],
+        "modified": "Sat, May 3, 2014 8:37 AM",
+        "resource_uri": "/api/v1/transcript/2",
+        "transcript": "/static/transcript.txt",
+        "transcript_xml": "/static/transcript.xml"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "message_class": "Warning",
+    "message": "Consequat aute aliquip in occaecat sunt.",
+    "icon": "/icon.png",
+    "user": [
+      {
+        "avatar": "/icon.png",
+        "name": "Berry Jimenez"
+      }
+    ],
+    "deposition": [
+      {
+        "id": 2,
+        "created": "Thu, Oct 30, 2014 1:42 PM",
+        "deponent": "Hines Thornton",
+        "deposition_date": "Thu, May 1, 2014 3:58 AM",
+        "encoded_video": "/static/video.mp4",
+        "exhibits": [
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 2,
+            "name": "Eleanor Peters",
+            "resource_uri": "/api/v1/exhibit/2",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Marilyn Pope",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Armstrong Rush",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Gutierrez Noble",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/1"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Hallie Anthony",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/8"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 10,
+            "name": "Shawn Phillips",
+            "resource_uri": "/api/v1/exhibit/10",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Rosa Mcbride",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/9"
+          }
+        ],
+        "modified": "Sat, May 3, 2014 8:37 AM",
+        "resource_uri": "/api/v1/transcript/2",
+        "transcript": "/static/transcript.txt",
+        "transcript_xml": "/static/transcript.xml"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "message_class": "Attention",
+    "message": "Officia sit minim commodo duis nisi anim mollit.",
+    "icon": "/icon.png",
+    "user": [
+      {
+        "avatar": "/icon.png",
+        "name": "Berry Jimenez"
+      }
+    ],
+    "deposition": [
+      {
+        "id": 2,
+        "created": "Thu, Oct 30, 2014 1:42 PM",
+        "deponent": "Hines Thornton",
+        "deposition_date": "Thu, May 1, 2014 3:58 AM",
+        "encoded_video": "/static/video.mp4",
+        "exhibits": [
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 2,
+            "name": "Eleanor Peters",
+            "resource_uri": "/api/v1/exhibit/2",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Marilyn Pope",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Armstrong Rush",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Gutierrez Noble",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/1"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Hallie Anthony",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/8"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 10,
+            "name": "Shawn Phillips",
+            "resource_uri": "/api/v1/exhibit/10",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Rosa Mcbride",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/9"
+          }
+        ],
+        "modified": "Sat, May 3, 2014 8:37 AM",
+        "resource_uri": "/api/v1/transcript/2",
+        "transcript": "/static/transcript.txt",
+        "transcript_xml": "/static/transcript.xml"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "message_class": "Standard",
+    "message": "Anim et consequat minim ad in ut ut.",
+    "icon": "/icon.png",
+    "user": [
+      {
+        "avatar": "/icon.png",
+        "name": "Berry Jimenez"
+      }
+    ],
+    "deposition": [
+      {
+        "id": 2,
+        "created": "Thu, Oct 30, 2014 1:42 PM",
+        "deponent": "Hines Thornton",
+        "deposition_date": "Thu, May 1, 2014 3:58 AM",
+        "encoded_video": "/static/video.mp4",
+        "exhibits": [
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 2,
+            "name": "Eleanor Peters",
+            "resource_uri": "/api/v1/exhibit/2",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Marilyn Pope",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Armstrong Rush",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Gutierrez Noble",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/1"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Hallie Anthony",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/8"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 10,
+            "name": "Shawn Phillips",
+            "resource_uri": "/api/v1/exhibit/10",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Rosa Mcbride",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/9"
+          }
+        ],
+        "modified": "Sat, May 3, 2014 8:37 AM",
+        "resource_uri": "/api/v1/transcript/2",
+        "transcript": "/static/transcript.txt",
+        "transcript_xml": "/static/transcript.xml"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "message_class": "Warning",
+    "message": "Minim pariatur veniam dolore aute qui deserunt et do veniam.",
+    "icon": "/icon.png",
+    "user": [
+      {
+        "avatar": "/icon.png",
+        "name": "Berry Jimenez"
+      }
+    ],
+    "deposition": [
+      {
+        "id": 2,
+        "created": "Thu, Oct 30, 2014 1:42 PM",
+        "deponent": "Hines Thornton",
+        "deposition_date": "Thu, May 1, 2014 3:58 AM",
+        "encoded_video": "/static/video.mp4",
+        "exhibits": [
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 2,
+            "name": "Eleanor Peters",
+            "resource_uri": "/api/v1/exhibit/2",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Marilyn Pope",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Armstrong Rush",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Gutierrez Noble",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/1"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Hallie Anthony",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/8"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 10,
+            "name": "Shawn Phillips",
+            "resource_uri": "/api/v1/exhibit/10",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Rosa Mcbride",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/9"
+          }
+        ],
+        "modified": "Sat, May 3, 2014 8:37 AM",
+        "resource_uri": "/api/v1/transcript/2",
+        "transcript": "/static/transcript.txt",
+        "transcript_xml": "/static/transcript.xml"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "message_class": "Success",
+    "message": "Irure pariatur magna dolore Lorem cupidatat.",
+    "icon": "/icon.png",
+    "user": [
+      {
+        "avatar": "/icon.png",
+        "name": "Berry Jimenez"
+      }
+    ],
+    "deposition": [
+      {
+        "id": 2,
+        "created": "Thu, Oct 30, 2014 1:42 PM",
+        "deponent": "Hines Thornton",
+        "deposition_date": "Thu, May 1, 2014 3:58 AM",
+        "encoded_video": "/static/video.mp4",
+        "exhibits": [
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 2,
+            "name": "Eleanor Peters",
+            "resource_uri": "/api/v1/exhibit/2",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Marilyn Pope",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Armstrong Rush",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Gutierrez Noble",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/1"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Hallie Anthony",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/8"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 10,
+            "name": "Shawn Phillips",
+            "resource_uri": "/api/v1/exhibit/10",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Rosa Mcbride",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/9"
+          }
+        ],
+        "modified": "Sat, May 3, 2014 8:37 AM",
+        "resource_uri": "/api/v1/transcript/2",
+        "transcript": "/static/transcript.txt",
+        "transcript_xml": "/static/transcript.xml"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "message_class": "Success",
+    "message": "Minim sit proident eiusmod sunt.",
+    "icon": "/icon.png",
+    "user": [
+      {
+        "avatar": "/icon.png",
+        "name": "Berry Jimenez"
+      }
+    ],
+    "deposition": [
+      {
+        "id": 2,
+        "created": "Thu, Oct 30, 2014 1:42 PM",
+        "deponent": "Hines Thornton",
+        "deposition_date": "Thu, May 1, 2014 3:58 AM",
+        "encoded_video": "/static/video.mp4",
+        "exhibits": [
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 2,
+            "name": "Eleanor Peters",
+            "resource_uri": "/api/v1/exhibit/2",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Marilyn Pope",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Armstrong Rush",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Gutierrez Noble",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/1"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Hallie Anthony",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/8"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 10,
+            "name": "Shawn Phillips",
+            "resource_uri": "/api/v1/exhibit/10",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Rosa Mcbride",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/9"
+          }
+        ],
+        "modified": "Sat, May 3, 2014 8:37 AM",
+        "resource_uri": "/api/v1/transcript/2",
+        "transcript": "/static/transcript.txt",
+        "transcript_xml": "/static/transcript.xml"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "message_class": "Standard",
+    "message": "Lorem eiusmod deserunt enim culpa ad exercitation in.",
+    "icon": "/icon.png",
+    "user": [
+      {
+        "avatar": "/icon.png",
+        "name": "Berry Jimenez"
+      }
+    ],
+    "deposition": [
+      {
+        "id": 2,
+        "created": "Thu, Oct 30, 2014 1:42 PM",
+        "deponent": "Hines Thornton",
+        "deposition_date": "Thu, May 1, 2014 3:58 AM",
+        "encoded_video": "/static/video.mp4",
+        "exhibits": [
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 2,
+            "name": "Eleanor Peters",
+            "resource_uri": "/api/v1/exhibit/2",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Marilyn Pope",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Armstrong Rush",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Gutierrez Noble",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/1"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Hallie Anthony",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/8"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 10,
+            "name": "Shawn Phillips",
+            "resource_uri": "/api/v1/exhibit/10",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Rosa Mcbride",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/9"
+          }
+        ],
+        "modified": "Sat, May 3, 2014 8:37 AM",
+        "resource_uri": "/api/v1/transcript/2",
+        "transcript": "/static/transcript.txt",
+        "transcript_xml": "/static/transcript.xml"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "message_class": "Locked",
+    "message": "Ullamco ex culpa eu quis Lorem.",
+    "icon": "/icon.png",
+    "user": [
+      {
+        "avatar": "/icon.png",
+        "name": "Berry Jimenez"
+      }
+    ],
+    "deposition": [
+      {
+        "id": 2,
+        "created": "Thu, Oct 30, 2014 1:42 PM",
+        "deponent": "Hines Thornton",
+        "deposition_date": "Thu, May 1, 2014 3:58 AM",
+        "encoded_video": "/static/video.mp4",
+        "exhibits": [
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 2,
+            "name": "Eleanor Peters",
+            "resource_uri": "/api/v1/exhibit/2",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Marilyn Pope",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Armstrong Rush",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Gutierrez Noble",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/1"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Hallie Anthony",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/8"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 10,
+            "name": "Shawn Phillips",
+            "resource_uri": "/api/v1/exhibit/10",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Rosa Mcbride",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/9"
+          }
+        ],
+        "modified": "Sat, May 3, 2014 8:37 AM",
+        "resource_uri": "/api/v1/transcript/2",
+        "transcript": "/static/transcript.txt",
+        "transcript_xml": "/static/transcript.xml"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "message_class": "Attention",
+    "message": "Lorem mollit nulla tempor laborum labore commodo et officia in.",
+    "icon": "/icon.png",
+    "user": [
+      {
+        "avatar": "/icon.png",
+        "name": "Berry Jimenez"
+      }
+    ],
+    "deposition": [
+      {
+        "id": 2,
+        "created": "Thu, Oct 30, 2014 1:42 PM",
+        "deponent": "Hines Thornton",
+        "deposition_date": "Thu, May 1, 2014 3:58 AM",
+        "encoded_video": "/static/video.mp4",
+        "exhibits": [
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 2,
+            "name": "Eleanor Peters",
+            "resource_uri": "/api/v1/exhibit/2",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Marilyn Pope",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Armstrong Rush",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Gutierrez Noble",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/1"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Hallie Anthony",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/8"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 10,
+            "name": "Shawn Phillips",
+            "resource_uri": "/api/v1/exhibit/10",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Rosa Mcbride",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/9"
+          }
+        ],
+        "modified": "Sat, May 3, 2014 8:37 AM",
+        "resource_uri": "/api/v1/transcript/2",
+        "transcript": "/static/transcript.txt",
+        "transcript_xml": "/static/transcript.xml"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "message_class": "Warning",
+    "message": "Ea anim pariatur et et commodo.",
+    "icon": "/icon.png",
+    "user": [
+      {
+        "avatar": "/icon.png",
+        "name": "Berry Jimenez"
+      }
+    ],
+    "deposition": [
+      {
+        "id": 2,
+        "created": "Thu, Oct 30, 2014 1:42 PM",
+        "deponent": "Hines Thornton",
+        "deposition_date": "Thu, May 1, 2014 3:58 AM",
+        "encoded_video": "/static/video.mp4",
+        "exhibits": [
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 2,
+            "name": "Eleanor Peters",
+            "resource_uri": "/api/v1/exhibit/2",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Marilyn Pope",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Armstrong Rush",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Gutierrez Noble",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/1"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Hallie Anthony",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/8"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 10,
+            "name": "Shawn Phillips",
+            "resource_uri": "/api/v1/exhibit/10",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Rosa Mcbride",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/9"
+          }
+        ],
+        "modified": "Sat, May 3, 2014 8:37 AM",
+        "resource_uri": "/api/v1/transcript/2",
+        "transcript": "/static/transcript.txt",
+        "transcript_xml": "/static/transcript.xml"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "message_class": "Locked",
+    "message": "Quis minim adipisicing in minim officia in eu aliquip.",
+    "icon": "/icon.png",
+    "user": [
+      {
+        "avatar": "/icon.png",
+        "name": "Berry Jimenez"
+      }
+    ],
+    "deposition": [
+      {
+        "id": 2,
+        "created": "Thu, Oct 30, 2014 1:42 PM",
+        "deponent": "Hines Thornton",
+        "deposition_date": "Thu, May 1, 2014 3:58 AM",
+        "encoded_video": "/static/video.mp4",
+        "exhibits": [
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 2,
+            "name": "Eleanor Peters",
+            "resource_uri": "/api/v1/exhibit/2",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Marilyn Pope",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Armstrong Rush",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Gutierrez Noble",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/1"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Hallie Anthony",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/8"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 10,
+            "name": "Shawn Phillips",
+            "resource_uri": "/api/v1/exhibit/10",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Rosa Mcbride",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/9"
+          }
+        ],
+        "modified": "Sat, May 3, 2014 8:37 AM",
+        "resource_uri": "/api/v1/transcript/2",
+        "transcript": "/static/transcript.txt",
+        "transcript_xml": "/static/transcript.xml"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "message_class": "Attention",
+    "message": "Irure laborum proident cillum ea Lorem elit ipsum ipsum.",
+    "icon": "/icon.png",
+    "user": [
+      {
+        "avatar": "/icon.png",
+        "name": "Berry Jimenez"
+      }
+    ],
+    "deposition": [
+      {
+        "id": 2,
+        "created": "Thu, Oct 30, 2014 1:42 PM",
+        "deponent": "Hines Thornton",
+        "deposition_date": "Thu, May 1, 2014 3:58 AM",
+        "encoded_video": "/static/video.mp4",
+        "exhibits": [
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 2,
+            "name": "Eleanor Peters",
+            "resource_uri": "/api/v1/exhibit/2",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Marilyn Pope",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Armstrong Rush",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Gutierrez Noble",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/1"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Hallie Anthony",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/8"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 10,
+            "name": "Shawn Phillips",
+            "resource_uri": "/api/v1/exhibit/10",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Rosa Mcbride",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/9"
+          }
+        ],
+        "modified": "Sat, May 3, 2014 8:37 AM",
+        "resource_uri": "/api/v1/transcript/2",
+        "transcript": "/static/transcript.txt",
+        "transcript_xml": "/static/transcript.xml"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "message_class": "Standard",
+    "message": "Sit excepteur duis minim est exercitation reprehenderit eiusmod anim.",
+    "icon": "/icon.png",
+    "user": [
+      {
+        "avatar": "/icon.png",
+        "name": "Berry Jimenez"
+      }
+    ],
+    "deposition": [
+      {
+        "id": 2,
+        "created": "Thu, Oct 30, 2014 1:42 PM",
+        "deponent": "Hines Thornton",
+        "deposition_date": "Thu, May 1, 2014 3:58 AM",
+        "encoded_video": "/static/video.mp4",
+        "exhibits": [
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 2,
+            "name": "Eleanor Peters",
+            "resource_uri": "/api/v1/exhibit/2",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Marilyn Pope",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Armstrong Rush",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Gutierrez Noble",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/1"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Hallie Anthony",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/8"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 10,
+            "name": "Shawn Phillips",
+            "resource_uri": "/api/v1/exhibit/10",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Rosa Mcbride",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/9"
+          }
+        ],
+        "modified": "Sat, May 3, 2014 8:37 AM",
+        "resource_uri": "/api/v1/transcript/2",
+        "transcript": "/static/transcript.txt",
+        "transcript_xml": "/static/transcript.xml"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "message_class": "Locked",
+    "message": "Labore ut voluptate Lorem sunt veniam.",
+    "icon": "/icon.png",
+    "user": [
+      {
+        "avatar": "/icon.png",
+        "name": "Berry Jimenez"
+      }
+    ],
+    "deposition": [
+      {
+        "id": 2,
+        "created": "Thu, Oct 30, 2014 1:42 PM",
+        "deponent": "Hines Thornton",
+        "deposition_date": "Thu, May 1, 2014 3:58 AM",
+        "encoded_video": "/static/video.mp4",
+        "exhibits": [
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 2,
+            "name": "Eleanor Peters",
+            "resource_uri": "/api/v1/exhibit/2",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Marilyn Pope",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Armstrong Rush",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Gutierrez Noble",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/1"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Hallie Anthony",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/8"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 10,
+            "name": "Shawn Phillips",
+            "resource_uri": "/api/v1/exhibit/10",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Rosa Mcbride",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/9"
+          }
+        ],
+        "modified": "Sat, May 3, 2014 8:37 AM",
+        "resource_uri": "/api/v1/transcript/2",
+        "transcript": "/static/transcript.txt",
+        "transcript_xml": "/static/transcript.xml"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "message_class": "Standard",
+    "message": "Mollit sunt qui nisi sunt laboris consequat sit est mollit.",
+    "icon": "/icon.png",
+    "user": [
+      {
+        "avatar": "/icon.png",
+        "name": "Berry Jimenez"
+      }
+    ],
+    "deposition": [
+      {
+        "id": 2,
+        "created": "Thu, Oct 30, 2014 1:42 PM",
+        "deponent": "Hines Thornton",
+        "deposition_date": "Thu, May 1, 2014 3:58 AM",
+        "encoded_video": "/static/video.mp4",
+        "exhibits": [
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 2,
+            "name": "Eleanor Peters",
+            "resource_uri": "/api/v1/exhibit/2",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Marilyn Pope",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Armstrong Rush",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Gutierrez Noble",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/1"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Hallie Anthony",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/8"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 10,
+            "name": "Shawn Phillips",
+            "resource_uri": "/api/v1/exhibit/10",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Rosa Mcbride",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/9"
+          }
+        ],
+        "modified": "Sat, May 3, 2014 8:37 AM",
+        "resource_uri": "/api/v1/transcript/2",
+        "transcript": "/static/transcript.txt",
+        "transcript_xml": "/static/transcript.xml"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "message_class": "Warning",
+    "message": "Nisi ullamco ipsum ut nisi do ea dolor ut ut mollit.",
+    "icon": "/icon.png",
+    "user": [
+      {
+        "avatar": "/icon.png",
+        "name": "Berry Jimenez"
+      }
+    ],
+    "deposition": [
+      {
+        "id": 2,
+        "created": "Thu, Oct 30, 2014 1:42 PM",
+        "deponent": "Hines Thornton",
+        "deposition_date": "Thu, May 1, 2014 3:58 AM",
+        "encoded_video": "/static/video.mp4",
+        "exhibits": [
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 2,
+            "name": "Eleanor Peters",
+            "resource_uri": "/api/v1/exhibit/2",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Marilyn Pope",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Armstrong Rush",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Gutierrez Noble",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/1"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Hallie Anthony",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/8"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 10,
+            "name": "Shawn Phillips",
+            "resource_uri": "/api/v1/exhibit/10",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Rosa Mcbride",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/9"
+          }
+        ],
+        "modified": "Sat, May 3, 2014 8:37 AM",
+        "resource_uri": "/api/v1/transcript/2",
+        "transcript": "/static/transcript.txt",
+        "transcript_xml": "/static/transcript.xml"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "message_class": "Success",
+    "message": "Esse ad fugiat dolore sint magna ipsum ex fugiat ut adipisicing exercitation.",
+    "icon": "/icon.png",
+    "user": [
+      {
+        "avatar": "/icon.png",
+        "name": "Berry Jimenez"
+      }
+    ],
+    "deposition": [
+      {
+        "id": 2,
+        "created": "Thu, Oct 30, 2014 1:42 PM",
+        "deponent": "Hines Thornton",
+        "deposition_date": "Thu, May 1, 2014 3:58 AM",
+        "encoded_video": "/static/video.mp4",
+        "exhibits": [
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 2,
+            "name": "Eleanor Peters",
+            "resource_uri": "/api/v1/exhibit/2",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Marilyn Pope",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Armstrong Rush",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Gutierrez Noble",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/1"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Hallie Anthony",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/8"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 10,
+            "name": "Shawn Phillips",
+            "resource_uri": "/api/v1/exhibit/10",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Rosa Mcbride",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/9"
+          }
+        ],
+        "modified": "Sat, May 3, 2014 8:37 AM",
+        "resource_uri": "/api/v1/transcript/2",
+        "transcript": "/static/transcript.txt",
+        "transcript_xml": "/static/transcript.xml"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "message_class": "Attention",
+    "message": "Anim Lorem id occaecat ad ea consectetur non dolore cupidatat ad cupidatat consectetur.",
+    "icon": "/icon.png",
+    "user": [
+      {
+        "avatar": "/icon.png",
+        "name": "Berry Jimenez"
+      }
+    ],
+    "deposition": [
+      {
+        "id": 2,
+        "created": "Thu, Oct 30, 2014 1:42 PM",
+        "deponent": "Hines Thornton",
+        "deposition_date": "Thu, May 1, 2014 3:58 AM",
+        "encoded_video": "/static/video.mp4",
+        "exhibits": [
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 2,
+            "name": "Eleanor Peters",
+            "resource_uri": "/api/v1/exhibit/2",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Marilyn Pope",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Armstrong Rush",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/7"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Gutierrez Noble",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/1"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 1,
+            "name": "Hallie Anthony",
+            "resource_uri": "/api/v1/exhibit/1",
+            "transcript": "/api/v1/transcript/8"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 10,
+            "name": "Shawn Phillips",
+            "resource_uri": "/api/v1/exhibit/10",
+            "transcript": "/api/v1/transcript/5"
+          },
+          {
+            "description": "",
+            "file": "/static/exhibits.pdf",
+            "id": 9,
+            "name": "Rosa Mcbride",
+            "resource_uri": "/api/v1/exhibit/9",
+            "transcript": "/api/v1/transcript/9"
+          }
+        ],
+        "modified": "Sat, May 3, 2014 8:37 AM",
+        "resource_uri": "/api/v1/transcript/2",
+        "transcript": "/static/transcript.txt",
+        "transcript_xml": "/static/transcript.xml"
+      }
+    ]
+  }
+]

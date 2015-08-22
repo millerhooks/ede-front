@@ -1,0 +1,67 @@
+/* LABELS */
+
+//Circled Notifications
+.circled-notification {
+    font-size: 14px;
+    font-weight: $font-weight-medium;
+    line-height: 22px;
+
+    display: inline-block;
+
+    min-width: 22px;
+    height: 22px;
+
+    text-align: center;
+
+    color: $site-color-white;
+    //Default background-color is green and size is medium (22px)
+    border-radius: 11px;
+    background: $site-color-sushi;
+    i {
+        font-size: 12px;
+    }
+    //Sizes below
+    &.small {
+        font-size: 12px;
+        line-height: 14px;
+
+        min-width: 16px;
+        height: 16px;
+        padding: 1px;
+
+        border-radius: 8px;
+        i {
+            font-size: 10px;
+        }
+    }
+    &.large {
+        font-size: 18px;
+        line-height: 22px;
+
+        min-width: 32px;
+        height: 32px;
+        padding: 5px;
+
+        border-radius: 16px;
+        i {
+            font-size: 16px;
+        }
+    }
+    //Colors below
+    &.gray {
+        background: $site-color-oslo-gray;
+    }
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+        .circled-notification {
+            color: $site-color-white;
+            background: darken($site-color-sushi, 7%);
+            &.gray {
+                background: darken($site-color-oslo-gray, 7%);
+            }
+        }
+    }
+}

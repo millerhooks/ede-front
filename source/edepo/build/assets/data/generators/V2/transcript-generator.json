@@ -1,0 +1,30 @@
+[
+  '{{repeat(50, 50)}}',
+  {
+    id: '{{index()}}',
+    'case': function(tags) {
+  return '/api/v1/case/'+(Math.floor(tags.index()/5));
+},
+  created: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("llll")}}',
+  deponent: '{{firstName()}} {{surname()}}',
+  deposition_date: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("llll")}}',
+  encoded_video: '/static/video.mp4',
+  exhibits: function (tags, index) {
+  var reps = 2;
+  var api = '/api/v1/exhibit/';
+  var results = [];
+  var start = tags.index() * reps;
+  for (var i in tags.range(start, start+reps)) {
+  results.push(api+(parseInt(i)+start));
+}
+  return results;
+},
+  modified: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("llll")}}',
+  resource_uri: function (tags) {
+  return '/api/v1/transcript/' + this.id;
+},
+  transcript: '/static/transcript.txt',
+  transcript_xml: '/static/transcript.xml'
+
+  }
+]

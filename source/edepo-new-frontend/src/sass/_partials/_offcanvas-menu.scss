@@ -1,0 +1,101 @@
+/* OFFCANVAS MENU */
+.offcanvas-aside {
+    background: $offcanvas-bg;
+    .search-bar-holder {
+        padding: 45px 20px;
+
+        border-bottom: 1px solid $offcanvas-menu-search-border;
+    }
+    .search-bar {
+        min-width: 1px;
+    }
+}
+.offcanvas-menu {
+    > .panel {
+        border-width: 0 0 1px 0;
+        border-style: solid;
+        border-color: $site-color-ship-gray-light;
+        border-radius: 0;
+        & + .panel {
+            margin: 0;
+        }
+    }
+    .panel-heading {
+        padding: 0;
+    }
+    .panel-title {
+        position: relative;
+        > a {
+            line-height: 18px;
+
+            position: relative;
+
+            display: block;
+
+            height: 50px;
+            padding: 16px 30px 16px 20px;
+
+            color: rgba($site-color-white, 1.0);
+            background: $site-color-baltic-sea-dark;
+            &:before {
+                position: absolute;
+                top: 0;
+                left: 0;
+
+                width: 3px;
+                height: 100%;
+
+                content: '';
+
+                background: $site-color-sushi;
+
+                @include transition(150ms);
+            }
+            &.collapsed {
+                color: rgba($site-color-white, .8);
+                background: $site-color-ship-gray;
+                &:before {
+                    background: transparent;
+                }
+            }
+            &:hover {
+                text-decoration: none;
+
+                color: rgba($site-color-white, 1.0);
+                background: $site-color-baltic-sea-dark;
+            }
+        }
+        .ellipsis {
+            position: absolute;
+            top: 23px;
+            right: 7px;
+        }
+    }
+    .list-group {
+        border-top: none !important;
+    }
+    .list-group-item {
+        margin: 0;
+        padding: 0;
+
+        border-width: 0 0 1px 0 !important;
+        border-color: $site-color-ship-gray;
+        > a {
+            line-height: 18px;
+
+            display: block;
+
+            height: 42px;
+            padding: 12px 10px 12px 40px;
+
+            color: rgba($site-color-white, .4);
+            background: $site-color-baltic-sea;
+            &:hover {
+                text-decoration: none;
+
+                color: rgba($site-color-white, 1.0);
+                background: $site-color-baltic-sea-dark;
+            }
+        }
+    }
+}

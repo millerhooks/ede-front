@@ -1,0 +1,113 @@
+/* ACTIVITY ITEM */
+.activity-item {
+    min-height: 170px;
+    margin-bottom: 20px;
+
+    @extend .block-table;
+    &:last-child {
+        margin-bottom: 0;
+    }
+    .part-portrait,.part-content,.part-title,.part-additional-info {
+        @extend .block-table-cell;
+        @extend .vat;
+    }
+    .part-portrait {
+        position: relative;
+
+        width: 105px;
+        min-height: 170px;
+        padding-top: 20px;
+
+        text-align: center;
+
+        background: url('../images/temp/bg-activity-item.jpg') center top no-repeat;
+        background-size: cover;
+    }
+    .part-content {
+        padding: 35px 20px 15px 40px;
+
+        border-width: 1px 1px 1px 0;
+        border-style: solid;
+        border-color: $site-color-iron;
+        background: $site-color-white;
+    }
+    .part-additional-info {
+        padding-left: 20px;
+    }
+    .item-title {
+        margin-bottom: 10px;
+
+        @include text-overflow();
+    }
+    .item-content {
+        min-height: ($body-line-height*3);
+    }
+    .info-actions-row {
+        margin-top: 15px;
+        padding-top: 15px;
+
+        border-top: 1px solid $site-color-black-haze;
+
+        @extend .block-table;
+    }
+    .holder-info,.holder-actions {
+        @extend .block-table-cell;
+        @extend .vam;
+    }
+    .holder-actions {
+        text-align: right;
+    }
+    .info-list,.actions-list {
+        a {
+            color: rgba($site-color-black, .4);
+        }
+    }
+    .actions-list {
+        a {
+            font-size: 20px;
+        }
+    }
+}
+
+.activity-userpic {
+    display: inline-block;
+    overflow: hidden;
+
+    width: 56px;
+    height: 56px;
+
+    border: 3px solid $site-color-iron;
+    border-radius: 50%;
+    background: $site-color-iron;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    &.rectangle {
+        border-radius: 13px;
+    }
+}
+.activity-user-info {
+    position: absolute;
+    z-index: 1;
+    top: 90px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    padding: 10px 0 0 0;
+
+    @include gradient-radial(rgba($site-color-tiber, .5), rgba($site-color-black, .9));
+    .username {
+        font-size: 18px;
+        font-weight: $font-weight-regular;
+        line-height: 20px;
+
+        margin-bottom: 0;
+
+        color: $site-color-white;
+    }
+    .role {
+        color: rgba($site-color-white, .5);
+    }
+}

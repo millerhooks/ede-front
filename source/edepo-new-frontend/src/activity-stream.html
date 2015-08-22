@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta name="format-detection" content="telephone=no">
+	<title>EDEPO :: Activity Stream</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700' rel='stylesheet' type='text/css'>
+	
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="assets/images/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="assets/images/favicons/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="assets/images/favicons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="assets/images/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="assets/images/favicons/manifest.json">
+	<link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="assets/images/favicons/mstile-144x144.png">
+	<meta name="msapplication-config" content="assets/images/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+	<aside id="sidebarLeft" class="sidebarLeft offcanvas-aside">
+		<div class="scrollableArea">
+			<div class="search-bar-holder">
+				<div class="search-bar">
+					<span class="search-btn-holder">
+						<button class="search-button" type="button">
+							<i class="edepo-icon-search"></i>
+						</button>
+					</span>
+					<span class="search-input-holder">
+						<input type="text" class="search-input" placeholder="Search">
+					</span>
+				</div><!-- search-bar -->
+			</div><!-- search-bar-holder -->
+
+			<div class="panel-group offcanvas-menu" id="offcanvas-menu-holder">
+				<div class="panel">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a class="collapsed" data-toggle="collapse" data-parent="#offcanvas-menu-holder" href="#menu-group-01">
+								<i class="edepo-icon-search"></i>
+								Case List
+							</a>
+							<span class="ellipsis">
+								<span class="inner"></span>
+							</span>
+						</h4>
+					</div>
+					<div id="menu-group-01" class="panel-collapse collapse">
+						<ul class="list-group">
+							<li class="list-group-item">
+								<a href="#">Menu Item 1</a>
+							</li>
+							<li class="list-group-item">
+								<a href="#">Menu Item 2</a>
+							</li>
+							<li class="list-group-item">
+								<a href="#">Menu Item 3</a>
+							</li>
+						</ul>
+					</div>
+				</div><!-- panel -->
+
+				<div class="panel">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a class="collapsed" data-toggle="collapse" data-parent="#offcanvas-menu-holder" href="#menu-group-02">
+								<i class="edepo-icon-search"></i>
+								Events
+							</a>
+							<span class="ellipsis">
+								<span class="inner"></span>
+							</span>
+						</h4>
+					</div>
+					<div id="menu-group-02" class="panel-collapse collapse">
+						<ul class="list-group">
+							<li class="list-group-item">
+								<a href="#">Menu Item 1</a>
+							</li>
+							<li class="list-group-item">
+								<a href="#">Menu Item 2</a>
+							</li>
+							<li class="list-group-item">
+								<a href="#">Menu Item 3</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div><!-- scrollableArea -->
+	</aside>
+
+	<section id="page" class="page">
+		<header class="topBar">
+			<div class="slide-button-holder">
+				<a id="leftBurger" class="slideRight offcanvas-slide-button" href="#">
+					<i class="edepo-icon-search"></i>
+				</a>
+			</div><!-- slide-button-holder -->
+
+			<div class="header-body">
+				<ul class="items-list">
+					<li>
+						<a href="#" class="composed-link">
+							<i class="edepo-icon-search icon"></i>
+							Calendar
+							<span class="circled-notification">6</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="composed-link">
+							<i class="edepo-icon-search icon"></i>
+							Calendar
+							<span class="circled-notification">6</span>
+						</a>
+					</li>
+				</ul>
+			</div><!-- header-content -->
+
+			<div class="header-right">
+				<a href="#">
+					<span class="circled-notification large">
+						<i class="edepo-icon-search"></i>
+					</span>
+				</a>
+				<a href="#">
+					<span class="circled-notification large">
+						<i class="edepo-icon-search"></i>
+					</span>
+				</a>
+			</div><!-- media-right -->
+		</header>
+
+		<div class="info-bar">
+			<div class="inner">
+				<div class="search-bar solid-gray shifted-right">
+					<span class="search-btn-holder">
+						<button class="search-button" type="button">
+							<i class="edepo-icon-search"></i>
+						</button>
+					</span>
+					<span class="search-input-holder">
+						<input type="text" class="search-input" placeholder="Search">
+					</span>
+				</div><!-- search-bar -->
+			</div><!-- inner -->
+		</div><!-- info-bar -->
+
+		<div class="scrollableArea">
+			<main class="main-content">
+				<div class="block-table full-height">
+					<div class="content-body">
+						<div class="inner">
+							<div class="page-title-holder">
+								<div class="part-left fixed-width-170">
+									<h2 class="page-title">Activity Stream</h2>
+									<p class="subtitle">3 New</p>
+								</div><!-- left-part -->
+							</div><!-- page-title-holder -->
+
+							<div class="activity-items-holder">
+								<div class="activity-item">
+									<div class="part-portrait">
+										<a href="#" class="activity-userpic">
+											<img src="http://placehold.it/100x100" alt="">
+										</a>
+										<div class="activity-user-info">
+											<h3 class="username">
+												<a href="#">Jesse Ventura</a>
+											</h3>
+											<span class="role">Contributor</span>
+										</div>
+									</div><!-- part-portrait -->
+
+									<div class="part-content">
+										<div class="title-holder">
+											<div class="part-title">
+												<div class="text-overflow-wrapper">
+													<h3 class="item-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo id aspernatur delectus facilis sit ad laboriosam, molestiae nostrum beatae at corrupti ea, libero iure eveniet harum fugit labore repellat quasi.</h3>
+												</div>
+
+												<div class="item-content">
+													11
+													<br>
+													22
+													<br>
+													33
+												</div><!-- item-content -->
+											</div><!-- part-title -->
+
+											<div class="part-additional-info">
+												12m
+											</div><!-- part-additional-info -->
+										</div><!-- title-holder -->
+
+										<div class="info-actions-row">
+											<div class="holder-info">
+												<ul class="items-list info-list">
+													<li>
+														<a href="#">1 comment</a>
+													</li>
+													<li>
+														<a href="#">2 shares</a>
+													</li>
+												</ul>
+											</div><!-- holder-info -->
+
+											<div class="holder-actions">
+												<ul class="items-list actions-list">
+													<li>
+														<a href="#">
+															<i class="edepo-icon-search"></i>
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<i class="edepo-icon-search"></i>
+														</a>
+													</li>
+												</ul>
+											</div><!-- holder-actions -->
+										</div><!-- info-actions-row -->
+									</div><!-- part-content -->
+								</div><!-- activity-item -->
+
+								<div class="activity-item">
+									<div class="part-portrait">
+										<a href="#" class="activity-userpic rectangle">
+											<img src="http://placehold.it/100x100" alt="">
+										</a>
+										<div class="activity-user-info">
+											<h3 class="username">
+												<a href="#">Jesse Ventura</a>
+											</h3>
+											<span class="role">Contributor</span>
+										</div>
+									</div><!-- part-portrait -->
+
+									<div class="part-content">
+										<div class="title-holder">
+											<div class="part-title">
+												<div class="text-overflow-wrapper">
+													<h3 class="item-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo id aspernatur delectus facilis sit ad laboriosam, molestiae nostrum beatae at corrupti ea, libero iure eveniet harum fugit labore repellat quasi.</h3>
+												</div>
+
+												<div class="item-content">
+													11
+													<br>
+													22
+													<br>
+													33
+												</div><!-- item-content -->
+											</div><!-- part-title -->
+
+											<div class="part-additional-info">
+												12m
+											</div><!-- part-additional-info -->
+										</div><!-- title-holder -->
+
+										<div class="info-actions-row">
+											<div class="holder-info">
+												<ul class="items-list info-list">
+													<li>
+														<a href="#">1 comment</a>
+													</li>
+													<li>
+														<a href="#">2 shares</a>
+													</li>
+												</ul>
+											</div><!-- holder-info -->
+
+											<div class="holder-actions">
+												<ul class="items-list actions-list">
+													<li>
+														<a href="#">
+															<i class="edepo-icon-search"></i>
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<i class="edepo-icon-search"></i>
+														</a>
+													</li>
+												</ul>
+											</div><!-- holder-actions -->
+										</div><!-- info-actions-row -->
+									</div><!-- part-content -->
+								</div><!-- activity-item -->
+
+								<div class="activity-item">
+									<div class="part-portrait">
+										<a href="#" class="activity-userpic">
+											<img src="http://placehold.it/100x100" alt="">
+										</a>
+										<div class="activity-user-info">
+											<h3 class="username">
+												<a href="#">Jesse Ventura</a>
+											</h3>
+											<span class="role">Contributor</span>
+										</div>
+									</div><!-- part-portrait -->
+
+									<div class="part-content">
+										<div class="title-holder">
+											<div class="part-title">
+												<div class="text-overflow-wrapper">
+													<h3 class="item-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo id aspernatur delectus facilis sit ad laboriosam, molestiae nostrum beatae at corrupti ea, libero iure eveniet harum fugit labore repellat quasi.</h3>
+												</div>
+
+												<div class="item-content">
+													11
+													<br>
+													22
+													<br>
+													33
+												</div><!-- item-content -->
+											</div><!-- part-title -->
+
+											<div class="part-additional-info">
+												12m
+											</div><!-- part-additional-info -->
+										</div><!-- title-holder -->
+
+										<div class="info-actions-row">
+											<div class="holder-info">
+												<ul class="items-list info-list">
+													<li>
+														<a href="#">1 comment</a>
+													</li>
+													<li>
+														<a href="#">2 shares</a>
+													</li>
+												</ul>
+											</div><!-- holder-info -->
+
+											<div class="holder-actions">
+												<ul class="items-list actions-list">
+													<li>
+														<a href="#">
+															<i class="edepo-icon-search"></i>
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<i class="edepo-icon-search"></i>
+														</a>
+													</li>
+												</ul>
+											</div><!-- holder-actions -->
+										</div><!-- info-actions-row -->
+									</div><!-- part-content -->
+								</div><!-- activity-item -->
+
+								<div class="activity-item">
+									<div class="part-portrait">
+										<a href="#" class="activity-userpic rectangle">
+											<img src="http://placehold.it/100x100" alt="">
+										</a>
+										<div class="activity-user-info">
+											<h3 class="username">
+												<a href="#">Jesse Ventura</a>
+											</h3>
+											<span class="role">Contributor</span>
+										</div>
+									</div><!-- part-portrait -->
+
+									<div class="part-content">
+										<div class="title-holder">
+											<div class="part-title">
+												<div class="text-overflow-wrapper">
+													<h3 class="item-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo id aspernatur delectus facilis sit ad laboriosam, molestiae nostrum beatae at corrupti ea, libero iure eveniet harum fugit labore repellat quasi.</h3>
+												</div>
+
+												<div class="item-content">
+													11
+													<br>
+													22
+													<br>
+													33
+												</div><!-- item-content -->
+											</div><!-- part-title -->
+
+											<div class="part-additional-info">
+												12m
+											</div><!-- part-additional-info -->
+										</div><!-- title-holder -->
+
+										<div class="info-actions-row">
+											<div class="holder-info">
+												<ul class="items-list info-list">
+													<li>
+														<a href="#">1 comment</a>
+													</li>
+													<li>
+														<a href="#">2 shares</a>
+													</li>
+												</ul>
+											</div><!-- holder-info -->
+
+											<div class="holder-actions">
+												<ul class="items-list actions-list">
+													<li>
+														<a href="#">
+															<i class="edepo-icon-search"></i>
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<i class="edepo-icon-search"></i>
+														</a>
+													</li>
+												</ul>
+											</div><!-- holder-actions -->
+										</div><!-- info-actions-row -->
+									</div><!-- part-content -->
+								</div><!-- activity-item -->
+							</div><!-- activity-items-holder -->
+						</div><!-- inner -->
+					</div><!-- content-body -->
+
+					<div class="sidebar-right">
+						<div class="inner">
+							<div class="sidebar-item">
+								<h3 class="item-title">Timeframe</h3>
+
+								<div class="form-group">
+									<div class="radio">
+										<label>
+											<input type="radio" name="temp">
+											<span class="icon"></span>
+											Today
+										</label>
+									</div>
+								</div><!-- form-group -->
+
+								<div class="form-group">
+									<div class="radio">
+										<label>
+											<input type="radio" name="temp">
+											<span class="icon"></span>
+											This week
+										</label>
+									</div>
+								</div><!-- form-group -->
+
+								<div class="form-group">
+									<div class="radio">
+										<label>
+											<input type="radio" name="temp">
+											<span class="icon"></span>
+											This month
+										</label>
+									</div>
+								</div><!-- form-group -->
+
+								<div class="form-group">
+									<div class="form-inline">
+										<div class="radio">
+											<label>
+												<input type="radio" name="temp">
+												<span class="icon"></span>
+											</label>
+										</div>
+
+										<input type="text" class="form-control width-65">
+
+										to
+
+										<input type="text" class="form-control width-65">
+									</div>
+								</div><!-- form-group -->
+							</div><!-- sidebar-item -->
+
+							<div class="sidebar-item">
+								<h3 class="item-title">Priority</h3>
+
+								<div class="form-group">
+									<div class="checkbox">
+										<label>
+											<input type="checkbox" name="temp">
+											<span class="icon"></span>
+											Low
+										</label>
+									</div>
+								</div><!-- form-group -->
+
+								<div class="form-group">
+									<div class="checkbox">
+										<label>
+											<input type="checkbox" name="temp">
+											<span class="icon"></span>
+											Medium
+										</label>
+									</div>
+								</div><!-- form-group -->
+
+								<div class="form-group">
+									<div class="checkbox">
+										<label>
+											<input type="checkbox" name="temp">
+											<span class="icon"></span>
+											High
+										</label>
+									</div>
+								</div><!-- form-group -->
+							</div><!-- sidebar-item -->
+
+							<button class="btn btn-success">Apply Filters</button>
+						</div><!-- inner -->
+					</div><!-- sidebar-right -->
+				</div><!-- block-table -->
+			</main><!-- main-content -->
+		</div><!-- scrollableArea -->
+	</section><!-- page -->
+
+	<script src="vendors/jquery/dist/jquery.min.js"></script>
+	<script src="vendors/off.canvas-master/js/overthrow.js"></script>
+	<script src="vendors/off.canvas-master/js/hammer.js"></script>
+	<script src="vendors/off.canvas-master/js/jquery.hammer.js"></script>
+	<script src="vendors/off.canvas-master/js/jquery.offcanvas.min.js"></script>
+	<script src="vendors/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
+	<script src="assets/js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+/* OFFCANVAS */
+html.offcanvas {
+	overflow: hidden;
+}
+.offcanvas body {
+	overflow: hidden;
+}
+.animatedSlide {
+	@include transition(transform 0.3s ease-out);
+}
+.no-csstransforms3d .animatedSlide {
+	@include transition(left 0.3s ease-out, right 0.3s ease-out);
+}
+.offcanvas .scrollable-area {
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.offcanvas-left.show {
+	z-index: 200;
+}
+
+/* Sliding side bars */
+.offcanvas-left {
+	float: left;
+	width: 270px;
+	word-wrap:break-word;
+	z-index: 100;
+	background-color: #34313a;
+	.scrollable-area {
+		padding: 20px 0;
+	}
+
+	.search-field {
+		margin: 0 20px 10px 20px;
+		width: auto;
+	}
+	
+	/* hides close button unless JS is enabled */
+	.shutLeft {
+		display: none;
+		position:absolute;
+		top:0;
+		z-index: 90;
+		width:1.6em;
+		height:1.6em;
+		font-size:2.5em;
+		line-height: 1.6em;
+		color: green;
+		text-decoration:none;
+		text-align:center;
+		opacity: 0.3;
+		
+		&:hover {
+			opacity: 0.5;
+		}
+	}
+}
+
+/* Styles for both sidebars */
+.offcanvas .offcanvas-left {
+	position: absolute;
+	top:0;
+	bottom:0;
+	width:270px;
+	
+	.shutLeft {
+		display: block;
+	}
+}
+.offcanvas .offcanvas-left {
+	left: 0;
+	@include translate3d(-270px,0,0);
+	
+	.shutLeft {
+		left: 0;
+	}
+}
+.no-csstransforms3d .offcanvas .offcanvas-left {
+	left:-270px;
+}
+
+/* Main central area styles */
+.page {
+	word-wrap: break-word;
+	position: relative;
+	z-index: 500;
+	
+	.scrollable-area {
+		position: absolute;
+		bottom: 0;
+	}
+}
+.offcanvas .page {
+	width: 100%;
+	height: 100%;
+}
+.no-js .page {
+	float: left;
+	width: 60%;
+}
+
+/* Slid styles */
+.page.slidRight {
+	@include translate3d(270px,0,0);
+}
+.no-csstransforms3d .page.slidRight {
+	left: 270px;
+}
+
+.offcanvas-left.slidRight {
+	@include translate3d(0,0,0);
+}
+.no-csstransforms3d .offcanvas-left.slidRight {
+	left: 0;
+}

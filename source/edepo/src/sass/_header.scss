@@ -1,0 +1,121 @@
+/* HEADER */
+header {
+	position:relative;
+	background: url('../images/bg/bg-header-overlay.svg') 0 0 repeat transparent;
+	background-size: cover;
+	//@include opacity(0.9);
+	border-bottom: 1px solid $header-border;
+	padding: 15px 20px;
+	width:100%;
+	z-index:1000;
+	//overflow:hidden;
+	@extend .clearfix;
+	.offcanvas-toggle {
+		font-size: 1.286rem;
+		color: $header-offcanvas-toggle-color;
+		margin-top: 8px;
+		display: inline-block;
+		float: left;
+		margin-right: 45px;
+		&:hover {
+
+		}
+		&:focus {
+			outline: none;
+		}
+	}
+	.user-data-list {
+		float: left;
+		margin-bottom: 0;
+		text-transform: uppercase;
+		> li {
+			display: inline-block;
+		}
+		.user-item {
+			margin-right: 60px;
+			.dropdown {
+				display: inline-block;
+				&.open {
+					.icon-arrow {
+						&:before {
+							font-family: 'fontello';
+							content: '\e80d';
+							color: $site-color-sushi;
+						}
+					}
+				}
+			}
+			.userpic {
+				margin-right: 10px;
+				vertical-align: middle;
+				width: 40px;
+				height: 40px;
+			}
+			.username {
+				text-transform: uppercase;
+				color: $site-color-white;
+				cursor: pointer;
+				.icon-arrow {
+					&:before {
+						font-family: 'fontello';
+						content: '\e80a';
+						color: $site-color-sushi;
+					}
+				}
+			}
+		}
+		.inbox-item {
+			.inbox-link {
+				display: inline-block;
+				color: $site-color-white;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+			.icon-holder {
+				position: relative;
+				vertical-align: middle;
+				font-size: 1.900rem;
+				margin-right: 10px;
+				.icon {
+					font-size: inherit;
+					color: $site-color-silver-sand;
+					//vertical-align: middle;
+				}
+			}
+			.alert-badge {
+				position: absolute;
+				left: 20px;
+				top: -7px;
+			}
+		}
+	}
+	.user-actions-list {
+		margin-bottom: 0;
+		float: right;
+		margin-top: 4px;
+		> li {
+			float: left;
+			margin-left: 30px;
+			&:first-child {
+				margin-left: 0;
+			}
+		}
+		.user-action-link {
+			width: 32px;
+			height: 32px;
+			display: block;
+			border-radius: 50%;
+			text-align: center;
+			background: $site-color-sushi;
+			box-shadow: 0 4px 5px 2px rgba(0, 0, 0, 0.2);
+		}
+		.icon {
+			font-size: 1.5rem;
+			line-height: 2.286rem;
+			vertical-align: middle;
+			color: $site-color-white;
+			text-shadow: 0 3px 5px rgba($site-color-black, 0.4);
+		}
+	}
+}

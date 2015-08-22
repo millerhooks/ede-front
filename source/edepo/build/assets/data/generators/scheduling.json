@@ -1,0 +1,47 @@
+[
+    '{{repeat(3, 10)}}',
+    {
+        scheduler: {
+            name: '{{firstName()}} {{surname()}}',
+            email: '{{firstName()}}@{{surname()}}{{domainZone()}}',
+            phone: '{{phone()}}'
+        },
+
+        attorney: {
+            firm: '{{surname()}} & {{surname()}}',
+            name: '{{firstName()}} {{surname()}}',
+            phone: '{{phone()}}'
+        },
+
+        time: '{{moment(this.date(new Date(2014, 0, 1), new Date())).format("llll")}}',
+        location: '{{integer(1,6000)}} {{street()}}',
+
+        witnesses: [
+            '{{repeat(1, 5)}}',
+            {
+                name: '{{firstName()}} {{surname()}}',
+                time: '',
+                duration: '{{integer(15,180)}}'
+            }
+        ],
+
+        _case: {
+            name: '{{surname()}} v. {{surname()}}',
+            proceeding_type: '{{random("Deposition", "Exam under Oath", "Swown Statement", "Hearing")}}'
+        },
+
+        is_video: '{{bool()}}',
+        is_translated: '{{bool()}}',
+        language: '{{random("Spanish", "English", "French")}}',
+        is_rush: '{{bool()}}',
+
+        deposition_notice: [
+            '{{repeat(0, 5)}}',
+            {
+                filename: '{{surname()}}{{integer(1,100)}}.pdf'
+            }
+        ],
+
+        comments: '{{lorem(7, "words")}}'
+    }
+]

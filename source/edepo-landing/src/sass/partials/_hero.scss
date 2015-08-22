@@ -1,0 +1,41 @@
+/* Hero */
+.section-hero {
+	position: relative;
+	text-align: center;
+	background-image: url(../images/elements/color-overlay.svg);
+	background-size: cover;
+	color: $color-white;
+	&:before {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		z-index: -1;
+		width: 100%;
+		height: 100%;
+		background: url(../images/elements/honeycombs.svg) repeat 0 0;
+	}
+	.title {
+		margin-bottom: 35px;
+		@include respond-to(tablets-portrait) {
+			margin-bottom: 25px;
+		}
+	}
+	.subtitle {
+		margin-bottom: 45px;
+		font-size: 24px;
+		@include respond-to(tablets-portrait) {
+			font-size: 18px;
+			line-height: 20px;
+			margin-bottom: 30px;
+		}
+	}
+	.titles-holder {
+		@extend .clearfix;
+		margin: 0 auto;
+		max-width: 760px;
+		@include respond-to(tablets-portrait) {
+			max-width: 550px;
+		}
+	}
+}

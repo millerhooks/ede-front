@@ -1,0 +1,68 @@
+<header>
+  <a id="leftBurger" class="slideRight offcanvas-toggle" href="#">
+    <i class="fontello-menu-toggle"></i>
+  </a>
+
+  <ul class="user-data-list">
+    <li class="user-item">
+      <div class="user-holder">
+        <div class="dropdown">
+          <a class="dropdown-toggle username" data-toggle="dropdown">
+									<span class="userpic">
+										<img src="assets/images/temp/userpic-01.jpg" alt="">
+										<span class="alert-badge">{{ user.alertCount || "3" }}</span>
+									</span>
+            {{ user.name || "John Smith" }}
+            <span class="icon-arrow"></span>
+          </a>
+          <ul class="dropdown-menu" role="menu">
+            <li role="presentation"><a role="menuitem" tabindex="-1" ui-sref="app.activity-stream">Activity stream <span class="alert-badge">3</span></a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Sharing history</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Administration</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Manage ratings</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Log out</a></li>
+          </ul>
+        </div>
+      </div><!-- user-holder -->
+    </li><!-- user-item -->
+
+    <li class="inbox-item">
+      <div class="inbox-holder">
+        <a href="#" class="inbox-link">
+								<span class="icon-holder">
+									<i class="fontello-email icon"></i>
+									<span class="alert-badge">3</span>
+								</span><!-- icon-holder -->
+          Inbox
+        </a>
+      </div><!-- inbox-holder -->
+    </li><!-- inbox-item -->
+  </ul><!-- user-data-list -->
+
+  <ul class="user-actions-list">
+    <li>
+      <a href="#" class="user-action-link add">
+        <i class="fontello-plus icon"></i>
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="user-action-link add">
+        <i class="fontello-search icon"></i>
+      </a>
+    </li>
+  </ul><!-- user-actions-list -->
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+

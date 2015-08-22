@@ -1,0 +1,34 @@
+/* FONTS */
+@font-face {
+    font-family: 'fontello';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/fontello.eot?24303174');
+    src: url('../fonts/fontello.eot?24303174#iefix') format('embedded-opentype'),
+    url('../fonts/fontello.woff?24303174') format('woff'),
+    url('../fonts/fontello.ttf?24303174') format('truetype'),
+    url('../fonts/fontello.svg?24303174#fontello') format('svg');
+}
+
+[class^='edepo-']:before,[class*=' edepo-']:before {
+    font-family: 'fontello';
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1em;
+
+    display: inline-block;
+
+    text-align: center;
+    text-decoration: inherit;
+    text-transform: none;
+
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.edepo-icon-search:before {
+    content: '\e800';
+} /* '' */

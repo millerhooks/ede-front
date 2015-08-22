@@ -1,0 +1,13 @@
+{
+  "name": "off-canvas",
+  "homepage": "https://github.com/AidanZealley/off.canvas",
+  "_release": "a341c26905",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a341c26905e784fde569fd396f5004068573552f"
+  },
+  "_source": "https://github.com/AidanZealley/off.canvas.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/AidanZealley/off.canvas.git"
+}

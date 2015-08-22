@@ -1,0 +1,22 @@
+<section class="breadcrumb-bar">
+    <div class="breadcrumbs">
+        <a ng-if="!last.isRoot" href="{{ last.edepoBreadcrumbLink }}"><span class="glyphicon glyphicon-chevron-left"> </span> {{ last.edepoBreadcrumbLabel }}</a>
+        <span ng-if="last.isRoot">{{ last.edepoBreadcrumbLabel }}</span>
+    </div><!-- breadcrumbs -->
+
+    <div class="search-field" ng-if="current.searchName">
+        <input type="search" class="placeholder input-search" placeholder="Search {{ current.searchName }}">
+    </div><!-- search-field -->
+</section><!-- breadcrumb-bar -->
+
+
+
+
+
+
+
+
+
+
+
+

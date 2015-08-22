@@ -1,0 +1,30 @@
+/* FORMS */
+.form-control {
+	background: $color-gray;
+	@include transition(150ms);
+	font-size: 18px;
+	line-height: 24px;
+	padding: 10px 15px;
+	border-radius: 0;
+	border: none;
+	color: $color-white;
+	text-shadow: 2px 2px 3px rgba($color-black, 0.3);
+	box-shadow: 0 10px 12px rgba($color-black, 0.2);
+	text-transform: capitalize;
+	height: 44px;
+	@include custom-placeholder(rgba($color-white, 0.5), 18px, 24px, 1.0);
+	&:focus {
+		@include custom-placeholder(rgba($color-white, 0.5), 18px, 24px, 0);
+		box-shadow: 0 10px 12px rgba($color-black, 0.2);
+	}
+}
+
+.form-title {
+	font-size: 20px;
+	line-height: 22px;
+	margin-bottom: 20px;
+	font-family: $font-medium;
+	@include respond-to(mobile) {
+		text-align: center;
+	}
+}

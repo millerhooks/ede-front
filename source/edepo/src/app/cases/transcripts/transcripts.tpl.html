@@ -1,0 +1,71 @@
+<div class="row">
+
+    <div class="col-sm-9 col-md-10 main" ng-if="currentTranscript">
+
+
+        <div class="row">
+            <div>
+                <p>Deponent Name</p>
+
+                <h1 class="page-header">{{currentTranscript.deponent}}</h1>
+            </div>
+
+            <div class="pull-right">
+                <p>created: {{currentTranscript.created}} modified: {{currentTranscript.modified}}</p>
+
+                <div class="row">
+
+                </div>
+                <div class="row">
+                    <div class="pull-right">
+                        <button type="button" class="btn btn-default btn-lg">
+                            <span class="glyphicon glyphicon-comment"></span>
+                        </button>
+                        <button type="button" class="btn btn-default btn-lg">
+                            <span class="glyphicon glyphicon-share-alt"></span>
+                        </button>
+                        <button type="button" class="btn btn-default btn-lg">
+                            <span class="glyphicon glyphicon-trash"></span>
+                        </button>
+                        <button type="button" class="btn btn-default btn-lg">
+                            <span class="glyphicon glyphicon-exclamation-sign"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4 col-md-4 btn-group-vertical pull-right">
+                <p>Exhibits</p>
+                <a class="btn btn-default" ng-repeat="exhibit in currentTranscript.exhibits">{{exhibit.name}} {{exhibit.description}} <span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+            </div>
+            <div class="col-sm-4 col-md-4 btn-group-vertical pull-left">
+                <p>Segments</p>
+                <a class="btn btn-default" ng-repeat="segment in currentTranscript.segments">{{segment.original_media}} {{segment.encoded_audio}} <span class="glyphicon glyphicon-chevron-right pull-right"></span></a>
+            </div>
+
+
+        </div>
+
+
+        <div class="row placeholders">
+            <div class="col-xs-6 col-sm-3">
+                <img data-src="holder.js/200x200/auto/sky" class="img-responsive" alt="Generic placeholder thumbnail">
+                <h4>Label</h4>
+                <span class="text-muted">Something else</span>
+            </div>
+            <div class="col-xs-6 col-sm-3 pull-right">
+                <!--
+                    <ul class="nav nav-sidebar">
+                        <li ng-repeat="depo in currentCase.transcripts">
+                            <a href ng-click="setCurrentTranscript(depo)">{{depo.deponent}}</a>
+                        </li>
+                    </ul>
+                -->
+            </div>
+        </div>
+
+    </div>
+</div>
+

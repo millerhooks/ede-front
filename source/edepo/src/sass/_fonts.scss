@@ -1,0 +1,91 @@
+/* FONTS */
+@font-face {
+    font-family: 'MavenProBold';
+    src: url('../fonts/maven-pro-bold.eot');
+    src: url('../fonts/maven-pro-bold.eot') format('embedded-opentype'),
+         url('../fonts/maven-pro-bold.woff2') format('woff2'),
+         url('../fonts/maven-pro-bold.woff') format('woff'),
+         url('../fonts/maven-pro-bold.ttf') format('truetype'),
+         url('../fonts/maven-pro-bold.svg#MavenProBold') format('svg');
+}
+
+@font-face {
+    font-family: 'MavenProMedium';
+    src: url('../fonts/maven-pro-medium.eot');
+    src: url('../fonts/maven-pro-medium.eot') format('embedded-opentype'),
+         url('../fonts/maven-pro-medium.woff2') format('woff2'),
+         url('../fonts/maven-pro-medium.woff') format('woff'),
+         url('../fonts/maven-pro-medium.ttf') format('truetype'),
+         url('../fonts/maven-pro-medium.svg#MavenProMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'MavenProRegular';
+    src: url('../fonts/maven-pro-regular.eot');
+    src: url('../fonts/maven-pro-regular.eot') format('embedded-opentype'),
+         url('../fonts/maven-pro-regular.woff2') format('woff2'),
+         url('../fonts/maven-pro-regular.woff') format('woff'),
+         url('../fonts/maven-pro-regular.ttf') format('truetype'),
+         url('../fonts/maven-pro-regular.svg#MavenProRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'MavenProLight';
+    src: url('../fonts/maven-pro-light.eot');
+    src: url('../fonts/maven-pro-light.eot') format('embedded-opentype'),
+         url('../fonts/maven-pro-light.woff2') format('woff2'),
+         url('../fonts/maven-pro-light.woff') format('woff'),
+         url('../fonts/maven-pro-light.ttf') format('truetype'),
+         url('../fonts/maven-pro-light.svg#MavenProLight') format('svg');
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../fonts/fontello.eot?64342367');
+    src: url('../fonts/fontello.eot?64342367#iefix') format('embedded-opentype'),
+    	 url('../fonts/fontello.woff?64342367') format('woff'),
+    	 url('../fonts/fontello.ttf?64342367') format('truetype'),
+    	 url('../fonts/fontello.svg?64342367#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="fontello-"]:before, [class*=" fontello-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+}
+
+.fontello-plus:before { content: '\e800'; } /* '' */
+.fontello-search:before { content: '\e801'; } /* '' */
+.fontello-alert:before { content: '\e802'; } /* '' */
+.fontello-comment:before { content: '\e803'; } /* '' */
+.fontello-expand:before { content: '\e804'; } /* '' */
+.fontello-flag:before { content: '\e805'; } /* '' */
+.fontello-full-screen:before { content: '\e806'; } /* '' */
+.fontello-mail:before { content: '\e807'; } /* '' */
+.fontello-menu-toggle:before { content: '\e808'; } /* '' */
+.fontello-multi-page:before { content: '\e809'; } /* '' */
+.fontello-nav-arrow-down:before { content: '\e80a'; } /* '' */
+.fontello-nav-arrow-left:before { content: '\e80b'; } /* '' */
+.fontello-nav-arrow-right:before { content: '\e80c'; } /* '' */
+.fontello-nav-arrow-up:before { content: '\e80d'; } /* '' */
+.fontello-normal-view:before { content: '\e80e'; } /* '' */
+.fontello-quick-view:before { content: '\e80f'; } /* '' */
+.fontello-share:before { content: '\e810'; } /* '' */
+.fontello-single-page:before { content: '\e811'; } /* '' */
+.fontello-small-close:before { content: '\e812'; } /* '' */
+.fontello-trash:before { content: '\e813'; } /* '' */
+.fontello-dot-circled:before { content: '\e814'; } /* '' */
+.fontello-circle:before { content: '\e815'; } /* '' */
+.fontello-email:before { content: '\e816'; } /* '' */
+.fontello-ok:before { content: '\e817'; } /* '' */
+

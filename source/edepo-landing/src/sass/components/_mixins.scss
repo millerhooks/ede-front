@@ -1,0 +1,44 @@
+/* MIXINS */
+// Different devices resolutions
+@mixin respond-to($media) {
+    @if $media == mobile {
+        @media only screen and (max-width: $screen-xs-max) { @content; }
+    }
+    @else if $media == tablets-portrait {
+        @media only screen and (max-width: $screen-sm-max) { @content; }
+    }
+    @else if $media == tablets-landscape {
+        @media only screen and (max-width: $screen-md-max) { @content; }
+    }
+    @else if $media == desktops {
+        @media only screen and (min-width: $screen-lg-min) { @content; }
+    }
+}
+
+// Placeholder text
+@mixin custom-placeholder($color: $input-color-placeholder, $font-size: $input-font-size-placeholder, $line-height: $input-line-height-placeholder, $opacity: $input-opacity-placeholder) {
+    &:-moz-placeholder {
+        color: $color;
+        font-size: $font-size;
+        line-height: $line-height;
+        opacity: $opacity;
+    }
+    &::-moz-placeholder {
+        color: $color;
+        font-size: $font-size;
+        line-height: $line-height;
+        opacity: $opacity;
+    }
+    &:-ms-input-placeholder {
+        color: $color;
+        font-size: $font-size;
+        line-height: $line-height;
+        opacity: $opacity;
+    }
+    &::-webkit-input-placeholder {
+        color: $color;
+        font-size: $font-size;
+        line-height: $line-height;
+        opacity: $opacity;
+    }
+}

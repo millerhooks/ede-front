@@ -1,0 +1,16 @@
+/* INFO BAR */
+.info-bar {
+    display: table;
+
+    width: 100%;
+    height: $info-bar-height;
+
+    background: $info-bar-bg;
+    > .inner {
+        display: table-cell;
+
+        padding: 0 20px;
+
+        vertical-align: middle;
+    }
+}

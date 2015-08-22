@@ -1,0 +1,9 @@
+
+<li ng-repeat="case in cases" ng-class="{'active':isCurrentCase(case)}">
+    <a ui-sref="app.cases.detail({caseId: case.id})" ng-click='showSubNav = ! showSubNav; setCurrentCase(case)' >{{case.name}}</a>
+    <ul class="nav nav-sidebar-sub" id="depo-nav-{{case.id}}" ng-show="showSubNav">
+        <li ng-repeat="depo in case.depositions" ng-class="{'sub-active':isCurrentDeposition(depo)}">
+            <a ui-sref="app.cases.transcripts({caseId: case.id, transcriptId: depo.id})" ng-click="setCurrentDeposition(depo)">{{depo.deponent}}</a>
+        </li>
+    </ul>
+</li>

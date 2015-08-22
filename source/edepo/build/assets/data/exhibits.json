@@ -1,0 +1,82 @@
+[
+  {
+    "description": "",
+    "file": "/static/exhibits.pdf",
+    "id": 6,
+    "name": "Lilly Farmer",
+    "resource_uri": "/api/v1/exhibit/6",
+    "transcript": "/api/v1/transcript/7"
+  },
+  {
+    "description": "",
+    "file": "/static/exhibits.pdf",
+    "id": 7,
+    "name": "Lessie Reyes",
+    "resource_uri": "/api/v1/exhibit/7",
+    "transcript": "/api/v1/transcript/10"
+  },
+  {
+    "description": "",
+    "file": "/static/exhibits.pdf",
+    "id": 7,
+    "name": "Hood Sheppard",
+    "resource_uri": "/api/v1/exhibit/7",
+    "transcript": "/api/v1/transcript/4"
+  },
+  {
+    "description": "",
+    "file": "/static/exhibits.pdf",
+    "id": 5,
+    "name": "Elise Morrow",
+    "resource_uri": "/api/v1/exhibit/5",
+    "transcript": "/api/v1/transcript/9"
+  },
+  {
+    "description": "",
+    "file": "/static/exhibits.pdf",
+    "id": 2,
+    "name": "Gladys Wooten",
+    "resource_uri": "/api/v1/exhibit/2",
+    "transcript": "/api/v1/transcript/1"
+  },
+  {
+    "description": "",
+    "file": "/static/exhibits.pdf",
+    "id": 5,
+    "name": "Moreno Zimmerman",
+    "resource_uri": "/api/v1/exhibit/5",
+    "transcript": "/api/v1/transcript/3"
+  },
+  {
+    "description": "",
+    "file": "/static/exhibits.pdf",
+    "id": 4,
+    "name": "Margo Lindsey",
+    "resource_uri": "/api/v1/exhibit/4",
+    "transcript": "/api/v1/transcript/1"
+  },
+  {
+    "description": "",
+    "file": "/static/exhibits.pdf",
+    "id": 8,
+    "name": "Clark Long",
+    "resource_uri": "/api/v1/exhibit/8",
+    "transcript": "/api/v1/transcript/3"
+  },
+  {
+    "description": "",
+    "file": "/static/exhibits.pdf",
+    "id": 6,
+    "name": "Cleo Kirby",
+    "resource_uri": "/api/v1/exhibit/6",
+    "transcript": "/api/v1/transcript/8"
+  },
+  {
+    "description": "",
+    "file": "/static/exhibits.pdf",
+    "id": 5,
+    "name": "Violet Avila",
+    "resource_uri": "/api/v1/exhibit/5",
+    "transcript": "/api/v1/transcript/1"
+  }
+]

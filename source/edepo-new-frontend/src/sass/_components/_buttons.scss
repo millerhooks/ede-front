@@ -1,0 +1,17 @@
+/* BUTTONS */
+.btn {
+	border-radius: 0;
+	border: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: $site-color-white;
+	font-weight: $font-weight-medium;
+	padding: 5px 10px;
+	@include transition(150ms);
+	&.btn-success {
+		background: $site-color-sushi;
+		&:hover {
+			background: darken($site-color-sushi, 7%);
+		}
+	}
+}

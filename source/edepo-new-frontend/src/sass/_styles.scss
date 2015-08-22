@@ -1,0 +1,73 @@
+/* STYLES */
+
+/* Various Helper Classes */
+.shifted-left {
+	float: left;
+}
+.shifted-right {
+	float: right;
+}
+.block-table {
+	display: table;
+	width: 100%;
+	&.full-height {
+		height: 100%;
+	}
+}
+.block-table-cell {
+	display: table-cell;
+}
+.vat {
+	vertical-align: top;
+}
+.vam {
+	vertical-align: middle;
+}
+.vab {
+	vertical-align: bottom;
+}
+.fixed-width-170 {
+	width: 170px;
+}
+.text-overflow-wrapper {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+
+/* Various types of Lists */
+.items-list {
+	font-size: 0;
+	> li {
+		font-size: $body-font-size;
+		display: inline-block;
+		@extend .vam;
+		& + li {
+			margin-left: 25px;
+		}
+	}
+}
+
+/* General Structure Elements */
+.page-title-holder {
+	display: table;
+	width: 100%;
+	margin-bottom: 20px;
+	.part-left,
+	.part-right {
+		display: table-cell;
+		vertical-align: top;
+	}
+	.part-left {
+		white-space: nowrap;
+	}
+	.part-right {
+		padding-left: 20px;
+	}
+	.page-title {
+		margin-bottom: 0;
+	}
+	.subtitle {
+		color: $site-color-oslo-gray;
+	}
+}
